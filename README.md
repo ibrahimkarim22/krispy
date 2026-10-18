@@ -1,5 +1,7 @@
 # Krispy
 
+[Visit the live site](https://krispy22.web.app/)
+
 Krispy is a React app for watching classic films, Blender open movies, live television, and webcams. Browse the collection, preview a title, and watch directly inside the app.
 
 ## The collection
