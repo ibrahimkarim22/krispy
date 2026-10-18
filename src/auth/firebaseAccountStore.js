@@ -113,7 +113,7 @@ export function createFirebaseAccountStore({ auth: suppliedAuth } = {}) {
         return { ok: false, message: accountError(error) };
       }
     },
-    async deleteAccount({ password, expectedUserId } = {}) {
+    async deleteAccount({ password, expectedUserId, prepareFavoriteDeletion } = {}) {
       const target = auth?.currentUser;
       if (!target?.email) return { ok: false, message: "Log in again before deleting your account." };
       if (expectedUserId !== `firebase:${target.uid}`) {
@@ -122,6 +122,16 @@ export function createFirebaseAccountStore({ auth: suppliedAuth } = {}) {
       }
       if (typeof password !== "string" || !password.length)
         return { ok: false, message: "Enter your password to confirm deletion." };
+      let favoriteDeletion;
+      let preparingFavorites = false;
+      const rollbackFavorites = async () => {
+        try {
+          await favoriteDeletion?.rollback();
+        } catch {
+          // The library retains scoped pending recovery. Preserve the original
+          // deletion error so the account remains available for another try.
+        }
+      };
       try {
         const credential = EmailAuthProvider.credential(target.email, password);
         await reauthenticateWithCredential(target, credential);
@@ -131,17 +141,46 @@ export function createFirebaseAccountStore({ auth: suppliedAuth } = {}) {
           publish(auth.currentUser);
           return { ok: false, message: "Your account changed. Open Account and try again." };
         }
+        if (prepareFavoriteDeletion) {
+          preparingFavorites = true;
+          favoriteDeletion = await prepareFavoriteDeletion(target.uid);
+          preparingFavorites = false;
+          // Cloud cleanup can take time. Its recovery guard belongs only to
+          // the captured account, even if another session becomes active.
+          if (auth.currentUser?.uid !== target.uid) {
+            await rollbackFavorites();
+            publish(auth.currentUser);
+            return { ok: false, message: "Your account changed. Open Account and try again." };
+          }
+        }
         await deleteUser(target);
       } catch (error) {
-        return { ok: false, message: accountError(error) };
+        await rollbackFavorites();
+        return { ok: false, message: preparingFavorites
+          ? error?.code === "favorites/not-ready"
+            ? "Wait for favorites to finish syncing, then try deleting your account again."
+            : error?.code === "favorites/backup-failed"
+              ? "Allow browser storage before deleting your account so your favorites can be recovered if deletion fails."
+            : "Your account was not deleted because cloud favorites could not be removed. Check your connection and favorites sync, then try again."
+          : accountError(error) };
+      }
+      let finished = true;
+      try {
+        // This is synchronous: prevent a late library callback from recreating
+        // local data after successful Auth deletion and browser cleanup.
+        favoriteDeletion?.finish();
+      } catch {
+        finished = false;
       }
       const cleanup = removeAccountLibrary(`firebase:${target.uid}`);
       // Firebase signs out the deleted user. Preserve a different session that
       // may have become active while the deletion request was in flight.
       publish(auth.currentUser?.uid === target.uid ? null : auth.currentUser);
-      return cleanup.ok
-        ? { ok: true, message: "Your account and its saved data in this browser have been deleted." }
-        : { ok: true, warning: true, message: "Your account was deleted, but this browser could not remove its saved data. Clear this site's browser data to remove it." };
+      return cleanup.ok && finished
+        ? { ok: true, message: favoriteDeletion
+          ? "Your account, cloud favorites and saved data in this browser have been deleted."
+          : "Your account and its saved data in this browser have been deleted." }
+        : { ok: true, warning: true, message: "Your account was deleted, but this browser could not remove all of its saved data. Clear this site's browser data to remove it." };
     },
   };
 }

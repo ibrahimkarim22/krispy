@@ -1,49 +1,92 @@
 # Krispy
 
-Krispy is a React app for browsing and watching classic films, Blender open films, live television and webcams. It includes a featured film, muted previews, search, filters and an in-app player, with responsive layouts for desktop and mobile.
+[Visit the live site](https://krispy22.web.app/)
 
-## Current collection
+Krispy is a React app for watching classic films, Blender open movies, live television, and webcams. Browse the collection, preview a title, and watch directly inside the app.
 
-- **Movies:** 94 films: 48 original Chaplin entries, five Creative Commons Blender films and 41 archival editions with documented U.S. reuse support.
+## The collection
+
+- **Movies:** 94 films, including 48 Chaplin entries, 41 archival editions, and five Blender open films: Big Buck Bunny, Sintel, Elephants Dream, Tears of Steel, and Cosmos Laundromat.
 - **TV:** TV from the Danish Parliament and UN Web TV.
-- **Globe:** Alveus Sanctuary in Texas and Abisko in Sweden, through their official Twitch players.
+- **Globe:** Alveus Sanctuary in Central Texas and Abisko National Park in Sweden, through their official Twitch players.
 
-Each title retains its source attribution and applicable rights information. The original Chaplin entries are preserved with their existing playback sources; edition-specific transfer, restoration and soundtrack rights remain unverified. Their artwork has a separate [image-specific reuse record](docs/chaplin-artwork-rights.md). Film, artwork and stream permissions are recorded separately. See [content sources](docs/content-sources.md), [archival editions](docs/public-domain-movies.md), [TV conditions](docs/live-tv-public-catalog.md) and [Globe sources](docs/globe-sources.md).
+## Features
+
+- A featured Big Buck Bunny banner with a muted, 30-second video preview.
+- Expandable movie cards with muted previews from around the middle of each film.
+- Search, collection and genre filters, and title and year sorting.
+- My List for saving movies, TV channels, and Globe destinations, synced across devices for signed-in users.
+- Playback progress and recently viewed titles.
+- In-app playback with fullscreen controls and a channel switcher for TV.
+- Direct links to individual titles and separate URLs for Movies, TV, and Globe.
+- Responsive desktop and phone layouts, keyboard navigation, and reduced-motion support.
+- An animated Krispy intro that can be replayed from the logo.
+
+## Accounts
+
+Sign up and log in with an email address and password through Firebase Authentication. Account deletion is available from the account menu.
+
+Favorites are saved in Cloud Firestore and sync across devices when you sign in to the same account. Playback progress and recently viewed titles stay in the browser you use, separately for each account. Browsing and watching are available without an account; saving favorites requires login.
 
 ## Run locally
 
-Use Node.js 22:
+Use Node.js 22 and npm.
 
-```sh
+```bash
 npm ci
 npm start
 ```
 
-Open [localhost:3000](http://localhost:3000). Optional Firebase client and Twitch ancestor settings are documented in [.env.example](.env.example). In Windows PowerShell, use `npm.cmd` if script execution policy blocks `npm`.
+Open [localhost:3000](http://localhost:3000).
 
-## Accounts and My List
+Firebase client configuration and Twitch embed settings are documented in [.env.example](.env.example). Custom Firebase projects use Email/Password authentication and Cloud Firestore with the included [security rules](firestore.rules).
 
-Email/password accounts use Firebase Authentication. Browsing and playback work without an account; saving favorites requires login. Favorites, progress and recent items are stored separately for each account in this browser and do not sync across devices. Account deletion is available from the account menu.
+## Development
 
-## Checks
+Run the unit tests:
 
-```sh
+```bash
 npm test
+```
+
+Run the focused TV and movie-tool checks:
+
+```bash
 npm run test:live-tv
 npm run test:movies-tools
+```
+
+Check lint and create a production build:
+
+```bash
 npm run lint
 npm run build
 ```
 
-Production output is written to `build/`; building does not deploy it. For browser tests:
+The production build is written to `build/`.
 
-```sh
+For browser tests, install Playwright’s Chromium browser and run:
+
+```bash
 npx playwright install chromium
 npm run test:browser
 ```
 
-You can alternatively set `KRISPY_BROWSER_PATH` to an installed Chrome executable. Tests use deterministic provider fixtures where needed; they do not grant content rights or guarantee current live-stream availability.
-
 ## Built with
 
-React 18, Firebase Authentication, HTML5 video and HLS.js. Unit tests use Jest and React Testing Library; browser tests use Playwright. The application uses Create React App.
+- React 18, JavaScript, and CSS
+- Firebase Authentication and Cloud Firestore
+- HTML5 video and HLS.js
+- Jest and React Testing Library
+- Playwright
+- Create React App
+
+## Credits and sources
+
+Film editions, artwork, and broadcasts have individual credits and rights information. These are available in the app and in the documentation:
+
+- [Content sources and attribution](docs/content-sources.md)
+- [Classic film editions](docs/public-domain-movies.md)
+- [Chaplin artwork sources](docs/chaplin-artwork-rights.md)
+- [TV sources and conditions](docs/live-tv-public-catalog.md)
+- [Globe sources](docs/globe-sources.md)

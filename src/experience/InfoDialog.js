@@ -78,7 +78,7 @@ function creditSections() {
     },
     {
       label: "Your data",
-      text: "Email and password accounts are managed by Firebase Authentication. Favorites require login. Each account has its own saved titles, recently opened items and compatible playback progress stored in this browser; these lists do not sync to another device. Logout hides the account's list without changing it. Guest playback history stays separate. Clearing browser storage removes local lists and the saved login, but does not delete your Firebase account. Earlier browser-only profile records are preserved separately and are not used to sign in.",
+      text: "Email and password accounts are managed by Firebase Authentication. Favorites require login. Each account has its own favorites saved in Cloud Firestore and synced across devices, with a cache in this browser. Existing local favorites are uploaded once. Recently opened items and compatible playback progress stay in this browser. Logout hides the account's list without changing it. Guest playback history stays separate. Clearing browser storage removes local data and the saved login, but does not delete your Firebase account or synced favorites. Earlier browser-only profile records are preserved separately and are not used to sign in.",
     },
   ];
 }

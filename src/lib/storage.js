@@ -41,7 +41,7 @@ function getStorage(storage) {
   }
 }
 
-function cleanIds(value) {
+export function cleanSavedIds(value) {
   if (!Array.isArray(value)) return [];
   return [
     ...new Set(
@@ -88,9 +88,22 @@ function sanitizeLibrary(value) {
     });
   }
   return {
-    saved: cleanIds(value.saved),
+    saved: cleanSavedIds(value.saved),
     progress,
-    recent: cleanIds(value.recent).slice(0, 40),
+    recent: cleanSavedIds(value.recent).slice(0, 40),
+    ...(value.favoriteSync?.initialized === true ? {
+      favoriteSync: {
+        initialized: true,
+        ...(value.favoriteSync.restoreAfterDeletion === true ? { restoreAfterDeletion: true } : {}),
+        ...(typeof value.favoriteSync.deletionId === "string" && /^[a-f0-9]{32}$/.test(value.favoriteSync.deletionId)
+          ? { deletionId: value.favoriteSync.deletionId } : {}),
+        pending: Object.fromEntries(
+          Object.entries(value.favoriteSync.pending || {}).filter(
+            ([id, saved]) => knownIds.has(id) && typeof saved === "boolean",
+          ),
+        ),
+      },
+    } : {}),
   };
 }
 
