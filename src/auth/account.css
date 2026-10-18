@@ -1,0 +1,560 @@
+.floating-account {
+  position: fixed;
+  right: var(--space, 32px);
+  top: 23px;
+  z-index: 40;
+}
+.account-controls {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  min-height: 44px;
+  color: var(--muted, #70767b);
+}
+.account-link {
+  min-height: 44px;
+  font-size: 18px;
+  letter-spacing: 0.025em;
+  font-weight: 400;
+  color: inherit;
+}
+.account-link[aria-label^="Account for "] {
+  max-width: min(45vw, 260px);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.account-link:hover,
+.account-switch button:hover {
+  color: var(--ink, #4b5054);
+}
+.account-notice {
+  position: absolute;
+  right: 0;
+  top: 100%;
+  width: min(360px, 70vw);
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--muted, #70767b);
+}
+.account-notice--standalone {
+  position: fixed;
+  top: calc(var(--header-height, 0px) + 16px);
+  right: var(--space, 24px);
+  z-index: 400;
+  width: min(360px, calc(100vw - 40px));
+  padding: 12px 16px;
+  background: #16080b;
+}
+.account-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  width: 100vw;
+  max-width: none;
+  height: var(--viewport-height, 100dvh);
+  max-height: var(--viewport-height, 100dvh);
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: var(--background, #fff);
+  color: var(--ink, #4b5054);
+  overflow: hidden;
+  container-type: size;
+  container-name: account;
+  box-sizing: border-box;
+}
+.account-overlay::backdrop {
+  background: var(--background, #fff);
+}
+.account-close {
+  position: fixed;
+  top: 16px;
+  right: var(--space, 32px);
+  z-index: 1;
+  color: var(--muted, #70767b);
+}
+.account-overlay .account-close {
+  width: 64px;
+  height: 64px;
+}
+.account-close svg {
+  width: 32px;
+  height: 32px;
+}
+.account-sheet {
+  width: min(636px, calc(100% - 48px));
+  height: 100%;
+  max-height: 100%;
+  min-height: 0;
+  margin: 0 auto;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+/* Reserve room for the external focus ring without narrowing the form. */
+.account-overlay .account-sheet {
+  padding-inline: 8px;
+}
+.account-sheet header {
+  display: flex;
+  align-items: baseline;
+  gap: 28px;
+  padding-right: 0;
+  flex-shrink: 0;
+}
+.account-sheet h1 {
+  font-size: clamp(52px, 6.1vw, 88px);
+  letter-spacing: -0.045em;
+  font-weight: 300;
+  line-height: 1.1;
+  white-space: nowrap;
+}
+.account-guidance {
+  margin: 0;
+  font-size: 16px;
+  letter-spacing: 0.035em;
+  color: var(--muted, #70767b);
+  white-space: nowrap;
+}
+.account-sheet form,
+.account-summary {
+  margin-top: 36px;
+  min-height: 0;
+  flex-shrink: 0;
+}
+.account-sheet fieldset {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.account-field {
+  margin: 0;
+}
+.account-field label {
+  display: block;
+  font-size: 20px;
+  color: var(--muted, #70767b);
+}
+.account-field input {
+  display: block;
+  width: 100%;
+  min-height: 72px;
+  height: 72px;
+  max-height: 72px;
+  margin: 8px 0 0;
+  padding: 12px 0;
+  border: 0;
+  border-bottom: 1px solid #d7dadd;
+  border-radius: 0;
+  background: transparent;
+  color: var(--ink, #4b5054);
+  font-size: 36px;
+  font-weight: 300;
+  box-shadow: none;
+  box-sizing: border-box;
+}
+.account-field input:focus {
+  border-bottom-color: var(--ink, #4b5054);
+}
+.account-field input:focus-visible {
+  outline: none;
+  border-bottom: 2px solid var(--ink, #4b5054);
+}
+.account-detail {
+  max-width: none;
+  margin: 14px 0 0;
+  color: var(--muted, #70767b);
+  font-size: 18px;
+  line-height: 1.45;
+  font-weight: 400;
+}
+.account-feedback {
+  margin: 12px 0 0;
+  color: #ff6679;
+  font-size: 18px;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+.account-overlay .account-feedback[role="alert"],
+.experience .account-overlay .account-feedback[role="alert"],
+.account-notice[role="alert"],
+.experience .account-notice[role="alert"] {
+  color: #ff6679;
+}
+.account-overlay .account-field input[aria-invalid="true"],
+.experience .account-overlay .account-field input[aria-invalid="true"] {
+  border-bottom-color: #ff6679;
+}
+.account-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin-top: 28px;
+}
+.account-back {
+  min-height: 60px;
+  color: var(--muted, #70767b);
+  font-size: 20px;
+}
+.account-back:hover {
+  color: var(--ink, #4b5054);
+}
+.account-submit {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 60px;
+  margin: 0;
+  padding: 10px 0;
+  font-size: 28px;
+  font-weight: 300;
+  color: var(--ink, #4b5054);
+  gap: 24px;
+  line-height: 1.2;
+}
+.account-summary .account-submit {
+  width: 100%;
+  margin-top: 18px;
+}
+.account-submit span {
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 1;
+}
+.account-submit:hover {
+  color: var(--muted, #70767b);
+}
+.account-overlay .account-delete,
+.experience .account-overlay .account-delete {
+  color: #ff6679;
+}
+.account-overlay .account-delete:enabled:hover,
+.experience .account-overlay .account-delete:enabled:hover {
+  color: #ff8b99;
+}
+.account-overlay--delete .account-sheet {
+  justify-content: flex-start;
+  padding-block: clamp(16px, 8vh, 72px);
+  overflow-y: auto;
+}
+.account-overlay--delete .account-sheet header { display: block; }
+.account-overlay--delete h1 { white-space: normal; }
+.account-overlay--delete .account-guidance { margin-top: 8px; }
+.account-deletion-form > .account-detail { margin: 0 0 24px; }
+.account-deletion-form .account-actions { flex-wrap: wrap; }
+.account-switch {
+  margin-top: 18px;
+  color: var(--muted, #70767b);
+  font-size: 18px;
+  line-height: 1.5;
+}
+.account-switch button {
+  min-height: 44px;
+  color: var(--ink, #4b5054);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.account-username {
+  font-size: 38px;
+  font-weight: 300;
+  overflow-wrap: anywhere;
+}
+@media (max-width: 600px) {
+  .account-controls {
+    gap: 14px;
+  }
+  .account-link {
+    font-size: 16px;
+  }
+  .account-sheet {
+    width: calc(100% - 24px);
+    padding: 20px 0;
+  }
+  .account-sheet header {
+    display: block;
+    padding-right: 48px;
+  }
+  .account-sheet h1 {
+    font-size: 52px;
+    line-height: 1.02;
+  }
+  .account-guidance {
+    margin-top: 6px;
+    font-size: 12px;
+  }
+  .account-sheet form,
+  .account-summary {
+    margin-top: 24px;
+  }
+  .account-field label {
+    font-size: 18px;
+  }
+  .account-field input {
+    min-height: 60px;
+    height: 60px;
+    max-height: 60px;
+    margin-top: 6px;
+    font-size: 32px;
+    padding: 8px 0;
+  }
+  .account-detail,
+  .account-feedback {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .account-detail {
+    margin-top: 8px;
+  }
+  .account-feedback {
+    margin-top: 10px;
+  }
+  .account-actions {
+    margin-top: 16px;
+  }
+  .account-submit,
+  .account-back {
+    min-height: 48px;
+    padding: 8px 0;
+  }
+  .account-submit {
+    font-size: 26px;
+  }
+  .account-back {
+    font-size: 18px;
+  }
+  .account-submit span {
+    font-size: 30px;
+  }
+  .account-switch {
+    margin-top: 12px;
+    font-size: 16px;
+  }
+  .account-switch button {
+    min-height: 40px;
+  }
+  .account-username {
+    font-size: 32px;
+  }
+  .account-overlay .account-close {
+    width: 48px;
+    height: 48px;
+  }
+  .account-close svg {
+    width: 28px;
+    height: 28px;
+  }
+}
+@media (max-height: 480px) {
+  .account-link {
+    font-size: 14px;
+  }
+}
+@container account (max-height: 600px) {
+  .account-sheet {
+    padding: 14px 0;
+  }
+  .account-sheet h1 {
+    font-size: 44px;
+  }
+  .account-guidance {
+    margin-top: 4px;
+    font-size: 12px;
+  }
+  .account-sheet form,
+  .account-summary {
+    margin-top: 16px;
+  }
+  .account-field label {
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .account-field input {
+    min-height: 52px;
+    height: 52px;
+    max-height: 52px;
+    margin-top: 4px;
+    padding: 8px 0;
+    font-size: 26px;
+  }
+  .account-detail {
+    margin-top: 6px;
+    font-size: 13px;
+    line-height: 18px;
+  }
+  .account-feedback {
+    margin-top: 8px;
+    font-size: 13px;
+    line-height: 18px;
+  }
+  .account-actions {
+    margin-top: 12px;
+  }
+  .account-submit,
+  .account-back {
+    min-height: 44px;
+    padding: 8px 0;
+  }
+  .account-submit {
+    font-size: 20px;
+  }
+  .account-back {
+    font-size: 14px;
+  }
+  .account-submit span {
+    font-size: 28px;
+  }
+  .account-switch {
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .account-switch button {
+    min-height: 36px;
+  }
+}
+@container account (max-height: 480px) {
+  .account-sheet {
+    padding: 10px 0;
+  }
+  .account-sheet h1 {
+    font-size: 32px;
+  }
+  .account-sheet header {
+    display: flex;
+    gap: 14px;
+  }
+  .account-guidance {
+    margin: 0;
+    font-size: 11px;
+    letter-spacing: 0.035em;
+  }
+  .account-sheet form,
+  .account-summary {
+    margin-top: 12px;
+  }
+  .account-field label {
+    font-size: 13px;
+    line-height: 16px;
+  }
+  .account-field input {
+    min-height: 40px;
+    height: 40px;
+    max-height: 40px;
+    margin-top: 2px;
+    padding: 5px 0;
+    font-size: 22px;
+  }
+  .account-detail {
+    margin-top: 4px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .account-feedback {
+    margin-top: 6px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .account-actions {
+    margin-top: 6px;
+  }
+  .account-submit,
+  .account-back {
+    min-height: 36px;
+    padding: 6px 0;
+  }
+  .account-submit {
+    font-size: 18px;
+  }
+  .account-back {
+    font-size: 13px;
+  }
+  .account-submit span {
+    font-size: 24px;
+  }
+  .account-switch {
+    margin-top: 4px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .account-switch button {
+    min-height: 30px;
+  }
+  .account-summary .account-submit {
+    margin-top: 12px;
+  }
+  .account-username {
+    font-size: 26px;
+  }
+  .account-overlay .account-close {
+    width: 44px;
+    height: 44px;
+  }
+  .account-close svg {
+    width: 24px;
+    height: 24px;
+  }
+}
+@container account (max-height: 280px) {
+  .account-sheet {
+    padding: 8px 0;
+  }
+  .account-sheet h1 {
+    font-size: 20px;
+  }
+  .account-guidance {
+    font-size: 9px;
+  }
+  .account-sheet form,
+  .account-summary {
+    margin-top: 8px;
+  }
+  .account-field label {
+    font-size: 11px;
+    line-height: 14px;
+  }
+  .account-field input {
+    min-height: 32px;
+    height: 32px;
+    max-height: 32px;
+    font-size: 17px;
+  }
+  .account-detail,
+  .account-feedback {
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .account-actions {
+    margin-top: 4px;
+  }
+  .account-submit,
+  .account-back {
+    min-height: 28px;
+    padding: 3px 0;
+  }
+  .account-submit {
+    font-size: 14px;
+  }
+  .account-back {
+    font-size: 11px;
+  }
+  .account-submit span {
+    font-size: 20px;
+  }
+  .account-switch {
+    font-size: 11px;
+    line-height: 14px;
+  }
+  .account-switch button {
+    min-height: 28px;
+  }
+  .account-username {
+    font-size: 22px;
+  }
+}

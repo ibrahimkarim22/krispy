@@ -1,0 +1,112 @@
+.experience {
+  --scene-transition-duration: 1200ms;
+}
+
+.poster-wall.scene-enter-a {
+  animation: scene-enter-a var(--scene-transition-duration, 1200ms)
+    cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.poster-wall.scene-enter-b {
+  animation: scene-enter-b var(--scene-transition-duration, 1200ms)
+    cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* Fade overlay shells without changing their fixed controls' containing block. */
+.experience .experience-player-overlay,
+.experience .premium-panel[open],
+.experience .experience-info[open],
+.experience .browse-panel[open],
+.experience .account-overlay[open] {
+  animation: scene-surface-enter var(--scene-transition-duration, 1200ms)
+    cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.experience .premium-panel[open] .premium-sheet,
+.experience .experience-player-overlay .focus-player-surface,
+.experience .experience-player-overlay .playback-details {
+  animation: scene-focus-enter var(--scene-transition-duration, 1200ms)
+    cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.poster-wall .poster-tile::before {
+  content: "";
+  position: absolute;
+  inset: var(--poster-gutter);
+  z-index: 3;
+  background: var(--accent);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.poster-wall .poster-tile.is-actions-armed::before {
+  animation: poster-select-pulse var(--scene-transition-duration, 1200ms)
+    ease-out;
+}
+
+/* Alternating names replay the reveal while preserving the mounted wall. */
+@keyframes scene-enter-a {
+  from {
+    opacity: 0.12;
+    filter: blur(3px);
+  }
+  to {
+    opacity: 1;
+    filter: none;
+  }
+}
+
+@keyframes scene-enter-b {
+  from {
+    opacity: 0.12;
+    filter: blur(3px);
+  }
+  to {
+    opacity: 1;
+    filter: none;
+  }
+}
+
+@keyframes scene-surface-enter {
+  from {
+    opacity: 0.12;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes scene-focus-enter {
+  from {
+    filter: blur(3px);
+  }
+  to {
+    filter: none;
+  }
+}
+
+@keyframes poster-select-pulse {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.14;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .poster-wall.scene-enter-a,
+  .poster-wall.scene-enter-b,
+  .experience .experience-player-overlay,
+  .experience .experience-player-overlay .focus-player-surface,
+  .experience .experience-player-overlay .playback-details,
+  .experience .premium-panel[open],
+  .experience .premium-panel[open] .premium-sheet,
+  .experience .experience-info[open],
+  .experience .browse-panel[open],
+  .experience .account-overlay[open],
+  .poster-wall .poster-tile.is-actions-armed::before {
+    animation: none;
+  }
+}

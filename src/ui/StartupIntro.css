@@ -1,0 +1,143 @@
+.startup-site {
+  width: 100%;
+  height: 100%;
+}
+
+.startup-site.is-opening {
+  pointer-events: none;
+}
+
+.startup-intro {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background: var(--background);
+  user-select: none;
+  touch-action: manipulation;
+  animation: startup-curtain 3300ms ease-in-out both;
+}
+
+.startup-brand-stage {
+  position: relative;
+  z-index: 1;
+  isolation: isolate;
+  font-family: var(--brand-font-family);
+  font-size: clamp(72px, 16vw, 180px);
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+.startup-dot-origin {
+  position: absolute;
+  /* Follow the raised i-dot as the shared wordmark's letter height changes. */
+  left: 1.717373em;
+  top: calc(0.394512em - (var(--brand-i-scale) - 1) * 0.70361328125em);
+  width: 0;
+  height: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.startup-wordmark {
+  display: block;
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  /* Include descenders and italic overhang in the text-gradient paint area. */
+  padding: 0.12em 0.16em 0.22em;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 400;
+  line-height: 1.3;
+  letter-spacing: 0;
+  animation: startup-wordmark-reveal 1600ms ease-out both;
+}
+
+.startup-flash {
+  position: absolute;
+  left: 0;
+  top: 0;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  opacity: 0;
+}
+
+.startup-flash--camera {
+  width: 12em;
+  background: radial-gradient(circle at center,
+    #fff 0%, #fff 0.6%, #ffffffbd 2%, #ffffff85 5%,
+    #ffffff50 14%, #ffffff30 28%, #ffffff14 46%, transparent 70%);
+  animation: startup-page-glow 300ms cubic-bezier(0.16, 0.8, 0.3, 1) var(--flash-delay) both;
+}
+
+@supports (background-clip: text) or (-webkit-background-clip: text) {
+  .startup-wordmark .wordmark-part {
+    display: inline-block;
+    /* Each run paints its own glyphs so the stretched i has no duplicate mask.
+       Shared coordinates keep the sheen continuous across the whole word. */
+    background-image:
+      linear-gradient(108deg,
+        transparent 38%, #ffffff24 43%, #ffffffa6 47%,
+        #fff 49%, #fff 50%, #ffffffb8 52%, #ffffff2b 56%, transparent 62%),
+      linear-gradient(#fff, #fff);
+    background-size: 10.348078125em 1.64em, 100% 100%;
+    background-position: calc(-6.9418357421875em - var(--wordmark-part-offset)) -0.12em, center;
+    background-repeat: no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: startup-wordmark-sheen 1800ms ease-in-out 200ms both;
+  }
+}
+
+.startup-wordmark .wordmark-prefix { --wordmark-part-offset: 0.16em; }
+.startup-wordmark .wordmark-i { --wordmark-part-offset: 1.5359765625em; }
+.startup-wordmark .wordmark-suffix { --wordmark-part-offset: 1.9090234375em; }
+
+@keyframes startup-wordmark-sheen {
+  from { background-position: calc(-6.9418357421875em - var(--wordmark-part-offset)) -0.12em, center; }
+  to { background-position: calc(0.9054568359375em - var(--wordmark-part-offset)) -0.12em, center; }
+}
+
+@keyframes startup-page-glow {
+  0% { opacity: 0; transform: translate(-50%, -50%) scale(0.03); }
+  14% { opacity: 0.65; transform: translate(-50%, -50%) scale(1); }
+  42% { opacity: 0.08; }
+  100% { opacity: 0; transform: translate(-50%, -50%) scale(1.06); }
+}
+
+@keyframes startup-wordmark-reveal {
+  0% {
+    opacity: 0;
+    transform: scale(0.985);
+    filter: blur(18px) drop-shadow(0 0 18px #ffffff12);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+    filter: blur(0.008em) drop-shadow(0 0 18px #ffffff12);
+  }
+}
+
+@keyframes startup-curtain {
+  0%,
+  85% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .startup-intro,
+  .startup-wordmark,
+  .startup-wordmark .wordmark-part,
+  .startup-intro .startup-flash {
+    animation: none;
+  }
+  .startup-dot-origin { display: none; }
+}

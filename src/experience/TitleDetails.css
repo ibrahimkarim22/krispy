@@ -1,0 +1,219 @@
+.title-details {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  width: min(100%, 1040px);
+  min-width: 0;
+  margin: 0 auto;
+  color: inherit;
+  box-sizing: border-box;
+}
+.title-details:focus-visible {
+  outline: 2px solid #ed3445;
+  outline-offset: 4px;
+}
+
+.title-details .title-license-link {
+  align-self: flex-start;
+  padding: 10px 0;
+  min-height: 44px;
+  font-size: 14px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.title-details .title-details-title {
+  margin: 0;
+  font-size: clamp(28px, 3vw, 44px);
+  font-weight: 300;
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+  overflow-wrap: anywhere;
+  min-width: 0;
+}
+.title-details-heading {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  min-width: 0;
+}
+.title-details .save-heart {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 44px;
+  width: 44px;
+  height: 44px;
+  min-height: 44px;
+  padding: 0;
+  border: 1px solid #ffffff4d;
+  border-radius: 50%;
+  background: transparent;
+  color: #f5f3f6;
+}
+.title-details .save-heart:hover {
+  border-color: #ffffff80;
+  background: #ffffff0c;
+}
+.title-details .save-heart:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 4px;
+}
+.title-details .save-heart svg {
+  width: 21px;
+  height: 21px;
+}
+.title-description {
+  min-width: 0;
+  max-width: 78ch;
+}
+.title-description p {
+  margin: 0;
+  font-size: clamp(18px, 1.7vw, 22px);
+  font-weight: 300;
+  line-height: 1.6;
+  white-space: normal;
+  text-align: left;
+  overflow-wrap: anywhere;
+}
+.title-details-facts,
+.title-details-credits {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 180px), 1fr));
+  gap: 24px 32px;
+  min-width: 0;
+  margin: 0;
+}
+.title-details-facts > div,
+.title-details-credits > div {
+  min-width: 0;
+}
+.title-details dt,
+.title-details-notes h2 {
+  margin: 0 0 8px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.04em;
+  opacity: 0.65;
+  overflow-wrap: anywhere;
+}
+.title-details dd,
+.title-details-notes p,
+.title-details-notes li {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.title-details-notes {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px 40px;
+  min-width: 0;
+}
+.title-details-notes section {
+  min-width: 0;
+}
+.title-details-trivia {
+  grid-column: 1 / -1;
+}
+.title-details-trivia ol {
+  display: grid;
+  gap: 14px;
+  margin: 0;
+  padding-left: 22px;
+}
+.title-details-trivia li {
+  padding-left: 6px;
+}
+.title-details-credits {
+  grid-template-columns: minmax(0, 1fr);
+  gap: 18px;
+  padding-top: 4px;
+}
+.title-details-credits dt {
+  margin-bottom: 4px;
+}
+.title-details-credits dd {
+  font-size: 14px;
+  line-height: 1.6;
+  opacity: 0.8;
+}
+.title-license-rights {
+  min-width: 0;
+  padding: 16px 20px;
+  border: 1px solid #ffffff24;
+  border-radius: 12px;
+  background: #ffffff03;
+}
+.title-license-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 4px 20px;
+}
+.title-license-header h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+.title-license-header a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  color: inherit;
+  font-size: 14px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.title-license-rights summary {
+  min-height: 44px;
+  box-sizing: border-box;
+  padding: 12px 0;
+  font-size: 14px;
+  line-height: 1.5;
+  cursor: pointer;
+}
+.title-license-rights summary::marker { color: #ed3445; }
+.title-license-text {
+  max-height: min(22rem, 45dvh);
+  overflow: auto;
+  overscroll-behavior: contain;
+  margin-top: 4px;
+  padding: 12px;
+  border-top: 1px solid #ffffff20;
+  color: #d3d0d5;
+  font-size: 14px;
+  line-height: 1.65;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.title-license-rights summary:focus-visible,
+.title-license-rights a:focus-visible,
+.title-license-text:focus-visible {
+  outline: 2px solid #ed3445;
+  outline-offset: 3px;
+}
+@media (max-width: 650px) {
+  .title-details {
+    gap: 24px;
+  }
+  .title-details .title-details-title {
+    font-size: 28px;
+  }
+  .title-details-heading {
+    gap: 12px;
+  }
+  .title-details-facts {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 22px 20px;
+  }
+  .title-details-notes {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 24px;
+  }
+}

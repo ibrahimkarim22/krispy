@@ -5,10 +5,15 @@ name: Deploy to Firebase Hosting on PR
 'on': pull_request
 jobs:
   build_and_preview:
-    if: '${{ github.event.pull_request.head.repo.full_name == github.repository }}'
+    # Keep this redesign local while preserving previews for other same-repository PRs.
+    # head_ref is the PR source branch; pull_request branch filters match its target.
+    if: >-
+      ${{ github.event.pull_request.head.repo.full_name == github.repository &&
+          github.head_ref != 'redesign/krispy-ui' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - run: npm ci
       - run: npm run build
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:

@@ -1,0 +1,111 @@
+.stream-player {
+  --control-text: #dddde4;
+  --control-border: #ffffff20;
+  --control-surface: #ffffff08;
+  --control-highlight: #ffffff0b;
+  --control-shadow: #0002;
+  --control-accent: #ed3445;
+}
+
+.stream-player.theater,
+.stream-player:fullscreen {
+  --control-text: #f5f0f7;
+  --control-border: #ffffff2e;
+  --control-surface: #ffffff0b;
+  --control-highlight: #ffffff0c;
+  --control-shadow: #0003;
+  --control-accent: #ed3445;
+}
+
+.stream-player .player-actions {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  min-width: 0;
+  min-height: 0;
+  gap: 4px;
+  padding: 4px 8px;
+  border-top: 1px solid #ffffff10;
+}
+
+.stream-player .player-actions button {
+  display: inline-flex;
+  flex: 0 1 auto;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-width: 0;
+  max-width: 100%;
+  min-height: 44px;
+  padding: 10px 14px;
+  border: 1px solid transparent;
+  border-radius: 7px;
+  background: transparent;
+  color: var(--control-text);
+  box-shadow: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.3;
+  letter-spacing: 0;
+  text-align: center;
+  white-space: normal;
+  transition:
+    background 180ms ease,
+    border-color 180ms ease,
+    color 180ms ease;
+}
+
+.stream-player .player-actions svg {
+  flex: 0 0 20px;
+  width: 20px;
+  height: 20px;
+}
+
+.stream-player .player-actions button:hover {
+  border-color: #ffffff18;
+  background: #ffffff0c;
+  color: #fff;
+}
+
+.stream-player .player-actions button:focus-visible {
+  outline: 2px solid #ed3445;
+  outline-offset: 4px;
+}
+
+@media (max-width: 650px) {
+  .stream-player .player-actions {
+    gap: 4px;
+    padding: 0 6px;
+  }
+
+  .stream-player .player-actions button {
+    min-height: 44px;
+    padding: 6px 8px;
+    font-size: 12px;
+    gap: 6px;
+  }
+
+  .stream-player .player-actions svg {
+    flex-basis: 16px;
+    width: 16px;
+    height: 16px;
+  }
+}
+
+@media (max-height: 449px) and (min-width: 651px) {
+  .stream-player .player-actions button {
+    min-height: 44px;
+    padding: 10px 12px;
+    font-size: 14px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stream-player .player-actions button {
+    transition: none;
+  }
+}

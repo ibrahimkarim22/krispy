@@ -1,46 +1,49 @@
-# Getting Started with Create React App and Redux
+# Krispy
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+Krispy is a React app for browsing and watching classic films, Blender open films, live television and webcams. It includes a featured film, muted previews, search, filters and an in-app player, with responsive layouts for desktop and mobile.
 
-## Available Scripts
+## Current collection
 
-In the project directory, you can run:
+- **Movies:** 94 films: 48 original Chaplin entries, five Creative Commons Blender films and 41 archival editions with documented U.S. reuse support.
+- **TV:** TV from the Danish Parliament and UN Web TV.
+- **Globe:** Alveus Sanctuary in Texas and Abisko in Sweden, through their official Twitch players.
 
-### `npm start`
+Each title retains its source attribution and applicable rights information. The original Chaplin entries are preserved with their existing playback sources; edition-specific transfer, restoration and soundtrack rights remain unverified. Their artwork has a separate [image-specific reuse record](docs/chaplin-artwork-rights.md). Film, artwork and stream permissions are recorded separately. See [content sources](docs/content-sources.md), [archival editions](docs/public-domain-movies.md), [TV conditions](docs/live-tv-public-catalog.md) and [Globe sources](docs/globe-sources.md).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Run locally
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Use Node.js 22:
 
-### `npm test`
+```sh
+npm ci
+npm start
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Open [localhost:3000](http://localhost:3000). Optional Firebase client and Twitch ancestor settings are documented in [.env.example](.env.example). In Windows PowerShell, use `npm.cmd` if script execution policy blocks `npm`.
 
-### `npm run build`
+## Accounts and My List
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Email/password accounts use Firebase Authentication. Browsing and playback work without an account; saving favorites requires login. Favorites, progress and recent items are stored separately for each account in this browser and do not sync across devices. Account deletion is available from the account menu.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Checks
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```sh
+npm test
+npm run test:live-tv
+npm run test:movies-tools
+npm run lint
+npm run build
+```
 
-### `npm run eject`
+Production output is written to `build/`; building does not deploy it. For browser tests:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```sh
+npx playwright install chromium
+npm run test:browser
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+You can alternatively set `KRISPY_BROWSER_PATH` to an installed Chrome executable. Tests use deterministic provider fixtures where needed; they do not grant content rights or guarantee current live-stream availability.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Built with
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+React 18, Firebase Authentication, HTML5 video and HLS.js. Unit tests use Jest and React Testing Library; browser tests use Playwright. The application uses Create React App.

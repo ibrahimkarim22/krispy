@@ -1,0 +1,69 @@
+.guest-list-prompt {
+  width: min(100%, 360px);
+  color: var(--ink);
+  text-align: center;
+}
+
+.guest-list-prompt > svg {
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.guest-list-prompt h1 {
+  margin: 0;
+  font-size: clamp(28px, 4vw, 36px);
+  font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: -0.04em;
+}
+
+.guest-list-prompt p {
+  margin: 16px 0 24px;
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.guest-list-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.guest-list-actions button {
+  min-width: 104px;
+  min-height: 44px;
+  padding: 10px 20px;
+  border: 1px solid #ffffff40;
+  border-radius: 4px;
+  background: var(--surface);
+  color: var(--ink);
+  font: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.4;
+  cursor: pointer;
+}
+
+.guest-list-actions .guest-list-login {
+  background: var(--accent-blood);
+  border-color: var(--accent-blood);
+  color: #fff;
+}
+
+.guest-list-actions button:enabled:hover {
+  border-color: var(--accent);
+  background: #24070d;
+  color: #fff;
+}
+
+.guest-list-actions button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+}
+
+.guest-list-actions button:disabled {
+  opacity: 0.45;
+  cursor: default;
+}

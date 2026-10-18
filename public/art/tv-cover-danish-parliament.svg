@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">TV from the Danish Parliament — Copenhagen</title>
+  <desc id="desc">Krispy original architectural illustration of Christiansborg Palace and its copper-roofed tower in Copenhagen. No institutional logo or seal is used.</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#273b48"/><stop offset="1" stop-color="#93a5a0"/></linearGradient>
+    <linearGradient id="stone" x2="1" y2="1"><stop stop-color="#c3b8a5"/><stop offset="1" stop-color="#8d8b7f"/></linearGradient>
+    <linearGradient id="copper" x2="1" y2="1"><stop stop-color="#6c948b"/><stop offset="1" stop-color="#345b56"/></linearGradient>
+    <linearGradient id="shade" x2="1" y2="0"><stop stop-color="#18262d" stop-opacity=".95"/><stop offset=".72" stop-color="#18262d" stop-opacity="0"/></linearGradient>
+    <linearGradient id="base" x2="0" y2="1"><stop stop-color="#15222a" stop-opacity="0"/><stop offset="1" stop-color="#15222a" stop-opacity=".96"/></linearGradient>
+    <pattern id="windows" width="67" height="82" patternUnits="userSpaceOnUse"><rect x="23" y="16" width="25" height="40" rx="2" fill="#34464b"/><path d="M20 13h31M20 60h31M35 18v36M25 36h21" stroke="#c3b5a1" stroke-width="3"/></pattern>
+    <pattern id="masonry" width="56" height="27" patternUnits="userSpaceOnUse"><path d="M0 0h56M0 27h56M28 0v27" fill="none" stroke="#72766e" stroke-width="1" opacity=".25"/></pattern>
+  </defs>
+  <rect width="1280" height="720" fill="url(#sky)"/>
+  <circle cx="964" cy="192" r="135" fill="#c9d6c5" opacity=".18"/>
+  <path d="M0 308q230-35 465 11t438-4" fill="none" stroke="#d5ded0" stroke-width="2" opacity=".2"/>
+  <path d="M462 391h818v202H462Z" fill="url(#stone)"/>
+  <path d="m450 391 38-83h792v83Z" fill="url(#copper)"/>
+  <path d="M462 402h818v167H462Z" fill="url(#windows)"/>
+  <path d="M450 387h830v15H450ZM462 480h818v9H462ZM449 568h831v20H449Z" fill="#c6baa4"/>
+  <path d="M527 332h28v42h-28ZM660 332h28v42h-28ZM1190 332h28v42h-28Z" fill="#7d9690" stroke="#c2b6a0" stroke-width="5"/>
+  <path d="M862 299h225v287H862Z" fill="#b5af9d"/>
+  <path d="M862 299h225v287H862Z" fill="url(#masonry)"/>
+  <path d="M879 310h192v13H879ZM879 369h192v12H879ZM879 441h192v12H879Z" fill="#cdc0a8"/>
+  <path d="M900 335h28v29h-28ZM1022 335h28v29h-28ZM900 394h28v40h-28ZM1022 394h28v40h-28Z" fill="#34474b"/>
+  <path d="M949 586V511a26 26 0 0 1 52 0v75" fill="#273c43"/>
+  <path d="M909 299V212h132v87" fill="#bdb6a3"/>
+  <path d="M900 294h150v13H900ZM916 211h118v13H916Z" fill="#d0c3a9"/>
+  <path d="M937 244a12 12 0 0 1 24 0v35h-24ZM990 244a12 12 0 0 1 24 0v35h-24Z" fill="#34474b"/>
+  <path d="m905 211 24-42 9-37h74l9 37 24 42Z" fill="url(#copper)"/>
+  <path d="M946 132v-27h58v27Z" fill="#b8b29c"/>
+  <path d="m941 105 34-35 34 35Z" fill="#507c70"/>
+  <path d="M975 73V47" stroke="#7a9c85" stroke-width="5"/>
+  <path d="M855 586h239v15H855ZM832 601h285v13H832Z" fill="#a9a58e"/>
+  <path d="M0 607h1280v113H0Z" fill="#687b79"/>
+  <path d="m924 614 163 106H714Z" fill="#c1c4ad" opacity=".2"/>
+  <rect width="1280" height="720" fill="url(#shade)"/>
+  <rect y="420" width="1280" height="300" fill="url(#base)"/>
+  <path d="M78 77h40" stroke="#b8cdb6" stroke-width="4"/>
+  <text x="133" y="84" fill="#d7e1d4" font-family="Arial, sans-serif" font-size="18" letter-spacing="4">COPENHAGEN · DENMARK</text>
+  <text x="76" y="477" fill="#f2f0df" font-family="Georgia, serif" font-size="68">Danish</text>
+  <text x="74" y="554" fill="#f2f0df" font-family="Georgia, serif" font-size="78">Parliament</text>
+  <path d="M79 596h82" stroke="#a9c1ac" stroke-width="2"/>
+  <text x="78" y="637" fill="#c8d5ca" font-family="Arial, sans-serif" font-size="21" letter-spacing="1">Live from Christiansborg Palace</text>
+</svg>

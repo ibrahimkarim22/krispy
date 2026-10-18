@@ -1,0 +1,367 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-16T00:21:06.703Z",
+  "entries": [
+    {
+      "channelId": "TVfromtheDanishParliament.dk",
+      "feedId": "SD",
+      "feedKey": "TVfromtheDanishParliament.dk::SD",
+      "name": "TV from the Danish Parliament",
+      "feedName": "SD",
+      "country": {
+        "code": "DK",
+        "name": "Denmark"
+      },
+      "languages": [
+        {
+          "code": "dan",
+          "name": "Danish"
+        },
+        {
+          "code": "eng",
+          "name": "English"
+        }
+      ],
+      "categories": [
+        {
+          "id": "legislative",
+          "name": "Legislative"
+        }
+      ],
+      "logo": null,
+      "website": "https://www.ft.dk/da/aktuelt/tv-fra-folketinget",
+      "enabled": true,
+      "playback": {
+        "kind": "hls",
+        "url": "https://cdnapi.kaltura.com/p/2158211/sp/327418300/playManifest/entryId/1_24gfa7qq/protocol/https/format/applehttp/a.m3u8",
+        "feedKey": "TVfromtheDanishParliament.dk::SD",
+        "sourceFingerprint": "93b66e4ddb7d5f3239cf7d6b2eeebf94cd4c44d636f9f278a42308878912a0fa",
+        "quality": "1080p",
+        "permission": {
+          "status": "evidence-found",
+          "reviewed": true,
+          "reviewDate": "2026-10-13",
+          "officialWebsite": "https://www.ft.dk/da/aktuelt/tv-fra-folketinget/tv_kanalen_folketinget",
+          "provider": {
+            "name": "Folketinget / Kaltura",
+            "url": "https://www.ft.dk/da/aktuelt/tv-fra-folketinget/tv_kanalen_folketinget"
+          },
+          "evidenceUrl": "https://www.ft.dk/aktuelt/tv-fra-folketinget/deling-og-rettigheder",
+          "permittedUse": "direct-hls",
+          "summary": "The TV-specific licence grants global public performance and transfer in all media/formats, supporting intact direct HLS. Review is conditional on enforcing the no-overlay and no-standalone-logo flags and displaying the complete licence with source credit.",
+          "conditions": [
+            "Keep every Krispy control, title, button, gradient and close affordance outside the video picture, including loading/error states and fullscreen.",
+            "Display the complete captured English licence intact beside or below playback with its official fullLicenseUrl; keep it accessible while viewing.",
+            "Credit Folketinget and identify the production title where practicable; preserve all in-picture parliamentary information, copyright/disclaimer notices, original audio and picture.",
+            "Do not use Folketinget logo as a separate card/app asset or imply endorsement. Do not crop, zoom, change colours/audio, add graphics or edit the production.",
+            "No extra access restrictions, sublicensing or terms that reduce the audience licence rights. Breach terminates the grant."
+          ],
+          "geographicLimitations": [
+            "The licence grants worldwide rights; playback availability is not proven."
+          ],
+          "sourceFingerprint": "93b66e4ddb7d5f3239cf7d6b2eeebf94cd4c44d636f9f278a42308878912a0fa",
+          "fullLicenseUrl": "https://www.ft.dk/aktuelt/tv-fra-folketinget/deling-og-rettigheder",
+          "fullLicenseText": "## Licence conditions for Danish Parliament TV productions\nBelow, you will find the Danish Parliament's conditions for use of TV productions on external media.\nThe TV productions (hereinafter referred to as “the work”) are protected by the rules about copyright law in force at the time in question. The user of the work undertakes to comply with applicable law. Any use of the work, other than what follows from this licence or copyright law in general, is not allowed. By exercising the right, which this licence gives to the work, you accept to be bound by all the terms stated below in this licence.\n### 1. Definitions\n  * \"Licensor\" is the Danish Parliament.\n  * \"Original copyright owner\" means the person who has created the work.\n  * \"Work\" means the production or performance, which is protected by actual copyright or rights related to copyright, and which is offered on the terms that follow from this Licence.\n  * \"You” means a natural or legal person, who/which exercises the rights as per the Licence, and who/which has not previously breached the terms in the Licence in relation to the work, or who/which has obtained express permission from the Licensor to exercise rights in accordance with the Licence despite a previous breach of the terms of the Licence.\n### 2. Restrictions\n\nThe purpose of this Licence is in no way to limit the right to make copies for private use, the right to quote or other restrictions in the licence-holder's exclusive rights as per the Danish Copyright Act or in pursuance of other applicable law.\n### 3. The Licence Agreement\n\nIn accordance with the terms of the licence, you will acquire from the licensor a global, royalty-free, non-exclusive right to use the work in the following manner for an indefinite period of time (during the period in which the work is protected):\n\n  * to make copies of the work\n  * to disseminate copies of the work to the general public, to show the work in public, to perform the work in public, including to transfer the work to the general public\nThe above rights may be exercised in all existing and future media and formats. The above rights include the right to make any changes that are technically required in order to exercise the rights in other media and formats, but other than that, you have no rights to make changes, further develop the TV productions of the Danish Parliament or create derivative works. Any rights that are not expressly mentioned above remain with the licensor.\nLicensor waives the exclusive right, individually or through a copyright owner organisation (e.g. KODA, Gramex and Copydan), to collect royalties for public performance, including public digital performance (e.g. webcast) of the work.\nLicensor waives the exclusive right, individually or through a copyright owner organisation (e.g. NCB and Copydan), to collect royalties for any recording and copying of the work.\nThe original copyright owner holds the exclusive right to publish collections of his/her own contributions, cf. section 26 of the Danish Copyright Act.\nThe Danish Parliament offers you to share the Parliament’s TV productions via embed code, which is copied from the website. It is not allowed to make changes to the copied embed code.\n### 4. Limitations\n\nThe Licence given as per clause 3 above is subject to and limited by the following restrictions:\n  * You may only publish the work to the general public, show the work in public, perform the work in public, including transfer the work wired or wirelessly to the general public in compliance with the terms of this Licence, and every time you disseminate the work to the general public, show the work in public, perform the work in public, including transfer the work wired or wirelessly to the general public, it must be accompanied by a copy of this Licence.\n  * You must not offer or impose conditions for the work, which change or restrict the terms of the Licence or the recipients’ execution of their rights as per the Licence. You may not grant sublicences to the work.\n  * You must ensure that all notifications, which refer to the Licence and the disclaimer, are disclosed unchanged.\n  * You must not disseminate the work to the general public, show the work in public, perform the work in public, including transfer the work wired or wirelessly to the general public, by using any kind of technical measures, which limit the access to or use of the work in a manner, which is contrary to the terms of this Licence.\nIf you disseminate the work to the general public, show the work in public, perform the work in public, including transfer the work to the general public, you must ensure that the licence conditions are disclosed intact and credit, in accordance with good practice in consideration of the media and the means you use, by stating the name (or, if relevant, the pseudonym) of the original copyright holder and the title of the work to the extent it is practically possible.\n### 5. Disclaimer\n\nWith the exception of that which follows from applicable law, the Licensor disclaims any liability to you in relation to the Licence and the use of the work with respect to any kind of loss, including direct and indirect loss, even if the Licensor has been informed that such a loss may occur.\n### 6. Expiry of the licence\na. The Licence and the rights granted in this respect expire immediately in case of any breach on your part of the terms contained in the Licence. Irrespective of the expiry of the Licence, the validity of the conditions in Clauses 1, 2, 5, 6 and 7 is upheld.\nb. In accordance with the above terms, the Licence granted here is granted for an indefinite period of time (during the protection period of the work).\nIrrespective of that, which is stated above, the Licensor reserves the right to make the work accessible under other alternative terms and to stop making the work accessible at any time, provided that such an act is not intended to withdraw the Licence (or any other licence granted in pursuance of or subject to the terms of the Licence), and the Licence will remain fully valid, unless it has been terminated, as stated above.\n### 7. Other conditions\na. Every time you make the work accessible to the general public, including by wired or wireless transfer to the general public, the Licensor offers the recipient a licence to the work on the same terms as those that apply to you as per the Licence.\nb. If parts of the Licence are invalid in pursuance of applicable law, this does not affect the validity of the other parts of the Licence, and the agreement shall be directly construed in such a manner that the invalid parts are adapted with the minimum of changes required to ensure that the parts become valid in the best possible accordance with the purposes and objectives of the agreement.\nc. A party is not considered to have waived his/her right to rely on the terms of the Licence or to have granted his/her approval of a violation hereof, unless written consent has been signed by the party which makes such a waiver or grants such a permission.\nd. This Licence constitutes the complete agreement between the parties regarding the licensed work. There are not implied contract terms or declarations regarding the work, which have not been stated here. The Licensor is not bound by other terms that may have been made known by you. This Licence cannot be changed without a mutual written agreement concluded between the Licensor and you.",
+          "fullLicenseLanguage": "en",
+          "noOverlays": true,
+          "noStandaloneLogo": true,
+          "logoUsageAllowed": false
+        },
+        "network": {
+          "status": "passed",
+          "checkedAt": "2026-10-14T02:41:51.413Z",
+          "manifestKind": "master",
+          "isLive": true
+        },
+        "browser": {
+          "status": "passed",
+          "actualPlayer": true,
+          "userInitiated": true,
+          "currentTimeAdvanceSeconds": 20.01,
+          "decodedFrames": 502,
+          "observationSeconds": 20.009,
+          "checkedAt": "2026-10-14T02:41:55.533Z",
+          "browser": "Chrome 155.0.8059.40 / Playwright Chromium, headless Windows-compatible runner",
+          "region": "Unknown; local Windows runner, location not independently verified",
+          "fatalErrors": [],
+          "significantStalls": 0,
+          "livePlaylistObserved": true,
+          "audioTrackCheck": {
+            "status": "detected",
+            "method": "webkitAudioDecodedByteCount",
+            "decodedAudioBytes": 336790,
+            "exposedTrackCount": 0
+          },
+          "audioAudibility": "not-confirmed",
+          "audibleSoundConfirmed": false,
+          "audioTrackPresent": true,
+          "presentation": {
+            "noOverlaysRequested": true,
+            "appElementsOverPicture": 0,
+            "controlsOutsidePicture": true,
+            "creditOutsidePicture": true,
+            "licenceLinkAvailable": true,
+            "licenceTextAvailable": true
+          }
+        },
+        "lastCheckedAt": "2026-10-14T02:41:55.533Z",
+        "availabilityNotes": [
+          "Not 24/7",
+          "The licence grants worldwide rights; playback availability is not proven."
+        ],
+        "alternatives": [
+          {
+            "kind": "official-embed",
+            "url": "https://cdnapisec.kaltura.com/p/2158211/sp/215821100/embedIframeJs/uiconf_id/41529681/partner_id/2158211?entry_id=1_24gfa7qq&flashvars%5BstreamerType%5D=auto&iframeembed=true&playerId=kaltura_player_1516289241",
+            "feedKey": "TVfromtheDanishParliament.dk::SD",
+            "sourceFingerprint": "8329daa81bbb79a1baa7ec86efbe7a1d734c031248189229bcf360d25939861d",
+            "quality": null,
+            "permission": {
+              "status": "evidence-found",
+              "reviewed": true,
+              "reviewDate": "2026-10-13",
+              "officialWebsite": "https://www.ft.dk/da/aktuelt/tv-fra-folketinget/tv_kanalen_folketinget",
+              "provider": {
+                "name": "Folketinget / official Kaltura player",
+                "url": "https://www.ft.dk/da/aktuelt/tv-fra-folketinget/tv_kanalen_folketinget"
+              },
+              "evidenceUrl": "https://www.ft.dk/aktuelt/tv-fra-folketinget/deling-og-rettigheder",
+              "permittedUse": "official-embed",
+              "summary": "The TV-specific licence grants global public performance/transfer in all formats and expressly offers supplied embeds. The official live page links this Kaltura partner and entry.",
+              "conditions": [
+                "Provide the complete Folketinget TV licence intact alongside playback; fullLicenseUrl identifies the complete official copy.",
+                "Use the supplied embed URL unchanged. Preserve attribution, copyright/disclaimer notices and programme information; no overlays or modifications to the production.",
+                "Credit Folketinget and the production title where practicable; no implied endorsement or independent use of its logo.",
+                "No extra access restrictions, sublicensing or terms that reduce the audience's licence rights. Breach terminates the grant."
+              ],
+              "geographicLimitations": [
+                "The licence explicitly grants worldwide rights; this does not assert worldwide playback availability."
+              ],
+              "sourceFingerprint": "8329daa81bbb79a1baa7ec86efbe7a1d734c031248189229bcf360d25939861d",
+              "fullLicenseUrl": "https://www.ft.dk/aktuelt/tv-fra-folketinget/deling-og-rettigheder",
+              "fullLicenseText": "## Licence conditions for Danish Parliament TV productions\nBelow, you will find the Danish Parliament's conditions for use of TV productions on external media.\nThe TV productions (hereinafter referred to as “the work”) are protected by the rules about copyright law in force at the time in question. The user of the work undertakes to comply with applicable law. Any use of the work, other than what follows from this licence or copyright law in general, is not allowed. By exercising the right, which this licence gives to the work, you accept to be bound by all the terms stated below in this licence.\n### 1. Definitions\n  * \"Licensor\" is the Danish Parliament.\n  * \"Original copyright owner\" means the person who has created the work.\n  * \"Work\" means the production or performance, which is protected by actual copyright or rights related to copyright, and which is offered on the terms that follow from this Licence.\n  * \"You” means a natural or legal person, who/which exercises the rights as per the Licence, and who/which has not previously breached the terms in the Licence in relation to the work, or who/which has obtained express permission from the Licensor to exercise rights in accordance with the Licence despite a previous breach of the terms of the Licence.\n### 2. Restrictions\n\nThe purpose of this Licence is in no way to limit the right to make copies for private use, the right to quote or other restrictions in the licence-holder's exclusive rights as per the Danish Copyright Act or in pursuance of other applicable law.\n### 3. The Licence Agreement\n\nIn accordance with the terms of the licence, you will acquire from the licensor a global, royalty-free, non-exclusive right to use the work in the following manner for an indefinite period of time (during the period in which the work is protected):\n\n  * to make copies of the work\n  * to disseminate copies of the work to the general public, to show the work in public, to perform the work in public, including to transfer the work to the general public\nThe above rights may be exercised in all existing and future media and formats. The above rights include the right to make any changes that are technically required in order to exercise the rights in other media and formats, but other than that, you have no rights to make changes, further develop the TV productions of the Danish Parliament or create derivative works. Any rights that are not expressly mentioned above remain with the licensor.\nLicensor waives the exclusive right, individually or through a copyright owner organisation (e.g. KODA, Gramex and Copydan), to collect royalties for public performance, including public digital performance (e.g. webcast) of the work.\nLicensor waives the exclusive right, individually or through a copyright owner organisation (e.g. NCB and Copydan), to collect royalties for any recording and copying of the work.\nThe original copyright owner holds the exclusive right to publish collections of his/her own contributions, cf. section 26 of the Danish Copyright Act.\nThe Danish Parliament offers you to share the Parliament’s TV productions via embed code, which is copied from the website. It is not allowed to make changes to the copied embed code.\n### 4. Limitations\n\nThe Licence given as per clause 3 above is subject to and limited by the following restrictions:\n  * You may only publish the work to the general public, show the work in public, perform the work in public, including transfer the work wired or wirelessly to the general public in compliance with the terms of this Licence, and every time you disseminate the work to the general public, show the work in public, perform the work in public, including transfer the work wired or wirelessly to the general public, it must be accompanied by a copy of this Licence.\n  * You must not offer or impose conditions for the work, which change or restrict the terms of the Licence or the recipients’ execution of their rights as per the Licence. You may not grant sublicences to the work.\n  * You must ensure that all notifications, which refer to the Licence and the disclaimer, are disclosed unchanged.\n  * You must not disseminate the work to the general public, show the work in public, perform the work in public, including transfer the work wired or wirelessly to the general public, by using any kind of technical measures, which limit the access to or use of the work in a manner, which is contrary to the terms of this Licence.\nIf you disseminate the work to the general public, show the work in public, perform the work in public, including transfer the work to the general public, you must ensure that the licence conditions are disclosed intact and credit, in accordance with good practice in consideration of the media and the means you use, by stating the name (or, if relevant, the pseudonym) of the original copyright holder and the title of the work to the extent it is practically possible.\n### 5. Disclaimer\n\nWith the exception of that which follows from applicable law, the Licensor disclaims any liability to you in relation to the Licence and the use of the work with respect to any kind of loss, including direct and indirect loss, even if the Licensor has been informed that such a loss may occur.\n### 6. Expiry of the licence\na. The Licence and the rights granted in this respect expire immediately in case of any breach on your part of the terms contained in the Licence. Irrespective of the expiry of the Licence, the validity of the conditions in Clauses 1, 2, 5, 6 and 7 is upheld.\nb. In accordance with the above terms, the Licence granted here is granted for an indefinite period of time (during the protection period of the work).\nIrrespective of that, which is stated above, the Licensor reserves the right to make the work accessible under other alternative terms and to stop making the work accessible at any time, provided that such an act is not intended to withdraw the Licence (or any other licence granted in pursuance of or subject to the terms of the Licence), and the Licence will remain fully valid, unless it has been terminated, as stated above.\n### 7. Other conditions\na. Every time you make the work accessible to the general public, including by wired or wireless transfer to the general public, the Licensor offers the recipient a licence to the work on the same terms as those that apply to you as per the Licence.\nb. If parts of the Licence are invalid in pursuance of applicable law, this does not affect the validity of the other parts of the Licence, and the agreement shall be directly construed in such a manner that the invalid parts are adapted with the minimum of changes required to ensure that the parts become valid in the best possible accordance with the purposes and objectives of the agreement.\nc. A party is not considered to have waived his/her right to rely on the terms of the Licence or to have granted his/her approval of a violation hereof, unless written consent has been signed by the party which makes such a waiver or grants such a permission.\nd. This Licence constitutes the complete agreement between the parties regarding the licensed work. There are not implied contract terms or declarations regarding the work, which have not been stated here. The Licensor is not bound by other terms that may have been made known by you. This Licence cannot be changed without a mutual written agreement concluded between the Licensor and you.",
+              "fullLicenseLanguage": "en",
+              "noOverlays": true,
+              "noStandaloneLogo": true,
+              "logoUsageAllowed": false
+            },
+            "network": {
+              "status": "passed",
+              "checkedAt": "2026-10-14T02:41:52.112Z",
+              "manifestKind": "official-embed",
+              "isLive": null
+            },
+            "browser": {
+              "status": "passed",
+              "actualPlayer": true,
+              "userInitiated": true,
+              "currentTimeAdvanceSeconds": 20.018,
+              "decodedFrames": 499,
+              "observationSeconds": 20.019,
+              "checkedAt": "2026-10-14T02:42:21.579Z",
+              "browser": "Chrome 155.0.8059.40 / Playwright Chromium, headless Windows-compatible runner",
+              "region": "Unknown; local Windows runner, location not independently verified",
+              "fatalErrors": [],
+              "significantStalls": 0,
+              "livePlaylistObserved": true,
+              "audioTrackCheck": {
+                "status": "detected",
+                "method": "webkitAudioDecodedByteCount",
+                "decodedAudioBytes": 334558,
+                "exposedTrackCount": 0
+              },
+              "audioAudibility": "not-confirmed",
+              "audibleSoundConfirmed": false,
+              "audioTrackPresent": true,
+              "presentation": {
+                "noOverlaysRequested": true,
+                "appElementsOverPicture": 0,
+                "controlsOutsidePicture": true,
+                "creditOutsidePicture": true,
+                "licenceLinkAvailable": true,
+                "licenceTextAvailable": true
+              }
+            },
+            "lastCheckedAt": "2026-10-14T02:42:21.579Z",
+            "availabilityNotes": [
+              "The licence explicitly grants worldwide rights; this does not assert worldwide playback availability."
+            ],
+            "alternatives": []
+          }
+        ]
+      },
+      "permission": {
+        "status": "evidence-found",
+        "reviewed": true,
+        "reviewDate": "2026-10-13",
+        "officialWebsite": "https://www.ft.dk/da/aktuelt/tv-fra-folketinget/tv_kanalen_folketinget",
+        "provider": {
+          "name": "Folketinget / Kaltura",
+          "url": "https://www.ft.dk/da/aktuelt/tv-fra-folketinget/tv_kanalen_folketinget"
+        },
+        "evidenceUrl": "https://www.ft.dk/aktuelt/tv-fra-folketinget/deling-og-rettigheder",
+        "permittedUse": "direct-hls",
+        "summary": "The TV-specific licence grants global public performance and transfer in all media/formats, supporting intact direct HLS. Review is conditional on enforcing the no-overlay and no-standalone-logo flags and displaying the complete licence with source credit.",
+        "conditions": [
+          "Keep every Krispy control, title, button, gradient and close affordance outside the video picture, including loading/error states and fullscreen.",
+          "Display the complete captured English licence intact beside or below playback with its official fullLicenseUrl; keep it accessible while viewing.",
+          "Credit Folketinget and identify the production title where practicable; preserve all in-picture parliamentary information, copyright/disclaimer notices, original audio and picture.",
+          "Do not use Folketinget logo as a separate card/app asset or imply endorsement. Do not crop, zoom, change colours/audio, add graphics or edit the production.",
+          "No extra access restrictions, sublicensing or terms that reduce the audience licence rights. Breach terminates the grant."
+        ],
+        "geographicLimitations": [
+          "The licence grants worldwide rights; playback availability is not proven."
+        ],
+        "sourceFingerprint": "93b66e4ddb7d5f3239cf7d6b2eeebf94cd4c44d636f9f278a42308878912a0fa",
+        "fullLicenseUrl": "https://www.ft.dk/aktuelt/tv-fra-folketinget/deling-og-rettigheder",
+        "fullLicenseText": "## Licence conditions for Danish Parliament TV productions\nBelow, you will find the Danish Parliament's conditions for use of TV productions on external media.\nThe TV productions (hereinafter referred to as “the work”) are protected by the rules about copyright law in force at the time in question. The user of the work undertakes to comply with applicable law. Any use of the work, other than what follows from this licence or copyright law in general, is not allowed. By exercising the right, which this licence gives to the work, you accept to be bound by all the terms stated below in this licence.\n### 1. Definitions\n  * \"Licensor\" is the Danish Parliament.\n  * \"Original copyright owner\" means the person who has created the work.\n  * \"Work\" means the production or performance, which is protected by actual copyright or rights related to copyright, and which is offered on the terms that follow from this Licence.\n  * \"You” means a natural or legal person, who/which exercises the rights as per the Licence, and who/which has not previously breached the terms in the Licence in relation to the work, or who/which has obtained express permission from the Licensor to exercise rights in accordance with the Licence despite a previous breach of the terms of the Licence.\n### 2. Restrictions\n\nThe purpose of this Licence is in no way to limit the right to make copies for private use, the right to quote or other restrictions in the licence-holder's exclusive rights as per the Danish Copyright Act or in pursuance of other applicable law.\n### 3. The Licence Agreement\n\nIn accordance with the terms of the licence, you will acquire from the licensor a global, royalty-free, non-exclusive right to use the work in the following manner for an indefinite period of time (during the period in which the work is protected):\n\n  * to make copies of the work\n  * to disseminate copies of the work to the general public, to show the work in public, to perform the work in public, including to transfer the work to the general public\nThe above rights may be exercised in all existing and future media and formats. The above rights include the right to make any changes that are technically required in order to exercise the rights in other media and formats, but other than that, you have no rights to make changes, further develop the TV productions of the Danish Parliament or create derivative works. Any rights that are not expressly mentioned above remain with the licensor.\nLicensor waives the exclusive right, individually or through a copyright owner organisation (e.g. KODA, Gramex and Copydan), to collect royalties for public performance, including public digital performance (e.g. webcast) of the work.\nLicensor waives the exclusive right, individually or through a copyright owner organisation (e.g. NCB and Copydan), to collect royalties for any recording and copying of the work.\nThe original copyright owner holds the exclusive right to publish collections of his/her own contributions, cf. section 26 of the Danish Copyright Act.\nThe Danish Parliament offers you to share the Parliament’s TV productions via embed code, which is copied from the website. It is not allowed to make changes to the copied embed code.\n### 4. Limitations\n\nThe Licence given as per clause 3 above is subject to and limited by the following restrictions:\n  * You may only publish the work to the general public, show the work in public, perform the work in public, including transfer the work wired or wirelessly to the general public in compliance with the terms of this Licence, and every time you disseminate the work to the general public, show the work in public, perform the work in public, including transfer the work wired or wirelessly to the general public, it must be accompanied by a copy of this Licence.\n  * You must not offer or impose conditions for the work, which change or restrict the terms of the Licence or the recipients’ execution of their rights as per the Licence. You may not grant sublicences to the work.\n  * You must ensure that all notifications, which refer to the Licence and the disclaimer, are disclosed unchanged.\n  * You must not disseminate the work to the general public, show the work in public, perform the work in public, including transfer the work wired or wirelessly to the general public, by using any kind of technical measures, which limit the access to or use of the work in a manner, which is contrary to the terms of this Licence.\nIf you disseminate the work to the general public, show the work in public, perform the work in public, including transfer the work to the general public, you must ensure that the licence conditions are disclosed intact and credit, in accordance with good practice in consideration of the media and the means you use, by stating the name (or, if relevant, the pseudonym) of the original copyright holder and the title of the work to the extent it is practically possible.\n### 5. Disclaimer\n\nWith the exception of that which follows from applicable law, the Licensor disclaims any liability to you in relation to the Licence and the use of the work with respect to any kind of loss, including direct and indirect loss, even if the Licensor has been informed that such a loss may occur.\n### 6. Expiry of the licence\na. The Licence and the rights granted in this respect expire immediately in case of any breach on your part of the terms contained in the Licence. Irrespective of the expiry of the Licence, the validity of the conditions in Clauses 1, 2, 5, 6 and 7 is upheld.\nb. In accordance with the above terms, the Licence granted here is granted for an indefinite period of time (during the protection period of the work).\nIrrespective of that, which is stated above, the Licensor reserves the right to make the work accessible under other alternative terms and to stop making the work accessible at any time, provided that such an act is not intended to withdraw the Licence (or any other licence granted in pursuance of or subject to the terms of the Licence), and the Licence will remain fully valid, unless it has been terminated, as stated above.\n### 7. Other conditions\na. Every time you make the work accessible to the general public, including by wired or wireless transfer to the general public, the Licensor offers the recipient a licence to the work on the same terms as those that apply to you as per the Licence.\nb. If parts of the Licence are invalid in pursuance of applicable law, this does not affect the validity of the other parts of the Licence, and the agreement shall be directly construed in such a manner that the invalid parts are adapted with the minimum of changes required to ensure that the parts become valid in the best possible accordance with the purposes and objectives of the agreement.\nc. A party is not considered to have waived his/her right to rely on the terms of the Licence or to have granted his/her approval of a violation hereof, unless written consent has been signed by the party which makes such a waiver or grants such a permission.\nd. This Licence constitutes the complete agreement between the parties regarding the licensed work. There are not implied contract terms or declarations regarding the work, which have not been stated here. The Licensor is not bound by other terms that may have been made known by you. This Licence cannot be changed without a mutual written agreement concluded between the Licensor and you.",
+        "fullLicenseLanguage": "en",
+        "noOverlays": true,
+        "noStandaloneLogo": true,
+        "logoUsageAllowed": false
+      },
+      "availabilityNotes": [
+        "Not 24/7",
+        "The licence grants worldwide rights; playback availability is not proven."
+      ]
+    },
+    {
+      "channelId": "UNWebTV.us",
+      "feedId": "SD",
+      "feedKey": "UNWebTV.us::SD",
+      "name": "UN Web TV",
+      "feedName": "English",
+      "country": {
+        "code": "US",
+        "name": "United States"
+      },
+      "languages": [
+        {
+          "code": "eng",
+          "name": "English"
+        }
+      ],
+      "categories": [
+        {
+          "id": "news",
+          "name": "News"
+        },
+        {
+          "id": "education",
+          "name": "Education"
+        },
+        {
+          "id": "legislative",
+          "name": "Public affairs"
+        }
+      ],
+      "logo": null,
+      "website": "https://webtv.un.org/en",
+      "enabled": true,
+      "playback": {
+        "kind": "official-embed",
+        "url": "https://cdnapisec.kaltura.com/p/2503451/embedPlaykitJs/uiconf_id/49754663?iframeembed=true&entry_id=1_gb6tjmle&config[playback]={%22audioLanguage%22:%22en%22}&config[ui]={%22locale%22:%22en%22}",
+        "feedKey": "UNWebTV.us::SD",
+        "sourceFingerprint": "089e4b109e4d615b4b16b5a04d1fa2ef9daf207573a854312165b355220178c9",
+        "quality": null,
+        "permission": {
+          "status": "evidence-found",
+          "reviewed": true,
+          "reviewDate": "2026-10-14T17:00:23.481Z",
+          "officialWebsite": "https://webtv.un.org/en",
+          "provider": {
+            "name": "United Nations Web TV / official Kaltura live player",
+            "url": "https://webtv.un.org/en"
+          },
+          "evidenceUrl": "https://webtv.un.org/en",
+          "permittedUse": "official-embed",
+          "summary": "The current official 24 Hour Live and pre-recorded Programming player offers Share > Get embed code for this exact English-default iframe. The UN Delegates Handbook independently permits embedding UN Web TV videos in websites. This review permits the intact official embed only; it does not approve extracting or republishing its underlying HLS.",
+          "conditions": [
+            "Use the supplied official iframe unchanged, preserving provider controls, branding, notices and programming.",
+            "Credit United Nations Web TV and link the official viewing page and applicable terms. No implied endorsement.",
+            "Do not extract or substitute underlying HLS, alter the production, obscure the player or bypass any access, framing or geographic restriction.",
+            "No standalone logo or third-party artwork reuse is established by this review."
+          ],
+          "geographicLimitations": [
+            "No geographic limit stated in the reviewed embed offer; test region is not independently verified and worldwide availability is not asserted."
+          ],
+          "sourceFingerprint": "089e4b109e4d615b4b16b5a04d1fa2ef9daf207573a854312165b355220178c9",
+          "noOverlays": true,
+          "noStandaloneLogo": true,
+          "logoUsageAllowed": false
+        },
+        "network": {
+          "status": "passed",
+          "checkedAt": "2026-10-14T17:00:28.142Z",
+          "manifestKind": "official-embed",
+          "isLive": null
+        },
+        "browser": {
+          "status": "passed",
+          "actualPlayer": true,
+          "userInitiated": true,
+          "currentTimeAdvanceSeconds": 20.022,
+          "decodedFrames": 601,
+          "observationSeconds": 20.02,
+          "checkedAt": "2026-10-14T17:00:29.806Z",
+          "browser": "Chrome 155.0.8059.40 / Playwright Chromium, headless Windows-compatible runner",
+          "region": "Unknown; local Windows runner, location not independently verified",
+          "fatalErrors": [],
+          "significantStalls": 0,
+          "livePlaylistObserved": true,
+          "audioTrackCheck": {
+            "status": "detected",
+            "method": "webkitAudioDecodedByteCount",
+            "decodedAudioBytes": 330869,
+            "exposedTrackCount": 0
+          },
+          "audioAudibility": "not-confirmed",
+          "audibleSoundConfirmed": false,
+          "audioTrackPresent": true,
+          "presentation": {
+            "noOverlaysRequested": true,
+            "appElementsOverPicture": 0,
+            "controlsOutsidePicture": true,
+            "creditOutsidePicture": true,
+            "licenceLinkAvailable": true,
+            "licenceTextAvailable": true
+          }
+        },
+        "lastCheckedAt": "2026-10-14T17:00:29.806Z",
+        "availabilityNotes": [
+          "No geographic limit stated in the reviewed embed offer; test region is not independently verified and worldwide availability is not asserted."
+        ],
+        "alternatives": []
+      },
+      "permission": {
+        "status": "evidence-found",
+        "reviewed": true,
+        "reviewDate": "2026-10-14T17:00:23.481Z",
+        "officialWebsite": "https://webtv.un.org/en",
+        "provider": {
+          "name": "United Nations Web TV / official Kaltura live player",
+          "url": "https://webtv.un.org/en"
+        },
+        "evidenceUrl": "https://webtv.un.org/en",
+        "permittedUse": "official-embed",
+        "summary": "The current official 24 Hour Live and pre-recorded Programming player offers Share > Get embed code for this exact English-default iframe. The UN Delegates Handbook independently permits embedding UN Web TV videos in websites. This review permits the intact official embed only; it does not approve extracting or republishing its underlying HLS.",
+        "conditions": [
+          "Use the supplied official iframe unchanged, preserving provider controls, branding, notices and programming.",
+          "Credit United Nations Web TV and link the official viewing page and applicable terms. No implied endorsement.",
+          "Do not extract or substitute underlying HLS, alter the production, obscure the player or bypass any access, framing or geographic restriction.",
+          "No standalone logo or third-party artwork reuse is established by this review."
+        ],
+        "geographicLimitations": [
+          "No geographic limit stated in the reviewed embed offer; test region is not independently verified and worldwide availability is not asserted."
+        ],
+        "sourceFingerprint": "089e4b109e4d615b4b16b5a04d1fa2ef9daf207573a854312165b355220178c9",
+        "noOverlays": true,
+        "noStandaloneLogo": true,
+        "logoUsageAllowed": false
+      },
+      "availabilityNotes": [
+        "No geographic limit stated in the reviewed embed offer; test region is not independently verified and worldwide availability is not asserted."
+      ]
+    }
+  ]
+}
