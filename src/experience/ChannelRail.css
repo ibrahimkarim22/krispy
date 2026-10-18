@@ -1,0 +1,126 @@
+.experience-player-overlay.has-channel-rail {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(220px, 280px);
+  align-items: start;
+  gap: clamp(18px, 2.4vw, 32px);
+}
+
+.experience-player-overlay.has-channel-rail > .focus-stage.is-playing {
+  min-height: 0;
+}
+
+.channel-rail {
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 100%;
+  max-height: calc(var(--viewport-height, 100dvh) - 48px);
+  min-width: 0;
+  min-height: 0;
+  color: #fff;
+}
+
+.channel-rail h2 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.channel-rail-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-height: 0;
+  padding: 8px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: #686268 transparent;
+}
+
+.channel-rail-choice {
+  display: grid;
+  grid-template-columns: minmax(0, 104px) minmax(0, 1fr);
+  align-items: center;
+  flex: 0 0 auto;
+  gap: 12px;
+  width: 100%;
+  min-height: 64px;
+  padding: 4px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #f5f3f6;
+  text-align: left;
+  background: transparent;
+  cursor: pointer;
+}
+
+.channel-rail-choice:hover {
+  background: #ffffff0d;
+}
+
+.channel-rail-choice.is-active {
+  border-color: #ed3445;
+  background: #ffffff0d;
+}
+
+.channel-rail-choice .artwork {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 2px;
+}
+
+.channel-rail-choice .artwork img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  box-sizing: border-box;
+  padding: 8%;
+  background: #fff;
+}
+.channel-rail-choice[data-artwork-kind="editorial-illustration"] .artwork img {
+  padding: 0;
+  background: #101115;
+}
+
+.channel-rail-choice .art-fallback {
+  color: #eee;
+  background: #242124;
+  font-size: 12px;
+  padding: 6px;
+}
+
+.channel-rail-caption {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  min-width: 0;
+  font-size: 14px;
+  line-height: 1.3;
+  overflow-wrap: anywhere;
+}
+
+.channel-rail-caption small {
+  color: #bbb5bf;
+  font-size: 12px;
+}
+
+@media (max-width: 1000px) {
+  .experience-player-overlay.has-channel-rail {
+    display: block;
+  }
+  .channel-rail {
+    position: relative;
+    max-height: 420px;
+    margin-top: 24px;
+  }
+  .channel-rail-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr));
+  }
+}

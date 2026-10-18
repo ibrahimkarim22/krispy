@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1080" viewBox="0 0 720 1080">
+  <defs>
+    <linearGradient id="night" x2="0" y2="1"><stop stop-color="#03090e"/><stop offset=".6" stop-color="#10252c"/><stop offset="1" stop-color="#05080a"/></linearGradient>
+    <linearGradient id="aurora" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#1b5956" stop-opacity="0"/><stop offset=".5" stop-color="#77b3a2" stop-opacity=".65"/><stop offset="1" stop-color="#a3c8bc" stop-opacity="0"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="22"/></filter>
+  </defs>
+  <rect width="720" height="1080" fill="url(#night)"/>
+  <path d="M-100 420 Q100 40 300 260 T850 30 L790 220 Q550 600 330 390 T-100 650Z" fill="url(#aurora)" filter="url(#glow)"/>
+  <g fill="#d7e9e4" opacity=".65"><circle cx="110" cy="148" r="1.5"/><circle cx="432" cy="112" r="2"/><circle cx="620" cy="283" r="1"/><circle cx="270" cy="426" r="1"/><circle cx="522" cy="388" r="1.5"/><circle cx="54" cy="371" r="1"/><circle cx="330" cy="76" r="1"/></g>
+  <path d="M0 713 142 575 255 694 387 548 566 708 720 626V1080H0Z" fill="#152529"/>
+  <path d="m142 575-47 82 51-25 42 18Zm245-27-71 120 73-37 51 10Z" fill="#617477" opacity=".5"/>
+  <path d="M0 834 Q170 727 365 801 T720 756V1080H0Z" fill="#060c10"/>
+</svg>

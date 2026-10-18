@@ -1,0 +1,2007 @@
+[
+  {
+    "id": 1,
+    "ok": true,
+    "http": "200",
+    "width": 600,
+    "height": 896,
+    "asset": "/art/chaplin-1.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/One_A.M._poster.jpg",
+    "publicationReview": {
+      "reviewedAt": "2026-10-17",
+      "inProduction": true,
+      "decision": "retained-supported",
+      "current": {
+        "asset": "/art/chaplin-1.jpg",
+        "sha256": "3cb0dfa1360e0b914b222a6d31f1a84ed01b60b18483b6e287e64aa5290d38fc",
+        "bytes": 164656,
+        "width": 600,
+        "height": 896,
+        "kind": "theatrical-poster",
+        "creator": "Mutual Film Corporation",
+        "artworkDate": "1916 (source-stated poster date)",
+        "rights": "Source-stated public domain in the United States (PD-US-expired).",
+        "territorialScope": "U.S. source statement; worldwide clearance is not asserted.",
+        "evidence": "Exact Commons poster file is marked PD-US-expired; source dates the artwork 1916. Existing cached copy matches its design.",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:One_A.M._poster.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/One_A.M._poster.jpg",
+        "modifications": "Existing cached image retained unchanged."
+      }
+    }
+  },
+  {
+    "id": 2,
+    "ok": true,
+    "http": "200",
+    "width": 600,
+    "height": 883,
+    "asset": "/art/chaplin-2.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/CC_Kid_Auto_Races_at_Venice_1914_%28poster%29.jpg",
+    "publicationReview": {
+      "reviewedAt": "2026-10-17",
+      "inProduction": true,
+      "decision": "retained-supported",
+      "current": {
+        "asset": "/art/chaplin-2.jpg",
+        "sha256": "aaafce713295b196f5abf6698bdf8e465786f386d0dad92739831d26f47d294e",
+        "bytes": 118839,
+        "width": 600,
+        "height": 883,
+        "kind": "theatrical-poster",
+        "creator": "Hennegan & Co. / Keystone",
+        "artworkDate": "LOC catalog [1914]; Heritage c.1922 independent reissue (date disagreement, both pre-1931)",
+        "rights": "Source-stated public domain in the United States (PD-US-expired).",
+        "territorialScope": "U.S. source statement; worldwide clearance is not asserted.",
+        "evidence": "Library of Congress item 92510098 identifies this exact lithograph and states no known restrictions on publication. LOC dates it [1914]; Heritage dates the stock sheet circa 1922. Both records concern this design, not only the film. Commons marks its exact reproduction PD-US-expired.",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:CC_Kid_Auto_Races_at_Venice_1914_(poster).jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/CC_Kid_Auto_Races_at_Venice_1914_%28poster%29.jpg",
+        "modifications": "Existing cached image retained unchanged."
+      },
+      "additionalEvidence": [
+        {
+          "url": "https://www.loc.gov/item/92510098/",
+          "statement": "LOC item 92510098: exact artwork identity, created/published [1914], no known restrictions on publication."
+        },
+        {
+          "url": "https://movieposters.ha.com/itm/movie-posters/comedy/the-kid-auto-race-independent-c-1922-one-sheet-27-x41-many-of-charlie-chaplin-s-early-shorts-were-being-re-issued-in/a/802-5381.s",
+          "statement": "Heritage lot 5381, auction802: independent c.1922 stock one-sheet reissue, formerly The Kid Auto Races at Venice (1914)."
+        }
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "ok": true,
+    "http": "200",
+    "width": 600,
+    "height": 900,
+    "asset": "/art/chaplin-3.jpg",
+    "originalUrl": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p11319539_p_v8_ab.jpg",
+    "publicationReview": {
+      "reviewedAt": "2026-10-17",
+      "inProduction": true,
+      "decision": "replaced-archival",
+      "current": {
+        "asset": "/art/chaplin-3.jpg",
+        "sha256": "066dcf819c1a3ff6bfc57617eda8420fc32e35099831c2b4853bd50a45fbc598",
+        "bytes": 221449,
+        "width": 665,
+        "height": 993,
+        "kind": "theatrical-poster",
+        "creator": "Mutual Film Corporation",
+        "artworkDate": "1916 as dated in exact Commons summary",
+        "rights": "Source-stated public domain in the United States (PD-US).",
+        "territorialScope": "U.S. source statement; worldwide clearance is not asserted.",
+        "evidence": "Summary names film, poster date1916; source Peter Kobel, Silent Movies (2007), p57; exact file explicitly public domain in US.",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Vagabond_(1916).jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/The_Vagabond_%281916%29.jpg",
+        "modifications": "Exact source JPEG downloaded unchanged."
+      },
+      "additionalEvidence": [
+        {
+          "url": "https://movieposters.ha.com/itm/movie-posters/comedy/the-vagabond-export-and-import-r-1920s-fine-very-fine-on-linen-one-sheet-27-x-41-/a/7219-86796.s",
+          "statement": "R-1920s Export & Import re-release poster; no reuse license supplied."
+        }
+      ],
+      "previousAsset": {
+        "sha256": "aabeef04167816bed7e2687c6729a558a0bb6e95589b7a80ee9ad2b661cf377a",
+        "reasonReplaced": "The old Flixster copy was a different Export & Import reissue design without substantiated reuse terms for that reproduction.",
+        "reuseStatus": "Not relied on for publication; previous source metadata below is historical."
+      }
+    }
+  },
+  {
+    "id": 4,
+    "ok": true,
+    "http": "200",
+    "width": 600,
+    "height": 927,
+    "asset": "/art/chaplin-4.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/The_Count_%28poster%29.jpg",
+    "publicationReview": {
+      "reviewedAt": "2026-10-17",
+      "inProduction": true,
+      "decision": "retained-supported",
+      "current": {
+        "asset": "/art/chaplin-4.jpg",
+        "sha256": "8a88576901f9bc5b1e6b9bc3216f1f47d6e1a985e05a3ed4641e0fe3e9b8e557",
+        "bytes": 145133,
+        "width": 600,
+        "height": 927,
+        "kind": "theatrical-poster",
+        "creator": "Mutual Film Corporation",
+        "artworkDate": "1916 (exact poster metadata)",
+        "rights": "Source-stated public domain in the United States (PD-US-expired).",
+        "territorialScope": "U.S. source statement; worldwide clearance is not asserted.",
+        "evidence": "Exact Commons poster file is marked PD-US-expired and credits 1916 Mutual Film Corporation. Existing cached copy matches.",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Count_(poster).jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/The_Count_%28poster%29.jpg",
+        "modifications": "Existing cached image retained unchanged."
+      }
+    }
+  },
+  {
+    "id": 5,
+    "ok": true,
+    "http": "200",
+    "originalUrl": "https://incorto.com/wp-content/uploads/2017/07/the-fireman.jpg",
+    "width": 720,
+    "height": 1021,
+    "asset": "/art/chaplin-5.jpg",
+    "bytes": 175067,
+    "previousAttempt": {
+      "http": "200",
+      "reason": "Exception calling \"FromFile\" with \"1\" argument(s): \"Out of memory.\"",
+      "url": "https://incorto.com/wp-content/uploads/2017/07/the-fireman.jpg"
+    },
+    "recovery": {
+      "verifiedAt": "2026-10-11",
+      "kind": "theatrical-reissue-poster",
+      "title": "The Fireman",
+      "filmYear": 1916,
+      "description": "The Fireman: Van Beuren sound reissue poster for the 1916 film. Wikimedia Commons.",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Fireman_(poster).jpg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/The_Fireman_%28poster%29.jpg",
+      "matchEvidence": "Commons description explicitly identifies poster for The Fireman (1916), categorized under the Charlie Chaplin film.",
+      "licenseStatement": "Public domain in the United States (Commons PD-US-expired)",
+      "licenseEvidence": "Commons file description dates the poster 1916, identifies Mutual Film Corporation as author and explicitly supplies PD-US-expired licensing.",
+      "notes": "The visible Van Beuren music-and-sound imprint identifies a sound reissue, rather than the original silent release. Commons dates the film and labels the file PD-US-expired; that metadata does not independently establish this reissue poster publication date or rights.",
+      "visualMatchVerified": true
+    },
+    "publicationReview": {
+      "reviewedAt": "2026-10-17",
+      "inProduction": true,
+      "decision": "restored-authentic",
+      "current": {
+        "asset": "/art/chaplin-5.jpg",
+        "sha256": "945fdd82334c6d154c2b1c788c985d48fe1276084a8972c5f4fbeb442140504d",
+        "bytes": 70805,
+        "width": 960,
+        "height": 720,
+        "kind": "film-frame",
+        "creator": "Charlie Chaplin / Lone Star–Mutual",
+        "artworkDate": "Underlying moving-image scene published as part of the 1916 film. It is a film frame, not a separately dated publicity photograph.",
+        "rights": "Source-stated public domain in the United States (PD-US-expired); exact parent film-edition record.",
+        "licenseTag": "PD-US-expired",
+        "territorialScope": "U.S. source statement; worldwide clearance is not asserted.",
+        "evidence": "The linked Commons media record identifies The Fireman and explicitly supplies PD-US-expired. This image is a Wikimedia-generated preview frame from that exact listed edition; no audio is included.",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Fireman_-_Charlie_Chaplin_(1916).webm",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/The_Fireman_-_Charlie_Chaplin_%281916%29.webm/960px--The_Fireman_-_Charlie_Chaplin_%281916%29.webm.jpg?_=20171020003014",
+        "sourceVideoUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/The_Fireman_-_Charlie_Chaplin_%281916%29.webm",
+        "timestampSeconds": null,
+        "timestampNote": "Default Commons preview; no precise frame time is asserted.",
+        "sourceNativeDimensions": [
+          640,
+          480
+        ],
+        "qualityNote": "The source edition is 640 x 480; Commons renders this frame preview at 960 x 720. It does not contain native HD detail.",
+        "provenanceNote": "The Commons media record provides the exact-file rights statement; no independent institutional chain of custody is claimed.",
+        "modifications": "Exact source JPEG downloaded unchanged. Existing cover cropping is preserved in the interface. No locally generated imagery, text, colorization, retouching, or composites."
+      },
+      "posterSearch": {
+        "outcome": "No suitable initial-release theatrical-poster reproduction with substantiated exact-image reuse rights was located in this bounded review.",
+        "reason": "The familiar Commons The_Fireman_(poster).jpg visibly advertises Van Beuren music/sound and cannot be cleared using Commons' 1916 film-derived date. Genuine first-release paper is catalogued by Posteritati, but no open reproduction permission was found for that exact scan. No poster is approved.",
+        "rejectedSources": [
+          "https://commons.wikimedia.org/wiki/File:The_Fireman_(poster).jpg",
+          "https://posteritati.com/poster/40888/the-fireman-1916-us-one-sheet-poster"
+        ]
+      },
+      "previousAsset": {
+        "sha256": "7c289c3fb8a20134da4088b56270ed34fb9e62fc170896df4ee6e73e62f0536e",
+        "kind": "retired-contemporary-illustration",
+        "reasonReplaced": "User requested authentic historical film imagery. Previous illustration preserved in an ignored local archive and excluded from production."
+      }
+    }
+  },
+  {
+    "id": 6,
+    "ok": true,
+    "http": "200",
+    "width": 600,
+    "height": 914,
+    "asset": "/art/chaplin-6.jpg",
+    "originalUrl": "https://images-cdn.auctionmobility.com/is3/auctionmobility-static/ZCYS-1-680U0//196.jpg",
+    "publicationReview": {
+      "reviewedAt": "2026-10-17",
+      "inProduction": true,
+      "decision": "replaced-archival",
+      "current": {
+        "asset": "/art/chaplin-6.jpg",
+        "sha256": "c645100dfe4fdb4f5d394bed7887c35ad494378871b736bb64a1003de488608e",
+        "bytes": 183179,
+        "width": 800,
+        "height": 1184,
+        "kind": "theatrical-poster",
+        "creator": "Lone Star / Mutual Film Corporation",
+        "artworkDate": "1916",
+        "rights": "Source-stated public domain in the United States (PD-US-expired).",
+        "territorialScope": "U.S. source statement; worldwide clearance is not asserted.",
+        "evidence": "Commons summary Date1916, authorMutual Film Corporation; image visibly bears©1916 Lone Star Corp.; original file800x1184.",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Behind_the_Screen.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Behind_the_Screen.jpg",
+        "modifications": "Exact source JPEG downloaded unchanged."
+      },
+      "additionalEvidence": [
+        {
+          "url": "https://movieposters.ha.com/itm/movie-posters/comedy/behind-the-screen-export-and-import-film-co-r-1920s-fine-very-fine-on-linen-one-sheet-27-x-41-/a/7276-86323.s",
+          "statement": "Actual poster early1920s reissue; no reproduction license stated."
+        }
+      ],
+      "previousAsset": {
+        "sha256": "ce6fdd5b9de9099917342f44392552c0402f260b1dba029adc9546a7637d530d",
+        "reasonReplaced": "The old reproduction came from an unverified CDN source; a different exact Commons poster with explicit file rights and a visible 1916 imprint is used instead.",
+        "reuseStatus": "Not relied on for publication; previous source metadata below is historical."
+      }
+    }
+  },
+  {
+    "id": 7,
+    "ok": true,
+    "http": "200",
+    "originalUrl": "https://i.ebayimg.com/images/g/3OkAAOSwnTVj-n-h/s-l1200.webp",
+    "width": 720,
+    "height": 1094,
+    "asset": "/art/chaplin-7.jpg",
+    "bytes": 277609,
+    "previousAttempt": {
+      "http": "200",
+      "reason": "Exception calling \"FromFile\" with \"1\" argument(s): \"Out of memory.\"",
+      "url": "https://i.ebayimg.com/images/g/3OkAAOSwnTVj-n-h/s-l1200.webp"
+    },
+    "recovery": {
+      "verifiedAt": "2026-10-11",
+      "kind": "theatrical-reissue-poster",
+      "title": "The Cure",
+      "filmYear": 1917,
+      "description": "The Cure: Van Beuren sound reissue poster for the 1917 film. Wikimedia Commons.",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Cure_1917_Poster.jpg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Cure_1917_Poster.jpg",
+      "matchEvidence": "Commons description identifies the 1917 movie The Cure; category includes The Cure (1917 film), Charlie Chaplin, Eric Campbell and Edna Purviance.",
+      "licenseStatement": "Public domain in the United States (Commons PD-US-expired)",
+      "licenseEvidence": "Commons dates poster 1917, identifies General Film Co. as author and explicitly supplies PD-US-expired licensing.",
+      "notes": "The visible Van Beuren music-and-sound imprint identifies a sound reissue, rather than the original silent release. Commons dates the film and labels the file PD-US-expired; that metadata does not independently establish this reissue poster publication date or rights.",
+      "visualMatchVerified": true
+    },
+    "publicationReview": {
+      "reviewedAt": "2026-10-17",
+      "inProduction": true,
+      "decision": "restored-authentic",
+      "current": {
+        "asset": "/art/chaplin-7.jpg",
+        "sha256": "645b9ab94a901dc828be214eb94aa9d193da84837ab8bda4c6ec3dc399f7a149",
+        "bytes": 60645,
+        "width": 960,
+        "height": 720,
+        "kind": "film-frame",
+        "creator": "Charlie Chaplin / Lone Star–Mutual",
+        "artworkDate": "Underlying frame published within the 1917 film; a distinct publicity-photo publication date is not asserted.",
+        "rights": "Source-stated public domain in the United States (PD-US-expired); exact parent film-edition record.",
+        "licenseTag": "PD-US-expired",
+        "territorialScope": "U.S. source statement; worldwide clearance is not asserted.",
+        "evidence": "The linked Commons media record identifies The Cure and explicitly supplies PD-US-expired. This image is a Wikimedia-generated preview frame from that exact listed edition; no audio is included.",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Cure_(1917).webm",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/The_Cure_%281917%29.webm/960px-seek%3D100-The_Cure_%281917%29.webm.jpg",
+        "sourceVideoUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/The_Cure_%281917%29.webm",
+        "timestampSeconds": 100,
+        "sourceNativeDimensions": [
+          960,
+          720
+        ],
+        "provenanceNote": "The Commons media record provides the exact-file rights statement; no independent institutional chain of custody is claimed.",
+        "modifications": "Exact source JPEG downloaded unchanged. Existing cover cropping is preserved in the interface. No locally generated imagery, text, colorization, retouching, or composites."
+      },
+      "posterSearch": {
+        "outcome": "No suitable initial-release theatrical-poster reproduction with substantiated exact-image reuse rights was located in this bounded review.",
+        "reason": "The familiar Cure_1917_Poster.jpg is a Van Beuren sound-reissue design, visibly inconsistent with a 1917 publication date. A physical original 1917 Mutual window card is catalogued by Heritage, but its heavily restored auction reproduction has no verified open reuse grant. No poster is approved.",
+        "rejectedSources": [
+          "https://commons.wikimedia.org/wiki/File:Cure_1917_Poster.jpg",
+          "https://movieposters.ha.com/itm/movie-posters/comedy/the-cure-mutual-productions-1917-window-card-14-x-22-/a/694-28454.s"
+        ]
+      },
+      "previousAsset": {
+        "sha256": "8b54e9d8f1779361a3d6288d3137826b05e63652e1700e2425bbdef5acd76b6d",
+        "kind": "retired-contemporary-illustration",
+        "reasonReplaced": "User requested authentic historical film imagery. Previous illustration preserved in an ignored local archive and excluded from production."
+      }
+    }
+  },
+  {
+    "id": 8,
+    "ok": true,
+    "http": "200",
+    "width": 350,
+    "height": 543,
+    "asset": "/art/chaplin-8.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/CC_The_Champion_1915.jpg",
+    "publicationReview": {
+      "reviewedAt": "2026-10-17",
+      "inProduction": true,
+      "decision": "retained-supported",
+      "current": {
+        "asset": "/art/chaplin-8.jpg",
+        "sha256": "cb9a6fa10b7a619bbf5c09278b000f174d66f805e9b990cef1c2dd7adc551112",
+        "bytes": 57017,
+        "width": 350,
+        "height": 543,
+        "kind": "theatrical-poster",
+        "creator": "Essanay / General Film Company",
+        "artworkDate": "1915 (source-stated exact-poster date)",
+        "rights": "Source-stated public domain in the United States (PD-US-expired).",
+        "territorialScope": "U.S. source statement; worldwide clearance is not asserted.",
+        "evidence": "Commons identifies the exact Essanay promotional poster, dates it 1915 and applies PD-US-expired. Source and illustrator are not otherwise identified; no institutional corroboration was found.",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:CC_The_Champion_1915.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/CC_The_Champion_1915.jpg",
+        "modifications": "Existing cached image retained unchanged."
+      }
+    }
+  },
+  {
+    "id": 9,
+    "ok": true,
+    "http": "200",
+    "width": 600,
+    "height": 939,
+    "asset": "/art/chaplin-9.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/The_Adventurer_%28film%29.jpg",
+    "publicationReview": {
+      "reviewedAt": "2026-10-17",
+      "inProduction": true,
+      "decision": "retained-supported",
+      "current": {
+        "asset": "/art/chaplin-9.jpg",
+        "sha256": "c7a5d59302191910abe4440746e501256cf471a83e4f13212024ecabf91e6413",
+        "bytes": 197691,
+        "width": 600,
+        "height": 939,
+        "kind": "theatrical-poster",
+        "creator": "Mutual Film Corporation",
+        "artworkDate": "©1917 (exact poster metadata)",
+        "rights": "Source-stated public domain in the United States (PD-US-expired).",
+        "territorialScope": "U.S. source statement; worldwide clearance is not asserted.",
+        "evidence": "Exact Commons poster is dated copyright 1917, credited to Mutual Film Corporation and marked PD-US-expired.",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Adventurer_(film).jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/The_Adventurer_%28film%29.jpg",
+        "modifications": "Existing cached image retained unchanged."
+      }
+    }
+  },
+  {
+    "id": 10,
+    "ok": true,
+    "http": "200",
+    "width": 490,
+    "height": 700,
+    "asset": "/art/chaplin-10.jpg",
+    "originalUrl": "https://m.media-amazon.com/images/M/MV5BMTMxY2U0MGUtZjljNS00YWNiLTgxZGItZGMzZmI5OWMzMjExXkEyXkFqcGdeQXVyNzQxNDExNTU@._V1_.jpg",
+    "publicationReview": {
+      "reviewedAt": "2026-10-17",
+      "inProduction": true,
+      "decision": "restored-authentic",
+      "current": {
+        "asset": "/art/chaplin-10.jpg",
+        "sha256": "6044e86b8921e7c4403eb27942672502d78ef772dda14d6e1502626eb6202314",
+        "bytes": 549614,
+        "width": 1541,
+        "height": 1179,
+        "kind": "film-still",
+        "creator": "Essanay Studios; photographer unknown",
+        "artworkDate": "Commons dates this exact still 1915. Independent original still publication was not established; retain this as source-stated dating, not archival proof.",
+        "rights": "Source-stated public domain in the United States (PD-US-expired); exact image record.",
+        "licenseTag": "PD-US-expired",
+        "territorialScope": "U.S. source statement; worldwide clearance is not asserted.",
+        "evidence": "The linked Commons media record identifies A Night Out and explicitly supplies PD-US-expired. The selected JPEG is the exact still offered on that file record.",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:A_night_out.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/A_night_out.jpg",
+        "provenanceNote": "Commons identifies Doctor Macro as the digital source; the historical photographer is not established.",
+        "modifications": "Exact source JPEG downloaded unchanged. Existing cover cropping is preserved in the interface. No locally generated imagery, text, colorization, retouching, or composites."
+      },
+      "posterSearch": {
+        "outcome": "No suitable initial-release theatrical-poster reproduction with substantiated exact-image reuse rights was located in this bounded review.",
+        "reason": "The previous His Night Out King of Comedy sound-speed/music-and-effects image is a later reissue rather than original 1915 artwork and has no verified scan license. The Commons French Charlot en Bombe sheet is only 300x404 and its specific original French publication date/source-country status was not corroborated; use the exact-file cleared still above.",
+        "rejectedSources": [
+          "https://commons.wikimedia.org/wiki/File:A_Night_Out_(film_Fr_poster).jpg"
+        ]
+      },
+      "previousAsset": {
+        "sha256": "9486670ecf6a87b6c950e9308666ead790ef0bc510d34fdce547756947fa551a",
+        "kind": "retired-contemporary-illustration",
+        "reasonReplaced": "User requested authentic historical film imagery. Previous illustration preserved in an ignored local archive and excluded from production."
+      }
+    }
+  },
+  {
+    "id": 11,
+    "ok": true,
+    "http": "200",
+    "width": 300,
+    "height": 455,
+    "asset": "/art/chaplin-11.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/The_Floorwalker_%28poster%29.jpg/220px-The_Floorwalker_%28poster%29.jpg",
+    "derivedUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/The_Floorwalker_%28poster%29.jpg",
+    "publicationReview": {
+      "reviewedAt": "2026-10-17",
+      "inProduction": true,
+      "decision": "retained-supported",
+      "current": {
+        "asset": "/art/chaplin-11.jpg",
+        "sha256": "00b1a80c7f37fffbbecf272b30015603a3d2ef6841e669d6d792e825e3f6cbb1",
+        "bytes": 51719,
+        "width": 300,
+        "height": 455,
+        "kind": "theatrical-poster",
+        "creator": "Mutual Film Corporation",
+        "artworkDate": "1916 (exact-poster metadata)",
+        "rights": "Source-stated public domain in the United States (PD-US-expired).",
+        "territorialScope": "U.S. source statement; worldwide clearance is not asserted.",
+        "evidence": "Exact Commons poster is dated 1916, credits Mutual Film Corporation and carries PD-US-expired; a specialist original-poster catalog corroborates the design and date.",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Floorwalker_(poster).jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/The_Floorwalker_%28poster%29.jpg",
+        "modifications": "Existing cached image retained unchanged."
+      },
+      "additionalEvidence": [
+        {
+          "url": "https://posteritati.com/poster/10301/the-floorwalker-original-1916-us-one-sheet-movie-poster",
+          "statement": "Dealer actual-artworkcatalog calls original1916USone-sheet27x41; not reproductionlicense."
+        }
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "ok": true,
+    "http": "200",
+    "width": 300,
+    "height": 452,
+    "asset": "/art/chaplin-12.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/In_the_Park_%28poster%29.jpg/220px-In_the_Park_%28poster%29.jpg",
+    "derivedUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/In_the_Park_%28poster%29.jpg",
+    "publicationReview": {
+      "reviewedAt": "2026-10-17",
+      "inProduction": true,
+      "decision": "retained-supported",
+      "current": {
+        "asset": "/art/chaplin-12.jpg",
+        "sha256": "c881e2375d147a105a245594e53a450201b67808d5272ae590b7dcefb6f33c10",
+        "bytes": 42257,
+        "width": 300,
+        "height": 452,
+        "kind": "theatrical-poster",
+        "creator": "Essanay Studios",
+        "artworkDate": "1915 (exact-poster summary)",
+        "rights": "Source-stated public domain in the United States (PD-US).",
+        "territorialScope": "U.S. source statement; worldwide clearance is not asserted.",
+        "evidence": "Exact Commons poster is dated 1915, credits Essanay Studios and carries an explicit PD-US statement.",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:In_the_Park_(poster).jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/In_the_Park_%28poster%29.jpg",
+        "modifications": "Existing cached image retained unchanged."
+      }
+    }
+  },
+  {
+    "id": 13,
+    "ok": true,
+    "http": "200",
+    "width": 600,
+    "height": 889,
+    "asset": "/art/chaplin-13.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/CC_Easy_Street_1917.JPG/220px-CC_Easy_Street_1917.JPG",
+    "derivedUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/CC_Easy_Street_1917.JPG",
+    "publicationReview": {
+      "reviewedAt": "2026-10-17",
+      "inProduction": true,
+      "decision": "retained-supported",
+      "current": {
+        "asset": "/art/chaplin-13.jpg",
+        "sha256": "ba75958fcbc146dc73912266cd5e2f53c8aa9f0d190ddeb1fca519c0ea6bee64",
+        "bytes": 165204,
+        "width": 600,
+        "height": 889,
+        "kind": "theatrical-poster",
+        "creator": "Mutual Films",
+        "artworkDate": "Commons dates the exact poster 1917; visible poster bears a Lone Star 1916 imprint. Retain source-stated 1917 date with imprint caveat, rather than claiming independent archival dating.",
+        "rights": "Source-stated public domain in the United States (PD-US-expired).",
+        "territorialScope": "U.S. source statement; worldwide clearance is not asserted.",
+        "evidence": "Exact Commons reproduction is marked PD-US-expired. Its date field says 1917 while the printed Lone Star imprint says 1916; both are recorded without claiming a precise independently verified publication date.",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:CC_Easy_Street_1917.JPG",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/CC_Easy_Street_1917.JPG",
+        "modifications": "Existing cached image retained unchanged."
+      }
+    }
+  },
+  {
+    "id": 14,
+    "ok": true,
+    "http": "200",
+    "width": 600,
+    "height": 900,
+    "asset": "/art/chaplin-14.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/A_Night_in_the_Show_%28poster%29.jpg/220px-A_Night_in_the_Show_%28poster%29.jpg",
+    "derivedUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c2/A_Night_in_the_Show_%28poster%29.jpg",
+    "publicationReview": {
+      "reviewedAt": "2026-10-17",
+      "inProduction": true,
+      "decision": "restored-authentic",
+      "current": {
+        "asset": "/art/chaplin-14.jpg",
+        "sha256": "f77a35c49757c060ac546650a823594bd45f81ff0089b8bb10303b310f771c06",
+        "bytes": 122605,
+        "width": 960,
+        "height": 720,
+        "kind": "film-still",
+        "creator": "Essanay Studios; photographer unknown",
+        "artworkDate": "Commons gives 28 December 1915 for this image. This exact still publication date has not been independently established; label it source-stated. The film's general 1915 date alone is not the reuse basis.",
+        "rights": "Source-stated public domain in the United States (PD-US); exact image record.",
+        "licenseTag": "PD-US",
+        "territorialScope": "U.S. source statement; worldwide clearance is not asserted.",
+        "evidence": "The linked Commons media record identifies A Night in the Show and explicitly supplies PD-US. The selected JPEG is the exact still offered on that file record.",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Charles_Chaplin_and_Dee_Lampton_in_A_Night_in_the_Show_(1915).jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Charles_Chaplin_and_Dee_Lampton_in_A_Night_in_the_Show_%281915%29.jpg",
+        "provenanceNote": "Commons identifies IMDb as the hosting source. The historical photographer is not established; its source-stated date is retained without inferring a photographer.",
+        "modifications": "Exact source JPEG downloaded unchanged. Existing cover cropping is preserved in the interface. No locally generated imagery, text, colorization, retouching, or composites."
+      },
+      "posterSearch": {
+        "outcome": "No suitable initial-release theatrical-poster reproduction with substantiated exact-image reuse rights was located in this bounded review.",
+        "reason": "Commons A_Night_in_the_Show_(poster).jpg shows Perfection Pictures / George Kleine distribution, which postdates the film's 1915 premiere. Its stated 1915 artwork date is unreliable. Bounded research did not substantiate first-release status or actual exact-poster publication date; use the authentic file-specific-cleared still.",
+        "rejectedSources": [
+          "https://commons.wikimedia.org/wiki/File:A_Night_in_the_Show_(poster).jpg"
+        ]
+      },
+      "previousAsset": {
+        "sha256": "246547cf3727bce9613f0ce1a540b9c6c7491fd10bbcb2fda279b4d99d352500",
+        "kind": "retired-contemporary-illustration",
+        "reasonReplaced": "User requested authentic historical film imagery. Previous illustration preserved in an ignored local archive and excluded from production."
+      }
+    }
+  },
+  {
+    "id": 15,
+    "ok": true,
+    "http": "200",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/CC_The_Immigrant_1917.JPG/220px-CC_The_Immigrant_1917.JPG",
+    "width": 600,
+    "height": 928,
+    "asset": "/art/chaplin-15.jpg",
+    "bytes": 87256,
+    "previousAttempt": {
+      "http": "429",
+      "reason": "curl exit 22: curl: (22) The requested URL returned error: 429 429",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/CC_The_Immigrant_1917.JPG",
+      "derivedUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/CC_The_Immigrant_1917.JPG"
+    },
+    "recovery": {
+      "verifiedAt": "2026-10-11",
+      "kind": "theatrical-poster",
+      "title": "The Immigrant",
+      "filmYear": 1917,
+      "description": "The Immigrant (1917): Select Pictures release poster. Wikimedia Commons.",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:CC_The_Immigrant_1917.JPG",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/CC_The_Immigrant_1917.JPG",
+      "matchEvidence": "Description explicitly identifies promotional poster for Charlie Chaplin's The Immigrant (1917), excluding the later films of this name.",
+      "licenseStatement": "Public domain in the United States (Commons PD-US-expired)",
+      "licenseEvidence": "Commons description explicitly supplies PD-US-expired licensing, date 1917, author Mutual Film.",
+      "visualMatchVerified": true
+    }
+  },
+  {
+    "id": 16,
+    "ok": true,
+    "http": "200",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/A_Woman_%281915%29_poster.jpg/220px-A_Woman_%281915%29_poster.jpg",
+    "width": 300,
+    "height": 398,
+    "asset": "/art/chaplin-16.jpg",
+    "bytes": 32443,
+    "previousAttempt": {
+      "http": "429",
+      "reason": "curl exit 22: curl: (22) The requested URL returned error: 429 429",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/A_Woman_%281915%29_poster.jpg",
+      "derivedUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/A_Woman_%281915%29_poster.jpg"
+    },
+    "recovery": {
+      "verifiedAt": "2026-10-11",
+      "kind": "theatrical-poster",
+      "title": "A Woman",
+      "filmYear": 1915,
+      "description": "A Woman (1915): French release poster titled Mademoiselle Charlot. Wikimedia Commons.",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:A_Woman_(1915)_poster.jpg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/A_Woman_%281915%29_poster.jpg",
+      "matchEvidence": "Commons names A Woman (1915); Wikipedia's specific 1915 film page calls it the French theatrical poster. This is Chaplin's A Woman, not The Woman (1915) or A Woman of Paris (1923).",
+      "licenseStatement": "Public domain in the United States (Commons PD-US-expired)",
+      "licenseEvidence": "Retrieved public Commons HTML explicitly identifies ©1915 Essanay Studios, date 1915, and PD-US-expired licensing. Browser's web parser returned internal errors but direct public HTML works.",
+      "visualMatchVerified": true
+    }
+  },
+  {
+    "id": 17,
+    "ok": true,
+    "http": "200",
+    "width": 580,
+    "height": 1139,
+    "asset": "/art/chaplin-17.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Those_Love_Pangs_%28poster%29.jpg/220px-Those_Love_Pangs_%28poster%29.jpg",
+    "derivedUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Those_Love_Pangs_%28poster%29.jpg",
+    "publicationReview": {
+      "reviewedAt": "2026-10-17",
+      "inProduction": true,
+      "decision": "retained-supported",
+      "current": {
+        "asset": "/art/chaplin-17.jpg",
+        "sha256": "85fa57b12fab7cf0b5a1c02c6404d12a85f1ad946881470d30a4989f3c82912a",
+        "bytes": 200560,
+        "width": 580,
+        "height": 1139,
+        "kind": "theatrical-poster",
+        "creator": "Keystone / Mutual",
+        "artworkDate": "1914: exact Commons file dates poster 1914 and attributes copyright to Keystone Studios; Propstore's 2025 specialist catalog independently identifies this exact cane/Conklin three-sheet as Mutual 1914.",
+        "rights": "Source-stated public domain in the United States (PD-US-expired).",
+        "territorialScope": "U.S. source statement; worldwide clearance is not asserted.",
+        "evidence": "Exact Keystone/Mutual poster reproduction is marked PD-US-expired. The 1914 design is also identified in a specialist auction catalog.",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Those_Love_Pangs_(poster).jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Those_Love_Pangs_%28poster%29.jpg",
+        "modifications": "Existing cached image retained unchanged."
+      },
+      "additionalEvidence": [
+        {
+          "url": "https://content.propstore.com/auction/PostersUSSpring2025/Posters_SPRING25_Catalog_WEB_LO.pdf"
+        }
+      ]
+    }
+  },
+  {
+    "id": 18,
+    "ok": true,
+    "http": "200",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/The_Rounders_poster.jpg/220px-The_Rounders_poster.jpg",
+    "width": 720,
+    "height": 1073,
+    "asset": "/art/chaplin-18.jpg",
+    "bytes": 138144,
+    "previousAttempt": {
+      "http": "429",
+      "reason": "curl exit 22: curl: (22) The requested URL returned error: 429 429",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/The_Rounders_poster.jpg",
+      "derivedUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/The_Rounders_poster.jpg"
+    },
+    "recovery": {
+      "verifiedAt": "2026-10-11",
+      "kind": "theatrical-poster",
+      "title": "The Rounders",
+      "filmYear": 1914,
+      "description": "The Rounders (1914): Keystone/Mutual release poster. Wikimedia Commons.",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Rounders_poster.jpg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/The_Rounders_poster.jpg",
+      "matchEvidence": "Commons description and category explicitly identify The Rounders (1914 film), excluding later same-name films.",
+      "licenseStatement": "Public domain in the United States (Commons PD-US-expired)",
+      "licenseEvidence": "Commons date 1914, author Keystone Studios, PD-US-expired licensing.",
+      "visualMatchVerified": true
+    }
+  },
+  {
+    "id": 19,
+    "ok": true,
+    "http": "200",
+    "originalUrl": "https://m.media-amazon.com/images/M/MV5BMDZjOWQ4NWMtOTA1Yy00ZjliLTk2ZWQtYmI3ZDg2OTA5MTVkXkEyXkFqcGdeQXVyMDgyNjA5MA@@._V1_.jpg",
+    "width": 720,
+    "height": 1089,
+    "asset": "/art/chaplin-19.jpg",
+    "bytes": 205934,
+    "previousAttempt": {
+      "http": "000",
+      "reason": "curl exit 35: curl: (35) Send failure: Connection was reset 000",
+      "url": "https://m.media-amazon.com/images/M/MV5BMDZjOWQ4NWMtOTA1Yy00ZjliLTk2ZWQtYmI3ZDg2OTA5MTVkXkEyXkFqcGdeQXVyMDgyNjA5MA@@._V1_.jpg"
+    },
+    "recovery": {
+      "verifiedAt": "2026-10-11",
+      "kind": "theatrical-reissue-poster",
+      "title": "His Trysting Place",
+      "filmYear": 1914,
+      "description": "His Trysting Place (1914): early 1920s W.H. Productions reissue poster titled The Henpecked Spouse. Propstore.",
+      "sourcePage": "https://propstore.com/product/his-trysting-place-1914/177-his-trysting-place-early-1920s-reissue-one-sheet-27-x-41-stone-litho-very-fine-on-linen/",
+      "sourceUrl": "https://images.propstore.com/7270286a8706cf0627da96b6319b1427.jpg",
+      "matchEvidence": "Visually inspected poster shows Chaplin and Mack Swain at a restaurant; bottom explicitly prints FORMER TITLE HIS TRYSTING PLACE. Auction identifies film as 1914, Keystone production with Mabel Normand and Mack Swain.",
+      "licenseStatement": "Historical artwork public-domain status inferred from early 1920s US publication; auction site does not state an open license for the scan",
+      "licenseEvidence": "Primary auction description identifies WH Productions early 1920s reissue, a 27×41 inch stone lithograph. Underlying pre-1931 United States published artwork has expired copyright; this inference is distinct from an explicit Commons license.",
+      "visualMatchVerified": true
+    },
+    "publicationReview": {
+      "reviewedAt": "2026-10-17",
+      "inProduction": true,
+      "decision": "restored-authentic",
+      "current": {
+        "asset": "/art/chaplin-19.jpg",
+        "sha256": "9055fd47a2c41d07f8ac8183ddc70c51cf51127f52b04fa0af4431b1aede4901",
+        "bytes": 36931,
+        "width": 960,
+        "height": 720,
+        "kind": "film-frame",
+        "creator": "Keystone Studios",
+        "artworkDate": "1914",
+        "rights": "Source-stated public domain in the United States (PD-US-expired); exact parent film-edition record.",
+        "licenseTag": "PD-US-expired",
+        "territorialScope": "U.S. source statement; worldwide clearance is not asserted.",
+        "evidence": "The linked Commons media record identifies His Trysting Place and explicitly supplies PD-US-expired. This image is a Wikimedia-generated preview frame from that exact listed edition; no audio is included.",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:His_Trysting_Place_1914_CHARLIE_CHAPLIN_MABEL_NORMAND_Mack_Sennett.webm",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/His_Trysting_Place_1914_CHARLIE_CHAPLIN_MABEL_NORMAND_Mack_Sennett.webm/960px-seek%3D480-His_Trysting_Place_1914_CHARLIE_CHAPLIN_MABEL_NORMAND_Mack_Sennett.webm.jpg",
+        "sourceVideoUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/His_Trysting_Place_1914_CHARLIE_CHAPLIN_MABEL_NORMAND_Mack_Sennett.webm",
+        "timestampSeconds": 480,
+        "sourceNativeDimensions": [
+          960,
+          720
+        ],
+        "provenanceNote": "Commons supplies file-specific reuse status and exact film identity, but uploader source is YouTube; no independent institutional film-print chain of custody established.",
+        "modifications": "Exact source JPEG downloaded unchanged. Existing cover cropping is preserved in the interface. No locally generated imagery, text, colorization, retouching, or composites."
+      },
+      "posterSearch": {
+        "outcome": "No suitable initial-release theatrical-poster reproduction with substantiated exact-image reuse rights was located in this bounded review.",
+        "reason": "No suitable openly reusable initial-release theatrical poster located in bounded research; select authentic exact-film archival frame.",
+        "rejectedSources": [
+          {
+            "kind": "theatrical-reissue-poster",
+            "sourcePage": "https://propstore.com/product/his-trysting-place-1914/177-his-trysting-place-early-1920s-reissue-one-sheet-27-x-41-stone-litho-very-fine-on-linen/",
+            "reason": "The Henpecked Spouse, early-1920s W.H. Productions reissue, not the initial 1914 release; no reuse grant for exact auction scan verified."
+          }
+        ]
+      },
+      "previousAsset": {
+        "sha256": "ab1ddd8b21f189e284e67a1a664440a99d7ce25f07522c9f7b89436af0d054ad",
+        "kind": "retired-contemporary-illustration",
+        "reasonReplaced": "User requested authentic historical film imagery. Previous illustration preserved in an ignored local archive and excluded from production."
+      }
+    }
+  },
+  {
+    "id": 20,
+    "ok": true,
+    "http": "200",
+    "width": 230,
+    "height": 345,
+    "asset": "/art/chaplin-20.jpg",
+    "originalUrl": "https://a.ltrbxd.com/resized/film-poster/1/2/5/5/9/12559-gentlemen-of-nerve-0-230-0-345-crop.jpg?v=57996cf2ca",
+    "publicationReview": {
+      "reviewedAt": "2026-10-17",
+      "inProduction": true,
+      "decision": "restored-authentic",
+      "current": {
+        "asset": "/art/chaplin-20.jpg",
+        "sha256": "fea35c9d1a903ad3d5929975ae9bb8662871e776fd545c511c1e5a3815c41f47",
+        "bytes": 47522,
+        "width": 960,
+        "height": 720,
+        "kind": "film-frame",
+        "creator": "Keystone Studios",
+        "artworkDate": "1914",
+        "rights": "Source-stated public domain in the United States (PD-US-expired); exact parent film-edition record.",
+        "licenseTag": "PD-US-expired",
+        "territorialScope": "U.S. source statement; worldwide clearance is not asserted.",
+        "evidence": "The linked Commons media record identifies Gentlemen of Nerve and explicitly supplies PD-US-expired. This image is a Wikimedia-generated preview frame from that exact listed edition; no audio is included.",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Gentlemen_of_Nerve_1914_CHARLIE_CHAPLIN_MABEL_NORMAND_Mack_Sennett.webm",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Gentlemen_of_Nerve_1914_CHARLIE_CHAPLIN_MABEL_NORMAND_Mack_Sennett.webm/960px-seek%3D600-Gentlemen_of_Nerve_1914_CHARLIE_CHAPLIN_MABEL_NORMAND_Mack_Sennett.webm.jpg",
+        "sourceVideoUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Gentlemen_of_Nerve_1914_CHARLIE_CHAPLIN_MABEL_NORMAND_Mack_Sennett.webm",
+        "timestampSeconds": 600,
+        "sourceNativeDimensions": [
+          960,
+          720
+        ],
+        "provenanceNote": "Commons supplies file-specific reuse status and exact film identity, but uploader source is YouTube; no independent institutional film-print chain of custody established.",
+        "modifications": "Exact source JPEG downloaded unchanged. Existing cover cropping is preserved in the interface. No locally generated imagery, text, colorization, retouching, or composites."
+      },
+      "posterSearch": {
+        "outcome": "No suitable initial-release theatrical-poster reproduction with substantiated exact-image reuse rights was located in this bounded review.",
+        "reason": "No suitable openly reusable initial-release theatrical poster located in bounded research; select authentic exact-film archival frame.",
+        "rejectedSources": [
+          {
+            "kind": "modern-composite",
+            "sourcePage": "https://a.ltrbxd.com/resized/film-poster/1/2/5/5/9/12559-gentlemen-of-nerve-0-230-0-345-crop.jpg?v=57996cf2ca",
+            "reason": "Modern portrait/title composition with no verified reuse terms."
+          },
+          {
+            "kind": "theatrical-reissue-poster",
+            "sourcePage": "https://posteritati.com/unfolding/mubi-picks-of-the-week-april-16-2023",
+            "reason": "Posteritati dates its French insert to the 1950s re-release; not initial-release artwork and no open reuse grant established."
+          },
+          {
+            "kind": "film-still",
+            "sourcePage": "https://commons.wikimedia.org/wiki/File:Gentlemen_of_nerve.jpg",
+            "reason": "Genuine Commons still with PD-US-expired assertion, but only 250x119; timestamped frame is 960x720."
+          }
+        ]
+      },
+      "previousAsset": {
+        "sha256": "acca08ee01573df91cb02ec1b3349bd7355ac4c21f7b2acc86fed8b27ef053b0",
+        "kind": "retired-contemporary-illustration",
+        "reasonReplaced": "User requested authentic historical film imagery. Previous illustration preserved in an ignored local archive and excluded from production."
+      }
+    }
+  },
+  {
+    "id": 21,
+    "ok": true,
+    "http": "200",
+    "width": 230,
+    "height": 345,
+    "asset": "/art/chaplin-21.jpg",
+    "originalUrl": "https://a.ltrbxd.com/resized/film-poster/1/2/5/7/7/12577-twenty-minutes-of-love-0-230-0-345-crop.jpg?v=29fae2dde5",
+    "publicationReview": {
+      "reviewedAt": "2026-10-17",
+      "inProduction": true,
+      "decision": "replaced-archival",
+      "current": {
+        "asset": "/art/chaplin-21.jpg",
+        "sha256": "4b0f9ee5c134456b166abbc3ea2d8c9930fe2217a421baafd55cae543d96927f",
+        "bytes": 86145,
+        "width": 600,
+        "height": 452,
+        "kind": "film-still",
+        "creator": "Keystone film; still supplied by Century Film Project",
+        "artworkDate": "20 April 1914",
+        "rights": "Source-stated public domain in the United States (PD-US-expired).",
+        "territorialScope": "U.S. source statement; worldwide clearance is not asserted.",
+        "evidence": "Exact Commons file explicitly tagged PD-US-expired for pre-1931 publication/registration. This is a screenshot from the named 1914 film, not a licensed modern poster design.",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Twenty-minutes-of-love1.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Twenty-minutes-of-love1.jpg",
+        "modifications": "Exact source JPEG downloaded unchanged."
+      },
+      "previousAsset": {
+        "sha256": "efe7476c7cbdfb0e7040b7e5db2d75af85253018c41555fa28f4e7b8a6fbeada",
+        "reasonReplaced": "The old Western Import title-band reproduction lacked exact-file reuse evidence. A named-film Commons still replaces it.",
+        "reuseStatus": "Not relied on for publication; previous source metadata below is historical."
+      }
+    }
+  },
+  {
+    "id": 22,
+    "ok": true,
+    "http": "200",
+    "originalUrl": "https://m.media-amazon.com/images/M/MV5BMDRlZWIzOTQtYTA5ZS00YzdmLWE5MDctYzU1YWNmZGJlMWFlXkEyXkFqcGdeQXVyMDY4MzkyNw@@._V1_QL75_UY281_CR5,0,190,281_.jpg",
+    "width": 450,
+    "height": 600,
+    "asset": "/art/chaplin-22.jpg",
+    "bytes": 48275,
+    "previousAttempt": {
+      "http": "404",
+      "reason": "curl exit 22: curl: (22) The requested URL returned error: 404 404",
+      "url": "https://m.media-amazon.com/images/M/MV5BMDRlZWIzOTQtYTA5ZS00YzdmLWE5MDctYzU1YWNmZGJlMWFlXkEyXkFqcGdeQXVyMDY4MzkyNw@@._V1_QL75_UY281_CR5,0,190,281_.jpg"
+    },
+    "recovery": {
+      "verifiedAt": "2026-10-11",
+      "kind": "film-still",
+      "title": "Mabel's Busy Day",
+      "filmYear": 1914,
+      "description": "Mabel's Busy Day (1914): film-specific still from the official Charlie Chaplin filmography. A release poster could not be verified.",
+      "sourcePage": "https://www.charliechaplin.com/en/films/63-mabel-s-busy-day",
+      "sourceUrl": "https://www.charliechaplin.com/images/film/poster/0000/0063/big_mabel_s_busy_day.jpg",
+      "matchEvidence": "Exact same still is used on official Charlie Chaplin Mabel's Busy Day (1914) film page, with vertical crop. Visually inspected both: Chaplin at racetrack beside automobile, matching official film description and cast.",
+      "licenseStatement": "Public domain in the United States (Commons PD-US-expired)",
+      "licenseEvidence": "Commons dates photograph 1914, describes Charlie Chaplin starring in Mabel's Busy Day, credits Mabel Normand and identifies British Film Institute screenshot as source; explicitly applies PD-US-expired.",
+      "additionalSourcePages": [
+        "https://commons.wikimedia.org/wiki/File:Chaplin_Mabels_Busy_Day.jpg"
+      ],
+      "visualMatchVerified": true
+    }
+  },
+  {
+    "id": 23,
+    "ok": true,
+    "http": "200",
+    "originalUrl": "https://m.media-amazon.com/images/M/MV5BZTRkNDg3NGItYjQ1Ni00MThmLTg1MjUtMWY4NDZlNTU3OTA5XkEyXkFqcGdeQXVyMDgyNjA5MA@@._V1_.jpg",
+    "width": 720,
+    "height": 1065,
+    "asset": "/art/chaplin-23.jpg",
+    "bytes": 240597,
+    "previousAttempt": {
+      "http": "404",
+      "reason": "curl exit 22: curl: (22) The requested URL returned error: 404 404",
+      "url": "https://m.media-amazon.com/images/M/MV5BZTRkNDg3NGItYjQ1Ni00MThmLTg1MjUtMWY4NDZlNTU3OTA5XkEyXkFqcGdeQXVyMDgyNjA5MA@@._V1_.jpg"
+    },
+    "recovery": {
+      "verifiedAt": "2026-10-11",
+      "kind": "theatrical-reissue-poster",
+      "title": "Mabel's Married Life",
+      "filmYear": 1914,
+      "description": "Mabel's Married Life (1914): 1920s Maco Comedies reissue poster titled When You're Married. Artvee; matched to the documented Heritage auction and Silent Era reissue record.",
+      "sourcePage": "https://artvee.com/dl/mabels-married-life/",
+      "sourceUrl": "https://mdl.artvee.com/sftb/18675po.jpg",
+      "matchEvidence": [
+        {
+          "url": "https://artvee.com/dl/mabels-married-life/",
+          "description": "Artvee native search and direct source HTML identify Mabel's Married Life (1920s), Anonymous. Embeds flat scan https://mdl.artvee.com/sftb/18675po.jpg. Standard download 1218x1800 JPG,2.16MB, supplied via public signed download. Page states all public-domain files may be used for personal and commercial projects. The complete flat scan was visually inspected; its printed former-title line confirms the film match."
+        },
+        {
+          "url": "https://movieposters.ha.com/c/search/results.zx?term=Married+Life&archive_state=5327&dept=3039&sold_status=1526&mode=archive&ic4=ArchiveTab-071515",
+          "description": "Heritage auction 7276 lot 86302 describes Mabel's Married Life (Maco Comedies, R-1920s), one-sheet 28 x 41.25 inches, reissue title When You're Married. Direct item page blocked by CAPTCHA; did not bypass."
+        },
+        {
+          "url": "https://st.silentera.com/PSFL/data/M/MabelsMarriedLife1914.html",
+          "description": "Silent Era identifies Mabel's Married Life (1914), release June 20 1914, and confirms later US Maco Comedies reissue as When You're Married."
+        },
+        {
+          "url": "https://www.artemlegrand.com/products/affiche-vintage-charlie-chaplin-when-youre-married-decoration-murale-cinema.js",
+          "description": "Public product JSON identifies When You're Married as formerly Mabel's Married Life and describes green/yellow historic-looking bench scene. It supplies these exact three image URLs. Needs visual comparison to documented auction poster."
+        }
+      ],
+      "licenseStatement": "Artvee source states all public-domain files may be freely used for personal and commercial projects. Historical1920s dating additionally supported by Heritage documented Maco Comedies reissue auction record.",
+      "notes": "The complete flat Artvee scan was visually inspected. It explicitly prints FORMER TITLE MABEL'S MARRIED LIFE, matching the Maco reissue record. Seller room/frame mockups were excluded.",
+      "visualMatchVerified": true
+    }
+  },
+  {
+    "id": 24,
+    "ok": true,
+    "http": "200",
+    "originalUrl": "https://m.media-amazon.com/images/M/MV5BNGFjMjAwYWEtNGFlOS00MzM5LWI0MDUtYWY5NWNkNGYxYjk1XkEyXkFqcGdeQXVyMDgyNjA5MA@@._V1_.jpg",
+    "width": 450,
+    "height": 600,
+    "asset": "/art/chaplin-24.jpg",
+    "bytes": 59949,
+    "previousAttempt": {
+      "http": "000",
+      "reason": "curl exit 35: curl: (35) Recv failure: Connection was reset 000",
+      "url": "https://m.media-amazon.com/images/M/MV5BNGFjMjAwYWEtNGFlOS00MzM5LWI0MDUtYWY5NWNkNGYxYjk1XkEyXkFqcGdeQXVyMDgyNjA5MA@@._V1_.jpg"
+    },
+    "recovery": {
+      "verifiedAt": "2026-10-11",
+      "kind": "film-still",
+      "title": "A Busy Day",
+      "filmYear": 1914,
+      "description": "A Busy Day (1914): film-specific still from the official Charlie Chaplin filmography. A release poster could not be verified.",
+      "sourcePage": "https://www.charliechaplin.com/en/films/59-A-Busy-Day",
+      "sourceUrl": "https://www.charliechaplin.com/images/film/poster/0000/0059/big_madame_charlot.jpg",
+      "matchEvidence": [
+        {
+          "url": "https://www.charliechaplin.com/en/films/59-A-Busy-Day",
+          "description": "Official Chaplin film page identifies A Busy Day, year 1914, Keystone, release May 7 1914, and embeds this exact still image."
+        }
+      ],
+      "licenseStatement": "No explicit reuse license found for official source.",
+      "notes": "Commons category contains film and 220x105 still. Alternate titles checked: Madame Charlot, Lady Charlie, A Militant Suffragette. No verified historical theatrical poster located.",
+      "visualMatchVerified": true
+    },
+    "publicationReview": {
+      "reviewedAt": "2026-10-17",
+      "inProduction": true,
+      "decision": "restored-authentic",
+      "current": {
+        "asset": "/art/chaplin-24.jpg",
+        "sha256": "9bc86848e27bde2390b26f5757ec4fec2e30f4fe5213d7025d63d329a42fe254",
+        "bytes": 54182,
+        "width": 960,
+        "height": 720,
+        "kind": "film-frame",
+        "creator": "Keystone Studios",
+        "artworkDate": "1914",
+        "rights": "Source-stated public domain in the United States (PD-US-expired); exact parent film-edition record.",
+        "licenseTag": "PD-US-expired",
+        "territorialScope": "U.S. source statement; worldwide clearance is not asserted.",
+        "evidence": "The linked Commons media record identifies A Busy Day and explicitly supplies PD-US-expired. This image is a Wikimedia-generated preview frame from that exact listed edition; no audio is included.",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:A_Busy_Day_(1914).webm",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/A_Busy_Day_%281914%29.webm/960px-seek%3D40-A_Busy_Day_%281914%29.webm.jpg",
+        "sourceVideoUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/A_Busy_Day_%281914%29.webm",
+        "timestampSeconds": 40,
+        "sourceNativeDimensions": [
+          960,
+          720
+        ],
+        "provenanceNote": "Commons supplies file-specific reuse status and exact film identity, but uploader source is YouTube; no independent institutional film-print chain of custody established.",
+        "modifications": "Exact source JPEG downloaded unchanged. Existing cover cropping is preserved in the interface. No locally generated imagery, text, colorization, retouching, or composites."
+      },
+      "posterSearch": {
+        "outcome": "No suitable initial-release theatrical-poster reproduction with substantiated exact-image reuse rights was located in this bounded review.",
+        "reason": "No suitable openly reusable initial-release theatrical poster located in bounded research; select authentic exact-film archival frame.",
+        "rejectedSources": [
+          {
+            "kind": "official-site-still",
+            "sourcePage": "https://www.charliechaplin.com/en/films/59-A-Busy-Day",
+            "reason": "Official site terms require written reproduction authorization; absence of the post-1918 footer restriction is not a reuse grant."
+          },
+          {
+            "kind": "film-still",
+            "sourcePage": "https://commons.wikimedia.org/wiki/File:A_Busy_Day.jpg",
+            "reason": "Genuine Commons still with PD-US-expired assertion, but only 220x105; timestamped frame is 960x720."
+          }
+        ]
+      },
+      "previousAsset": {
+        "sha256": "4aedc420784bda064e65c148d8e2b71316cd8d09a231e1d150b147a357e21b63",
+        "kind": "retired-contemporary-illustration",
+        "reasonReplaced": "User requested authentic historical film imagery. Previous illustration preserved in an ignored local archive and excluded from production."
+      }
+    }
+  },
+  {
+    "id": 25,
+    "ok": true,
+    "http": "200",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/The_Knockout_%28poster%29.jpg/220px-The_Knockout_%28poster%29.jpg",
+    "width": 600,
+    "height": 858,
+    "asset": "/art/chaplin-25.jpg",
+    "bytes": 106862,
+    "previousAttempt": {
+      "http": "429",
+      "reason": "curl exit 22: curl: (22) The requested URL returned error: 429 429",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/The_Knockout_%28poster%29.jpg",
+      "derivedUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/The_Knockout_%28poster%29.jpg"
+    },
+    "recovery": {
+      "verifiedAt": "2026-10-11",
+      "kind": "theatrical-reissue-poster",
+      "title": "The Knockout",
+      "filmYear": 1914,
+      "description": "The Knockout (1914): Maco Comedies reissue poster titled Counted Out, explicitly adapted from The Knockout. Wikimedia Commons.",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Knockout_(poster).jpg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/The_Knockout_%28poster%29.jpg",
+      "matchEvidence": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:The_Knockout_(poster).jpg",
+          "description": "Filename, category The Knockout, 1914 film poster category, structured inception1914, author Keystone Studios, depicts Roscoe Arbuckle, and usage in The Knockout film articles support correct poster."
+        }
+      ],
+      "licenseStatement": "Commons file page marks PD-US expired/public domain in USA.",
+      "notes": "The image was visually inspected: COUNTED OUT and Adapted from the KNOCKOUT are printed on the poster. The Commons English summary incorrectly mentions Tango Tangles; the printed title, filename, categories and film-page usage confirm the correct film.",
+      "visualMatchVerified": true
+    }
+  },
+  {
+    "id": 26,
+    "ok": true,
+    "http": "200",
+    "width": 321,
+    "height": 425,
+    "asset": "/art/chaplin-26.jpg",
+    "originalUrl": "https://publicdomainmovie.net/wikimedia.php?id=Caught_in_a_Cabaret_%2528poster%2529.jpg",
+    "publicationReview": {
+      "reviewedAt": "2026-10-17",
+      "inProduction": true,
+      "decision": "restored-authentic",
+      "current": {
+        "asset": "/art/chaplin-26.jpg",
+        "sha256": "dfa43da30483f31b42b72fc142f2f0ba2aaf2947249a0ec94f90a5ffb07125ae",
+        "bytes": 33994,
+        "width": 960,
+        "height": 720,
+        "kind": "film-frame",
+        "creator": "Keystone Studios",
+        "artworkDate": "1914",
+        "rights": "Source-stated public domain in the United States (PD-US-expired); exact parent film-edition record.",
+        "licenseTag": "PD-US-expired",
+        "territorialScope": "U.S. source statement; worldwide clearance is not asserted.",
+        "evidence": "The linked Commons media record identifies Caught in a Cabaret and explicitly supplies PD-US-expired. This image is a Wikimedia-generated preview frame from that exact listed edition; no audio is included.",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Caught_in_a_Cabaret_(1914).webm",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Caught_in_a_Cabaret_%281914%29.webm/960px-seek%3D480-Caught_in_a_Cabaret_%281914%29.webm.jpg",
+        "sourceVideoUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Caught_in_a_Cabaret_%281914%29.webm",
+        "timestampSeconds": 480,
+        "sourceNativeDimensions": [
+          960,
+          720
+        ],
+        "provenanceNote": "Commons supplies file-specific reuse status and exact film identity, but uploader source is YouTube; no independent institutional film-print chain of custody established.",
+        "modifications": "Exact source JPEG downloaded unchanged. Existing cover cropping is preserved in the interface. No locally generated imagery, text, colorization, retouching, or composites."
+      },
+      "posterSearch": {
+        "outcome": "No suitable initial-release theatrical-poster reproduction with substantiated exact-image reuse rights was located in this bounded review.",
+        "reason": "No suitable openly reusable initial-release theatrical poster located in bounded research; select authentic exact-film archival frame.",
+        "rejectedSources": [
+          {
+            "kind": "theatrical-reissue-poster",
+            "sourcePage": "https://commons.wikimedia.org/wiki/File:Caught_in_a_Cabaret_(poster).jpg",
+            "reason": "French Pathe REEDITION design; actual reissue publication date not established, Commons film-derived 1914 date is unreliable for the poster."
+          },
+          {
+            "kind": "theatrical-reissue-poster",
+            "sourcePage": "https://commons.wikimedia.org/wiki/File:Caught_in_a_Cabaret_poster.jpg",
+            "downloadedFile": ".tmp/authentic-chaplin/b/caught-in-a-cabaret-poster.jpg",
+            "reason": "1066x1600 Exhibitors Pictures sheet bears SYNCHRONIZED WITH SOUND EFFECTS AND MUSIC. Commons exact-file PD-US-expired assertion exists and Heritage describes an Exhibitors Pictures stock sheet as R-1920s, but it is a sound reissue, not initial-release artwork. Chosen fallback is exact-film frame."
+          },
+          {
+            "kind": "film-edition",
+            "sourcePage": "https://commons.wikimedia.org/wiki/File:Caught_in_a_Cabaret_(1914)_by_Mabel_Normand.webm",
+            "reason": "Higher resolution 1426x1080 Commons edition explicitly says source yts.mx. Older 960x720 Commons edition selected to avoid depending on that provenance."
+          }
+        ]
+      },
+      "previousAsset": {
+        "sha256": "cb5fc116e07a0b27c000c296ce1beb983322e40febe262b61d58ad6b7261ad0c",
+        "kind": "retired-contemporary-illustration",
+        "reasonReplaced": "User requested authentic historical film imagery. Previous illustration preserved in an ignored local archive and excluded from production."
+      }
+    }
+  },
+  {
+    "id": 27,
+    "ok": true,
+    "http": "200",
+    "width": 330,
+    "height": 634,
+    "asset": "/art/chaplin-27.jpg",
+    "originalUrl": "https://publicdomainmovie.net/wikimedia.php?id=His_New_Profession.jpg",
+    "publicationReview": {
+      "reviewedAt": "2026-10-17",
+      "inProduction": true,
+      "decision": "retained-supported",
+      "current": {
+        "asset": "/art/chaplin-27.jpg",
+        "sha256": "ade19d677b49cadbdd65b19d3b4242704d9bae995e7f782b423a362d7c54b6bd",
+        "bytes": 100780,
+        "width": 330,
+        "height": 634,
+        "kind": "theatrical-poster",
+        "creator": "Keystone",
+        "artworkDate": "Commons dates exact poster 1914 and attributes Keystone. Desmet collection scholarship reproduced the same wheelchair design as figure 53, His New Profession (Keystone 1914).",
+        "rights": "Source-stated public domain in the United States (PD-US-expired).",
+        "territorialScope": "U.S. source statement; worldwide clearance is not asserted.",
+        "evidence": "Exact Commons poster is marked PD-US-expired. Desmet collection scholarship reproduces the same wheelchair design as His New Profession (Keystone, 1914).",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:His_New_Profession.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/His_New_Profession.jpg",
+        "modifications": "Existing cached image retained unchanged."
+      },
+      "additionalEvidence": [
+        {
+          "url": "https://tile.loc.gov/storage-services/master/gdc/gdcebookspublic/20/20/71/99/01/2020719901/2020719901.pdf"
+        }
+      ]
+    }
+  },
+  {
+    "id": 28,
+    "ok": true,
+    "http": "200",
+    "originalUrl": "https://m.media-amazon.com/images/M/MV5BMjU2ODQ1MzEtNDY5MS00M2Q0LWExZTItNmRlMDkzOWFhMWViXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_FMjpg_UX1000_.jpg",
+    "width": 450,
+    "height": 600,
+    "asset": "/art/chaplin-28.jpg",
+    "bytes": 78552,
+    "previousAttempt": {
+      "http": "000",
+      "reason": "curl exit 35: curl: (35) Recv failure: Connection was reset 000",
+      "url": "https://m.media-amazon.com/images/M/MV5BMjU2ODQ1MzEtNDY5MS00M2Q0LWExZTItNmRlMDkzOWFhMWViXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_FMjpg_UX1000_.jpg"
+    },
+    "recovery": {
+      "verifiedAt": "2026-10-11",
+      "kind": "film-still",
+      "title": "The Fatal Mallet",
+      "filmYear": 1914,
+      "description": "The Fatal Mallet (1914): film-specific still from the official Charlie Chaplin filmography. A release poster could not be verified.",
+      "sourcePage": "https://www.charliechaplin.com/en/films/60-The-Fatal-Mallet",
+      "sourceUrl": "https://www.charliechaplin.com/images/film/poster/0000/0060/big_fatal_mallet.jpg",
+      "matchEvidence": [
+        {
+          "url": "https://www.charliechaplin.com/en/films/60-The-Fatal-Mallet",
+          "description": "Official Chaplin film page identifies The Fatal Mallet, year1914, Keystone, release June1 1914, and embeds this exact still image."
+        }
+      ],
+      "licenseStatement": "No explicit reuse license found for official source.",
+      "notes": "Alternate titles checked Hit Him Again, The Pile Driver, The Rival Suitors, Le Maillet de Charlot. Archive production photos and commercial still prints found; no verified historical poster located.",
+      "visualMatchVerified": true
+    },
+    "publicationReview": {
+      "reviewedAt": "2026-10-17",
+      "inProduction": true,
+      "decision": "replaced-archival",
+      "current": {
+        "asset": "/art/chaplin-28.jpg",
+        "sha256": "adc34ad813c3d5a23b7ae9f8260ce8cc9ba519c6faa541f17cb5de1869dbca1e",
+        "bytes": 92747,
+        "width": 720,
+        "height": 536,
+        "kind": "film-frame",
+        "creator": "Keystone Studios",
+        "artworkDate": "1914",
+        "rights": "Source-stated public domain in the United States (PD-US-expired).",
+        "territorialScope": "U.S. source statement; worldwide clearance is not asserted.",
+        "evidence": "Exact Commons frame identifies Normand, Sennett and Chaplin in the named 1914 film and is explicitly tagged PD-US-expired for pre-1931 publication/registration.",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Fatal_Mallet.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/The_Fatal_Mallet.jpg",
+        "modifications": "Exact source JPEG downloaded unchanged."
+      },
+      "previousAsset": {
+        "sha256": "66aff3a0799b69d5294c5264d0bf3e67e0cd82ca84a80b42d3e515238985eaa8",
+        "reasonReplaced": "The official Chaplin site requires prior authorization for reproduction. A different exact Commons frame with explicit file-level rights replaces its image.",
+        "reuseStatus": "Not relied on for publication; previous source metadata below is historical."
+      }
+    }
+  },
+  {
+    "id": 29,
+    "ok": true,
+    "http": "200",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Dough_and_Dynamite_1914_Poster_de_la_pel%C3%ADcula.jpg/220px-Dough_and_Dynamite_1914_Poster_de_la_pel%C3%ADcula.jpg",
+    "width": 500,
+    "height": 925,
+    "asset": "/art/chaplin-29.jpg",
+    "bytes": 133707,
+    "previousAttempt": {
+      "http": "429",
+      "reason": "curl exit 22: curl: (22) The requested URL returned error: 429 429",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Dough_and_Dynamite_1914_Poster_de_la_pel%C3%ADcula.jpg",
+      "derivedUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Dough_and_Dynamite_1914_Poster_de_la_pel%C3%ADcula.jpg"
+    },
+    "recovery": {
+      "verifiedAt": "2026-10-11",
+      "kind": "theatrical-poster",
+      "title": "Dough and Dynamite",
+      "filmYear": 1914,
+      "description": "Dough and Dynamite (1914): Keystone/Mutual release poster. Wikimedia Commons.",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Dough_and_Dynamite_1914_Poster_de_la_pel%C3%ADcula.jpg",
+      "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Dough_and_Dynamite_1914_Poster_de_la_pel%C3%ADcula.jpg/500px-Dough_and_Dynamite_1914_Poster_de_la_pel%C3%ADcula.jpg",
+      "matchEvidence": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Dough_and_Dynamite_1914_Poster_de_la_pel%C3%ADcula.jpg",
+          "description": "Commons description identifies poster for Dough and Dynamite (1914), date1914, authorKeystone; category1914 film posters of USA."
+        }
+      ],
+      "licenseStatement": "Commons file page marks PD-US expired/public domain in USA.",
+      "visualMatchVerified": true
+    }
+  },
+  {
+    "id": 30,
+    "ok": true,
+    "http": "200",
+    "originalUrl": "https://m.media-amazon.com/images/M/MV5BOGJjOTlmNjEtMmFmNy00YTQyLTliYzktYzQwYzgzYmE1MmE0XkEyXkFqcGdeQXVyMDgyNjA5MA@@._V1_.jpg",
+    "width": 450,
+    "height": 600,
+    "asset": "/art/chaplin-30.jpg",
+    "bytes": 37735,
+    "previousAttempt": {
+      "http": "404",
+      "reason": "curl exit 22: curl: (22) The requested URL returned error: 404 404",
+      "url": "https://m.media-amazon.com/images/M/MV5BOGJjOTlmNjEtMmFmNy00YTQyLTliYzktYzQwYzgzYmE1MmE0XkEyXkFqcGdeQXVyMDgyNjA5MA@@._V1_.jpg"
+    },
+    "recovery": {
+      "verifiedAt": "2026-10-11",
+      "kind": "film-still",
+      "title": "The Face on the Barroom Floor",
+      "filmYear": 1914,
+      "description": "The Face on the Barroom Floor (1914): film-specific still from the official Charlie Chaplin filmography. A release poster could not be verified.",
+      "sourcePage": "https://www.charliechaplin.com/en/films/67-The-Face-on-the-Bar-Room-Floor",
+      "sourceUrl": "https://www.charliechaplin.com/images/film/poster/0000/0067/big_the_face_on_the_barroom_floor_keystone_1914.jpg",
+      "matchEvidence": [
+        {
+          "url": "https://www.charliechaplin.com/en/films/67-The-Face-on-the-Bar-Room-Floor",
+          "description": "Official Chaplin film page identifies The Face on the Bar Room Floor, year1914, Keystone, release August10 1914, and embeds exact still."
+        }
+      ],
+      "licenseStatement": "No explicit reuse license found for official source.",
+      "notes": "Historical posters for unrelated 1923 John Ford and1932 Bertram Bracken films must be rejected. No verified historical poster for Chaplin's1914 short found.",
+      "visualMatchVerified": true
+    },
+    "publicationReview": {
+      "reviewedAt": "2026-10-17",
+      "inProduction": true,
+      "decision": "restored-authentic",
+      "current": {
+        "asset": "/art/chaplin-30.jpg",
+        "sha256": "4d16cb09aa0c2799063d177ebecaa53def116dc03685c8a2acf833daecd7d7df",
+        "bytes": 47188,
+        "width": 448,
+        "height": 315,
+        "kind": "film-still",
+        "creator": "Photographer unknown; Museo del Cine source",
+        "artworkDate": "1914 historical scene; current 448 x 315 scan uploaded April 14, 2023",
+        "rights": "Source-stated public domain in the United States (PD-US-expired); exact image record.",
+        "licenseTag": "PD-US-expired",
+        "territorialScope": "U.S. source statement; worldwide clearance is not asserted.",
+        "evidence": "The linked Commons media record identifies The Face on the Barroom Floor and explicitly supplies PD-US-expired. The selected JPEG is the exact still offered on that file record.",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Face_on_the_Bar_Room_Floor.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/Face_on_the_Bar_Room_Floor.jpg",
+        "qualityNote": "The archival still is 448 x 315. It is retained at its downloaded size; no artificial detail or sharpening is added.",
+        "provenanceNote": "Commons names Museo del Cine, but no underlying museum accession record is linked.",
+        "modifications": "Exact source JPEG downloaded unchanged. Existing cover cropping is preserved in the interface. No locally generated imagery, text, colorization, retouching, or composites."
+      },
+      "posterSearch": {
+        "outcome": "No suitable initial-release theatrical-poster reproduction with substantiated exact-image reuse rights was located in this bounded review.",
+        "reason": "Official-site reproduction has no established reuse grant; unrelated 1923/1932 same-title posters excluded. No original-release theatrical poster authenticated.",
+        "rejectedSources": []
+      },
+      "previousAsset": {
+        "sha256": "c6b3c89d7f663be8f6abf0a90470787305938e55a181a73ac7f74302b66d6e8e",
+        "kind": "retired-contemporary-illustration",
+        "reasonReplaced": "User requested authentic historical film imagery. Previous illustration preserved in an ignored local archive and excluded from production."
+      }
+    }
+  },
+  {
+    "id": 31,
+    "ok": true,
+    "http": "200",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Chaplin_Hula_hula.jpg/220px-Chaplin_Hula_hula.jpg",
+    "width": 720,
+    "height": 931,
+    "asset": "/art/chaplin-31.jpg",
+    "bytes": 196782,
+    "previousAttempt": {
+      "http": "429",
+      "reason": "curl exit 22: curl: (22) The requested URL returned error: 429 429",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Chaplin_Hula_hula.jpg",
+      "derivedUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/Chaplin_Hula_hula.jpg"
+    },
+    "recovery": {
+      "verifiedAt": "2026-10-11",
+      "kind": "trade-advertisement",
+      "title": "His Prehistoric Past",
+      "filmYear": 1914,
+      "description": "His Prehistoric Past (1914): June 1918 W.H. Productions trade advertisement showing reissue posters titled The Hula Hula Dance. Wikimedia Commons.",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Chaplin_Hula_hula.jpg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/Chaplin_Hula_hula.jpg",
+      "matchEvidence": "Commons explicitly identifies advertisement for His Prehistoric Past in Motion Picture News, June1918. It is original catalog image, documenting official reissue publicity, but not theatrical one-sheet.",
+      "licenseStatement": "Commons marks PD-US expired/public domain in USA.",
+      "notes": "Checked The Hula-Hula Dance, A Dream, King Charlie, The Caveman and His Prehistoric Past. Only verified historical advertising art is1918 trade advertisement.",
+      "visualMatchVerified": true
+    }
+  },
+  {
+    "id": 32,
+    "ok": true,
+    "http": "200",
+    "width": 591,
+    "height": 480,
+    "asset": "/art/chaplin-32.jpg",
+    "originalUrl": "https://chaplinfilmbyfilm.files.wordpress.com/2014/08/chaplin25themasquerader.jpg?w=640",
+    "publicationReview": {
+      "reviewedAt": "2026-10-17",
+      "inProduction": true,
+      "decision": "restored-authentic",
+      "current": {
+        "asset": "/art/chaplin-32.jpg",
+        "sha256": "2e5ee23a74f7089c5c23183bc65d38dce262b7f21cf4494eefb76509786a663d",
+        "bytes": 32810,
+        "width": 500,
+        "height": 375,
+        "kind": "film-frame",
+        "creator": "Charlie Chaplin / Keystone Studios",
+        "artworkDate": "1914 film; exact video uploaded October 23, 2014",
+        "rights": "Source-stated public domain in the United States (PD-US-expired); exact parent film-edition record.",
+        "licenseTag": "PD-US-expired",
+        "territorialScope": "U.S. source statement; worldwide clearance is not asserted.",
+        "evidence": "The linked Commons media record identifies The Masquerader and explicitly supplies PD-US-expired. This image is a Wikimedia-generated preview frame from that exact listed edition; no audio is included.",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Masquerader_(1914).webm",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/The_Masquerader_%281914%29.webm/500px-seek%3D430-The_Masquerader_%281914%29.webm.jpg",
+        "sourceVideoUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/The_Masquerader_%281914%29.webm",
+        "timestampSeconds": 430,
+        "sourceNativeDimensions": [
+          480,
+          360
+        ],
+        "qualityNote": "The source edition is 480 x 360; Commons renders the selected frame at 500 x 375.",
+        "provenanceNote": "The Commons media record provides the exact-file rights statement; no independent institutional chain of custody is claimed.",
+        "modifications": "Exact source JPEG downloaded unchanged. Existing cover cropping is preserved in the interface. No locally generated imagery, text, colorization, retouching, or composites."
+      },
+      "posterSearch": {
+        "outcome": "No suitable initial-release theatrical-poster reproduction with substantiated exact-image reuse rights was located in this bounded review.",
+        "reason": "Watermarked Chaplin Image Database photograph has no verified reproduction permission. Original theatrical poster not authenticated; 160 x 110 Museo del Cine still is genuine but much smaller than the film frame.",
+        "rejectedSources": []
+      },
+      "previousAsset": {
+        "sha256": "8dfd5bc5b060f157f022542e5bec29de26a4ce0ba60b5913e569c2b98c581c9b",
+        "kind": "retired-contemporary-illustration",
+        "reasonReplaced": "User requested authentic historical film imagery. Previous illustration preserved in an ignored local archive and excluded from production."
+      }
+    }
+  },
+  {
+    "id": 33,
+    "ok": true,
+    "http": "200",
+    "width": 330,
+    "height": 450,
+    "asset": "/art/chaplin-33.jpg",
+    "originalUrl": "https://publicdomainmovie.net/wikimedia.php?id=Police_1916.jpg",
+    "publicationReview": {
+      "reviewedAt": "2026-10-17",
+      "inProduction": true,
+      "decision": "retained-supported",
+      "current": {
+        "asset": "/art/chaplin-33.jpg",
+        "sha256": "44c315575ebdba2ce231681ba06724ba4d278692e47cfeb6ed90f1479747ba5f",
+        "bytes": 75430,
+        "width": 330,
+        "height": 450,
+        "kind": "trade-advertisement",
+        "creator": "Essanay Studios",
+        "artworkDate": "June 1916",
+        "rights": "Source-stated public domain in the United States (PD-US).",
+        "territorialScope": "U.S. source statement; worldwide clearance is not asserted.",
+        "evidence": "The exact file is marked PD-US and identifies an Essanay advertisement in the June 1916 Moving Picture World. The original upload cites the specific Internet Archive periodical page.",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Police_1916.jpg",
+        "sourceUrl": "https://publicdomainmovie.net/wikimedia.php?id=Police_1916.jpg",
+        "publication": "The Moving Picture World, June 1916",
+        "modifications": "Existing cached image retained unchanged."
+      },
+      "primaryArchivePage": "https://archive.org/stream/moviewor28chal#page/n44/mode/1up"
+    }
+  },
+  {
+    "id": 34,
+    "ok": true,
+    "http": "200",
+    "originalUrl": "https://m.media-amazon.com/images/I/61Hd3If6fzL._AC_UF894,1000_QL80_.jpg",
+    "width": 720,
+    "height": 554,
+    "asset": "/art/chaplin-34.jpg",
+    "bytes": 87328,
+    "previousAttempt": {
+      "http": "000",
+      "reason": "curl exit 35: curl: (35) Send failure: Connection was reset 000",
+      "url": "https://m.media-amazon.com/images/I/61Hd3If6fzL._AC_UF894,1000_QL80_.jpg"
+    },
+    "recovery": {
+      "verifiedAt": "2026-10-11",
+      "kind": "film-still",
+      "title": "Between Showers",
+      "filmYear": 1914,
+      "description": "Between Showers (1914): film-specific publicity still from Eye Filmmuseum, via Wikimedia Commons. A release poster could not be verified.",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Still_from_Henry_Lehrman_-_film_Between_Showers_-_1914_-_Keystone_Film_-_Charley_Chaplin_-_EYE_FOT90376.jpg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Still_from_Henry_Lehrman_-_film_Between_Showers_-_1914_-_Keystone_Film_-_Charley_Chaplin_-_EYE_FOT90376.jpg",
+      "matchEvidence": "Commons description explicitly identifies the film Between Showers, gives Date 1914, source Eye Filmmuseum, author Henry Lehrman/Keystone Film (US).",
+      "licenseStatement": "Public domain in the United States (PD-US-expired)",
+      "licenseEvidence": "Commons Licensing says published or registered before January 1, 1931; structured data identifies public domain and inception 1914.",
+      "notes": "No individually proven theatrical poster found. Excluded identical stock Western Import portrait variants despite exact title bands. This is an authentic exact-film still, not a poster.",
+      "visualMatchVerified": true
+    }
+  },
+  {
+    "id": 35,
+    "ok": true,
+    "http": "200",
+    "width": 200,
+    "height": 146,
+    "asset": "/art/chaplin-35.jpg",
+    "originalUrl": "https://publicdomainmovie.net/wikimedia.php?id=The_Star_Boarder.jpg",
+    "publicationReview": {
+      "reviewedAt": "2026-10-17",
+      "inProduction": true,
+      "decision": "retained-supported",
+      "current": {
+        "asset": "/art/chaplin-35.jpg",
+        "sha256": "df641c30f5834317768c37c4a9ca61d609b58ee864d64b1d5f2c7df6a9a01d42",
+        "bytes": 10756,
+        "width": 200,
+        "height": 146,
+        "kind": "film-still",
+        "creator": "Unknown; source identifies Museo del Cine",
+        "artworkDate": "1914 (historical image; source metadata)",
+        "rights": "Source-stated public domain in the United States (PD-US-expired).",
+        "territorialScope": "U.S. source statement; worldwide clearance is not asserted.",
+        "evidence": "Exact Commons file identifies a 1914 scene from The Star Boarder, names Museo del Cine as source and marks it PD-US-expired. No underlying institutional accession page is supplied; the existing low-resolution image is retained without upscaling.",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Star_Boarder.jpg",
+        "sourceUrl": "https://publicdomainmovie.net/wikimedia.php?id=The_Star_Boarder.jpg",
+        "modifications": "Existing cached image retained unchanged."
+      }
+    }
+  },
+  {
+    "id": 36,
+    "ok": true,
+    "http": "200",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Burlesque_on_Carmen_poster.jpg/220px-Burlesque_on_Carmen_poster.jpg",
+    "width": 720,
+    "height": 1050,
+    "asset": "/art/chaplin-36.jpg",
+    "bytes": 179810,
+    "previousAttempt": {
+      "http": "429",
+      "reason": "curl exit 22: curl: (22) The requested URL returned error: 429 429",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Burlesque_on_Carmen_poster.jpg",
+      "derivedUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Burlesque_on_Carmen_poster.jpg"
+    },
+    "recovery": {
+      "verifiedAt": "2026-10-11",
+      "kind": "theatrical-poster",
+      "title": "A Burlesque on Carmen",
+      "filmYear": 1915,
+      "description": "A Burlesque on Carmen: Essanay four-reel release poster. Wikimedia Commons. The original catalog retains the 1915 film year.",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Burlesque_on_Carmen_poster.jpg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Burlesque_on_Carmen_poster.jpg",
+      "matchEvidence": "Commons caption says Poster for the film A Burlesque on Carmen (1915); Summary Description repeats film and year, Date 1915, Author Essanay. Category 1915 film posters of the United States.",
+      "licenseStatement": "Public domain in the United States (PD-US-expired)",
+      "licenseEvidence": "Commons Licensing states published or registered before January 1, 1931.",
+      "notes": "The existing cache original URL is correct; previous download failure was HTTP 429.",
+      "visualMatchVerified": true
+    }
+  },
+  {
+    "id": 37,
+    "ok": true,
+    "http": "200",
+    "originalUrl": "https://m.media-amazon.com/images/M/MV5BMDdiMDNlNTItN2M4YS00MDY5LWFiNDAtMDYzZjVmZTUwODEwXkEyXkFqcGdeQXVyMDgyNjA5MA@@._V1_.jpg",
+    "width": 450,
+    "height": 600,
+    "asset": "/art/chaplin-37.jpg",
+    "bytes": 62835,
+    "previousAttempt": {
+      "http": "404",
+      "reason": "curl exit 22: curl: (22) The requested URL returned error: 404 404",
+      "url": "https://m.media-amazon.com/images/M/MV5BMDdiMDNlNTItN2M4YS00MDY5LWFiNDAtMDYzZjVmZTUwODEwXkEyXkFqcGdeQXVyMDgyNjA5MA@@._V1_.jpg"
+    },
+    "recovery": {
+      "verifiedAt": "2026-10-11",
+      "kind": "film-still",
+      "title": "Charlie's Recreation (Recreation)",
+      "filmYear": 1914,
+      "description": "Charlie's Recreation / Recreation (1914): film-specific still from the official Charlie Chaplin filmography. A release poster could not be verified.",
+      "sourcePage": "https://www.charliechaplin.com/en/films/68-recreation",
+      "sourceUrl": "https://www.charliechaplin.com/images/film/poster/0000/0068/big_vlcsnap-2016-09-30-17h05m41s261.jpg",
+      "matchEvidence": "Official page heading Recreation, Year 1914, Production Keystone; records release August 13, 1914 and the park/seaman/young-woman/cops plot. Image link on that exact page resolves to this direct URL.",
+      "licenseStatement": "No explicit reuse license stated on official page",
+      "licenseEvidence": "Official page footer reserves rights for photographs from Chaplin films made from 1918 onwards; this is a 1914 film. A public-domain inference for the underlying film does not establish the official site's permission for its particular reproduction.",
+      "notes": "The official image downloaded successfully and was visually inspected as a frame of the park scene from Recreation (1914). No individually authenticated theatrical poster was found; generic Western Import portrait variants were excluded.",
+      "visualMatchVerified": true
+    },
+    "publicationReview": {
+      "reviewedAt": "2026-10-17",
+      "inProduction": true,
+      "decision": "restored-authentic",
+      "current": {
+        "asset": "/art/chaplin-37.jpg",
+        "sha256": "6d2a91520a905740bb90f5924f62207e0b76f074d75b1c88b9c4ceced77bb8af",
+        "bytes": 25199,
+        "width": 960,
+        "height": 720,
+        "kind": "film-frame",
+        "creator": "Keystone Studios",
+        "artworkDate": "1914 film; exact video uploaded November 18, 2014",
+        "rights": "Source-stated public domain in the United States (PD-US-expired); exact parent film-edition record.",
+        "licenseTag": "PD-US-expired",
+        "territorialScope": "U.S. source statement; worldwide clearance is not asserted.",
+        "evidence": "The linked Commons media record identifies Charlie's Recreation / Recreation and explicitly supplies PD-US-expired. This image is a Wikimedia-generated preview frame from that exact listed edition; no audio is included.",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Recreation_(1914)_-_CHARLIE_CHAPLIN_-_Mack_Sennett.webm",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Recreation_%281914%29_-_CHARLIE_CHAPLIN_-_Mack_Sennett.webm/960px-seek%3D210-Recreation_%281914%29_-_CHARLIE_CHAPLIN_-_Mack_Sennett.webm.jpg",
+        "sourceVideoUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Recreation_%281914%29_-_CHARLIE_CHAPLIN_-_Mack_Sennett.webm",
+        "timestampSeconds": 210,
+        "sourceNativeDimensions": [
+          960,
+          720
+        ],
+        "qualityNote": "The surviving print is soft. A recognizable profile frame was selected after checking portrait crops; no artificial sharpening or reconstruction is used.",
+        "provenanceNote": "The Commons media record provides the exact-file rights statement; no independent institutional chain of custody is claimed.",
+        "modifications": "Exact source JPEG downloaded unchanged. Existing cover cropping is preserved in the interface. No locally generated imagery, text, colorization, retouching, or composites."
+      },
+      "posterSearch": {
+        "outcome": "No suitable initial-release theatrical-poster reproduction with substantiated exact-image reuse rights was located in this bounded review.",
+        "reason": "Official screenshot lacks an express reuse grant; CC_1914_08_13_CharliesRecreation has conflicting Tango Tangles categorization; genuine Recreation2.jpg still is only 160 x 110 and less useful. No original theatrical poster authenticated.",
+        "rejectedSources": []
+      },
+      "previousAsset": {
+        "sha256": "b9f7a2c2091a928304507114ff97c8b400c36455fa47b4799ea07a47e5892e07",
+        "kind": "retired-contemporary-illustration",
+        "reasonReplaced": "User requested authentic historical film imagery. Previous illustration preserved in an ignored local archive and excluded from production."
+      }
+    }
+  },
+  {
+    "id": 38,
+    "ok": true,
+    "http": "200",
+    "originalUrl": "https://m.media-amazon.com/images/M/MV5BYWRhYzAyM2QtZWJmZS00Y2U1LWJjZTYtNGJlYTA0MTE1Yjc4XkEyXkFqcGdeQXVyMDgyNjA5MA@@._V1_.jpg",
+    "width": 586,
+    "height": 1100,
+    "asset": "/art/chaplin-38.jpg",
+    "bytes": 146834,
+    "previousAttempt": {
+      "http": "000",
+      "reason": "curl exit 35: curl: (35) Recv failure: Connection was reset 000",
+      "url": "https://m.media-amazon.com/images/M/MV5BYWRhYzAyM2QtZWJmZS00Y2U1LWJjZTYtNGJlYTA0MTE1Yjc4XkEyXkFqcGdeQXVyMDgyNjA5MA@@._V1_.jpg"
+    },
+    "recovery": {
+      "verifiedAt": "2026-10-11",
+      "kind": "theatrical-reissue-poster",
+      "title": "A Film Johnnie",
+      "filmYear": 1914,
+      "description": "A Film Johnnie (1914): 1918 W.H. Productions reissue poster titled His Million Dollar Job, explicitly adapted from The Film Johnny. Artvee; matched to Heritage Auctions.",
+      "sourcePage": "https://artvee.com/dl/a-film-johnnie/",
+      "sourceUrl": "https://mdl.artvee.com/sftb/18602po.jpg",
+      "matchEvidence": "Heritage Auctions lot 7276-86316 explicitly catalogs A Film Johnnie (W.H Productions, R-1918), Three Sheet 41 x 81 inches, and says His Million Dollar Job was first released in 1914 as A Film Johnny. Artvee image visibly identifies W.H. Productions and the reissue title/connection.",
+      "licenseStatement": "Historical poster public domain in US by publication date; digital reproduction license not explicitly verified",
+      "licenseEvidence": "Heritage identifies actual printed poster as R-1918, before January 1, 1931. Artvee direct image appeared in image search, but Artvee page text could not be fetched, so no site-specific license statement was verified.",
+      "additionalSourcePages": [
+        "https://movieposters.ha.com/itm/movie-posters/comedy/a-film-johnnie-wh-productions-r-1918-fine-on-linen-three-sheet-41-x-81-/a/7276-86316.s?ic4=ListView-Thumbnail-071515"
+      ],
+      "notes": "The complete flat image downloaded successfully and was visually inspected. Printed text HIS MILLION DOLLAR JOB and ADAPTED FROM THE FILM JOHNNY matches the documented 1918 W.H. Productions reissue of A Film Johnnie.",
+      "visualMatchVerified": true
+    },
+    "publicationReview": {
+      "reviewedAt": "2026-10-17",
+      "inProduction": true,
+      "decision": "restored-authentic",
+      "current": {
+        "asset": "/art/chaplin-38.jpg",
+        "sha256": "fa4199245b6cf6ed90e0e95b69bb05a464331ca7ef7264f2b8babe7688b29235",
+        "bytes": 58298,
+        "width": 1280,
+        "height": 720,
+        "kind": "film-frame",
+        "creator": "George Nichols / Keystone Studios",
+        "artworkDate": "1914 film; exact Commons video uploaded September 30, 2014",
+        "rights": "Source-stated public domain in the United States (PD-US-expired); exact parent film-edition record.",
+        "licenseTag": "PD-US-expired",
+        "territorialScope": "U.S. source statement; worldwide clearance is not asserted.",
+        "evidence": "The linked Commons media record identifies A Film Johnnie and explicitly supplies PD-US-expired. This image is a Wikimedia-generated preview frame from that exact listed edition; no audio is included.",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:A_Film_Johnnie_(1914).webm",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/A_Film_Johnnie_%281914%29.webm/1280px-seek%3D340-A_Film_Johnnie_%281914%29.webm.jpg",
+        "sourceVideoUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/A_Film_Johnnie_%281914%29.webm",
+        "timestampSeconds": 340,
+        "sourceNativeDimensions": [
+          1280,
+          720
+        ],
+        "qualityNote": "The edition includes source pillarboxing. The existing portrait cover display crops its sides; no image border or new composition is added.",
+        "provenanceNote": "The Commons media record provides the exact-file rights statement; no independent institutional chain of custody is claimed.",
+        "modifications": "Exact source JPEG downloaded unchanged. Existing cover cropping is preserved in the interface. No locally generated imagery, text, colorization, retouching, or composites."
+      },
+      "posterSearch": {
+        "outcome": "No suitable initial-release theatrical-poster reproduction with substantiated exact-image reuse rights was located in this bounded review.",
+        "reason": [
+          "Artvee 1918 His Million Dollar Job reissue poster identity is supported, but exact Artvee reproduction terms could not be verified live (403; FAQ also inaccessible). No blanket Artvee permission inferred.",
+          "The much sharper Commons A Film Johnnie (1914).Better Picture Quality.webm uploaded in 2026 carries an explicit License review needed banner. It was visually sampled but is not recommended or selected.",
+          "No authenticated original-release theatrical poster with exact reproduction permission found."
+        ],
+        "rejectedSources": []
+      },
+      "previousAsset": {
+        "sha256": "6be3e3d8477563467817439c03696ba0feba8155d48e715fe208f9f293513596",
+        "kind": "retired-contemporary-illustration",
+        "reasonReplaced": "User requested authentic historical film imagery. Previous illustration preserved in an ignored local archive and excluded from production."
+      }
+    }
+  },
+  {
+    "id": 39,
+    "ok": true,
+    "http": "200",
+    "width": 330,
+    "height": 249,
+    "asset": "/art/chaplin-39.jpg",
+    "originalUrl": "https://publicdomainmovie.net/wikimedia.php?id=His_Favourite_Pastime_1914.jpg",
+    "publicationReview": {
+      "reviewedAt": "2026-10-17",
+      "inProduction": true,
+      "decision": "retained-supported",
+      "current": {
+        "asset": "/art/chaplin-39.jpg",
+        "sha256": "6e62b637f9f8c4d56acb68d310727a113c976d66368be7cc2bac1a83fc52efb1",
+        "bytes": 22164,
+        "width": 330,
+        "height": 249,
+        "kind": "film-frame",
+        "creator": "Keystone Studios",
+        "artworkDate": "1914 underlying frame; digital capture December 15, 2010",
+        "rights": "Source-stated public domain in the United States (PD-US-expired).",
+        "territorialScope": "U.S. source statement; worldwide clearance is not asserted.",
+        "evidence": "Exact Commons file is explicitly a frame from the 1914 Keystone film and marked PD-US-expired. Its 2010 date is the digital capture date, not a later poster publication.",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:His_Favorite_Pastime_1914.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/His_Favorite_Pastime_1914.jpg",
+        "modifications": "Existing cached image retained unchanged."
+      }
+    }
+  },
+  {
+    "id": 40,
+    "ok": true,
+    "http": "200",
+    "width": 300,
+    "height": 436,
+    "asset": "/art/chaplin-40.jpg",
+    "originalUrl": "https://publicdomainmovie.net/wikimedia.php?id=The_Property_Man_%2528poster%2529.jpg",
+    "publicationReview": {
+      "reviewedAt": "2026-10-17",
+      "inProduction": true,
+      "decision": "restored-authentic",
+      "current": {
+        "asset": "/art/chaplin-40.jpg",
+        "sha256": "d16d5cce085639f0dedc69dafd6d0d0b6ecb6c687430695aa6855a1684d14782",
+        "bytes": 28828,
+        "width": 500,
+        "height": 375,
+        "kind": "film-frame",
+        "creator": "Charlie Chaplin / Keystone Studios",
+        "artworkDate": "1914 film; exact Commons edition uploaded by Racconish, parent page currently dated 1914",
+        "rights": "Source-stated public domain in the United States (PD-US-expired); exact parent film-edition record.",
+        "licenseTag": "PD-US-expired",
+        "territorialScope": "U.S. source statement; worldwide clearance is not asserted.",
+        "evidence": "The linked Commons media record identifies The Property Man and explicitly supplies PD-US-expired. This image is a Wikimedia-generated preview frame from that exact listed edition; no audio is included.",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Property_Man_(1914).webm",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/The_Property_Man_%281914%29.webm/500px-seek%3D900-The_Property_Man_%281914%29.webm.jpg",
+        "sourceVideoUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/The_Property_Man_%281914%29.webm",
+        "timestampSeconds": 900,
+        "sourceNativeDimensions": [
+          480,
+          360
+        ],
+        "qualityNote": "The source edition is 480 x 360; Commons renders the selected frame at 500 x 375.",
+        "provenanceNote": "The Commons media record provides the exact-file rights statement; no independent institutional chain of custody is claimed.",
+        "modifications": "Exact source JPEG downloaded unchanged. Existing cover cropping is preserved in the interface. No locally generated imagery, text, colorization, retouching, or composites."
+      },
+      "posterSearch": {
+        "outcome": "No suitable initial-release theatrical-poster reproduction with substantiated exact-image reuse rights was located in this bounded review.",
+        "reason": "Existing Exhibitors' Pictures Corp. reissue poster's actual artwork date is not established by the 1914 film date. No original-release theatrical poster authenticated.",
+        "rejectedSources": []
+      },
+      "previousAsset": {
+        "sha256": "8c8c65809b872dc67d36d208c19ef795c722fbc33f0cb126e3eed80cbed70b90",
+        "kind": "retired-contemporary-illustration",
+        "reasonReplaced": "User requested authentic historical film imagery. Previous illustration preserved in an ignored local archive and excluded from production."
+      }
+    }
+  },
+  {
+    "id": 41,
+    "ok": true,
+    "http": "200",
+    "width": 330,
+    "height": 629,
+    "asset": "/art/chaplin-41.jpg",
+    "originalUrl": "https://publicdomainmovie.net/wikimedia.php?id=Laughing_Gas_%2528poster%2529.jpg",
+    "publicationReview": {
+      "reviewedAt": "2026-10-17",
+      "inProduction": true,
+      "decision": "retained-supported",
+      "current": {
+        "asset": "/art/chaplin-41.jpg",
+        "sha256": "33865fbfaf1c178ba83ef64b405be35c02a74d5b6460365e6bf7348e388d8ce2",
+        "bytes": 81117,
+        "width": 330,
+        "height": 629,
+        "kind": "theatrical-poster",
+        "creator": "Keystone Studios",
+        "artworkDate": "1914 (Commons artwork metadata; visible original Keystone/Mutual branding consistent)",
+        "rights": "Source-stated public domain in the United States (PD-US-expired).",
+        "territorialScope": "U.S. source statement; worldwide clearance is not asserted.",
+        "evidence": "Exact Commons file identifies the 1914 Keystone/Mutual poster and is marked PD-US-expired. No institutional object record for this scan was found.",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Laughing_Gas_(poster).jpg",
+        "sourceUrl": "https://publicdomainmovie.net/wikimedia.php?id=Laughing_Gas_%2528poster%2529.jpg",
+        "modifications": "Existing cached image retained unchanged."
+      }
+    }
+  },
+  {
+    "id": 42,
+    "ok": true,
+    "http": "200",
+    "width": 330,
+    "height": 474,
+    "asset": "/art/chaplin-42.jpg",
+    "originalUrl": "https://publicdomainmovie.net/wikimedia.php?id=CC_Cruel_Cruel_Love_1914.JPG",
+    "publicationReview": {
+      "reviewedAt": "2026-10-17",
+      "inProduction": true,
+      "decision": "retained-supported",
+      "current": {
+        "asset": "/art/chaplin-42.jpg",
+        "sha256": "af694e1dfb551ea729fc3225d5fdfafa4a1cca6397f349bd674893adebbc0718",
+        "bytes": 70139,
+        "width": 330,
+        "height": 474,
+        "kind": "theatrical-poster",
+        "creator": "Keystone",
+        "artworkDate": "1914 (Commons artwork metadata; Keystone/Mutual design consistent)",
+        "rights": "Source-stated public domain in the United States (PD-US-expired).",
+        "territorialScope": "U.S. source statement; worldwide clearance is not asserted.",
+        "evidence": "Current exact Commons reproduction is marked PD-US-expired and identifies the 1914 Keystone poster. Its older English Wikipedia upload used a fair-use rationale; this review relies on the current Commons file statement, with weak original source provenance noted.",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:CC_Cruel_Cruel_Love_1914.JPG",
+        "sourceUrl": "https://publicdomainmovie.net/wikimedia.php?id=CC_Cruel_Cruel_Love_1914.JPG",
+        "modifications": "Existing cached image retained unchanged."
+      }
+    }
+  },
+  {
+    "id": 43,
+    "ok": true,
+    "http": "200",
+    "width": 300,
+    "height": 455,
+    "asset": "/art/chaplin-43.jpg",
+    "originalUrl": "https://publicdomainmovie.net/wikimedia.php?id=The_Floorwalker_%2528poster%2529.jpg",
+    "publicationReview": {
+      "reviewedAt": "2026-10-17",
+      "inProduction": true,
+      "decision": "retained-supported",
+      "current": {
+        "asset": "/art/chaplin-43.jpg",
+        "sha256": "00b1a80c7f37fffbbecf272b30015603a3d2ef6841e669d6d792e825e3f6cbb1",
+        "bytes": 51719,
+        "width": 300,
+        "height": 455,
+        "kind": "theatrical-poster",
+        "creator": "Mutual Film Corporation",
+        "artworkDate": "1916 (Commons artwork metadata)",
+        "rights": "Source-stated public domain in the United States (PD-US-expired).",
+        "territorialScope": "U.S. source statement; worldwide clearance is not asserted.",
+        "evidence": "Same exact Commons poster design as entry 11, dated 1916, credited to Mutual Film Corporation, marked PD-US-expired. Both existing movie entries are preserved.",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Floorwalker_(poster).jpg",
+        "sourceUrl": "https://publicdomainmovie.net/wikimedia.php?id=The_Floorwalker_%2528poster%2529.jpg",
+        "modifications": "Existing cached image retained unchanged."
+      },
+      "additionalEvidence": [
+        {
+          "url": "https://www.justice.gov/d9/press-releases/attachments/2020/09/16/attachment_a_-_complaint_-_posters_-_20-cv-08465_0.pdf",
+          "finding": "US DOJ primary court attachmentA-19 depicts and describes same Floorwalker one-sheet design, supporting physical poster identity; not a separate reuse license or artwork date finding."
+        }
+      ]
+    }
+  },
+  {
+    "id": 44,
+    "ok": true,
+    "http": "200",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Charlie_Chaplin_%28left%29_in_Making_a_Living_1914.jpg/220px-Charlie_Chaplin_%28left%29_in_Making_a_Living_1914.jpg",
+    "width": 720,
+    "height": 509,
+    "asset": "/art/chaplin-44.jpg",
+    "bytes": 77477,
+    "previousAttempt": {
+      "http": "429",
+      "reason": "curl exit 22: curl: (22) The requested URL returned error: 429 429",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Charlie_Chaplin_%28left%29_in_Making_a_Living_1914.jpg",
+      "derivedUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Charlie_Chaplin_%28left%29_in_Making_a_Living_1914.jpg"
+    },
+    "recovery": {
+      "verifiedAt": "2026-10-11",
+      "kind": "film-still",
+      "title": "Making a Living",
+      "filmYear": 1914,
+      "description": "Making a Living (1914): frame from the actual film, via Wikimedia Commons. A release poster could not be verified.",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Charlie_Chaplin_(left)_in_Making_a_Living_1914.jpg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Charlie_Chaplin_%28left%29_in_Making_a_Living_1914.jpg",
+      "matchEvidence": "Commons Summary names archived Making a Living.webm as source and Keystone Studios, 1914 as author. Official Charlie Chaplin page independently identifies Making A Living, Year 1914, released February 2, 1914.",
+      "licenseStatement": "Public domain in the United States (PD-US-expired)",
+      "licenseEvidence": "Commons Licensing states published or registered before January 1, 1931. Screenshot capture date 2021 is distinct from underlying film publication 1914.",
+      "additionalSourcePages": [
+        "https://www.charliechaplin.com/en/films/46-making-a-living"
+      ],
+      "notes": "Existing cache URL is an exact-film still, not a poster. No individually proven theatrical poster found; excluded generic Western Import portrait variants.",
+      "visualMatchVerified": true
+    }
+  },
+  {
+    "id": 45,
+    "ok": true,
+    "http": "200",
+    "width": 330,
+    "height": 499,
+    "asset": "/art/chaplin-45.jpg",
+    "originalUrl": "https://publicdomainmovie.net/wikimedia.php?id=The_Rink_%2528poster%2529.jpg",
+    "publicationReview": {
+      "reviewedAt": "2026-10-17",
+      "inProduction": true,
+      "decision": "retained-supported",
+      "current": {
+        "asset": "/art/chaplin-45.jpg",
+        "sha256": "f31f873071bdf595bc132cf97c5acd7a494a915e239be59b1850abff63461b03",
+        "bytes": 72235,
+        "width": 330,
+        "height": 499,
+        "kind": "theatrical-poster",
+        "creator": "Mutual Film Corporation",
+        "artworkDate": "1916 (Commons artwork metadata)",
+        "rights": "Source-stated public domain in the United States (PD-US-expired).",
+        "territorialScope": "U.S. source statement; worldwide clearance is not asserted.",
+        "evidence": "Exact Commons poster dates the artwork 1916, credits Mutual and applies PD-US-expired. An older upload description incorrectly named Essanay; the current record and visible imprint identify Mutual.",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Rink_(poster).jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/The_Rink_%28poster%29.jpg",
+        "modifications": "Existing cached image retained unchanged."
+      }
+    }
+  },
+  {
+    "id": 46,
+    "ok": true,
+    "http": "200",
+    "width": 273,
+    "height": 364,
+    "asset": "/art/chaplin-46.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/Tillie%27s_Punctured_Romance_%281914_film%29_%28DVD_box_art%29.jpg/220px-Tillie%27s_Punctured_Romance_%281914_film%29_%28DVD_box_art%29.jpg",
+    "derivedUrl": "https://upload.wikimedia.org/wikipedia/en/d/d9/Tillie%27s_Punctured_Romance_%281914_film%29_%28DVD_box_art%29.jpg",
+    "publicationReview": {
+      "reviewedAt": "2026-10-17",
+      "inProduction": true,
+      "decision": "replaced-archival",
+      "current": {
+        "asset": "/art/chaplin-46.jpg",
+        "sha256": "435b8df8c6df11ef8ac4bf02ed82d53b54047c7fb11e7a1c4414894e3b25c56d",
+        "bytes": 152195,
+        "width": 661,
+        "height": 860,
+        "kind": "trade-advertisement",
+        "creator": "Keystone Film Company / Tower Film",
+        "artworkDate": "March27,1920",
+        "rights": "Source-stated public domain in the United States (PD-US-expired).",
+        "territorialScope": "U.S. source statement; worldwide clearance is not asserted.",
+        "evidence": "Commons file description explicitly identifies ad for1920 re-release of exact1914 film, printed page2818 March27,1920 Motion Picture News, date27March1920, creatorKeystone/Tower, sourceMotion Picture News(Mar-Jun1920), and PD-US-expired. Digital capture metadata2014 is distinct from original1920 publication.",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Tillie%27s_Punctured_Romance_(1914)_-_Ad_1.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Tillie%27s_Punctured_Romance_%281914%29_-_Ad_1.jpg",
+        "publication": "Motion Picture News, March 27, 1920, page 2818",
+        "modifications": "Exact source JPEG downloaded unchanged."
+      },
+      "previousAsset": {
+        "sha256": "5c23f86fbfd0c0432e58fc692fdc96139a6c4e0e60ccba241edbf598292aa174",
+        "reasonReplaced": "The old English Wikipedia image was modern DVD-box artwork, not an authenticated 1914 poster.",
+        "reuseStatus": "Not relied on for publication; previous source metadata below is historical."
+      }
+    }
+  },
+  {
+    "id": 47,
+    "ok": true,
+    "http": "200",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/A_Jitney_Elopement_%28poster%29.jpg/220px-A_Jitney_Elopement_%28poster%29.jpg",
+    "width": 500,
+    "height": 1048,
+    "asset": "/art/chaplin-47.jpg",
+    "bytes": 160298,
+    "previousAttempt": {
+      "http": "429",
+      "reason": "curl exit 22: curl: (22) The requested URL returned error: 429 429",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/A_Jitney_Elopement_%28poster%29.jpg",
+      "derivedUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/A_Jitney_Elopement_%28poster%29.jpg"
+    },
+    "recovery": {
+      "verifiedAt": "2026-10-11",
+      "kind": "theatrical-poster",
+      "title": "A Jitney Elopement",
+      "filmYear": 1915,
+      "description": "A Jitney Elopement (1915): Essanay release poster. Wikimedia Commons.",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:A_Jitney_Elopement_(poster).jpg",
+      "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/A_Jitney_Elopement_%28poster%29.jpg/500px-A_Jitney_Elopement_%28poster%29.jpg",
+      "matchEvidence": "Commons category for the 1915 film lists this exact file; Wikidata marks exact file as film poster and publication date 1915. File metadata mirrored by dewiki says Poster for the film A Jitney Elopement (1915), author ©1915 Essanay Studios.",
+      "licenseStatement": "Public domain",
+      "licenseEvidence": "dewiki mirror of Commons file metadata explicitly states Lizenz: Public domain. Commons category places file among 1915 United States film posters.",
+      "additionalSourcePages": [
+        "https://commons.wikimedia.org/wiki/Category:A_Jitney_Elopement",
+        "https://dewiki.de/Media/Datei:A_Jitney_Elopement_(poster).jpg",
+        "https://www.wikidata.org/wiki/Q1191049"
+      ],
+      "notes": "Existing cache original URL is correct; previous failure was HTTP 429. Commons file-description fetch currently fails in browser, but Commons category, Wikidata and mirrored metadata independently expose the exact file association.",
+      "visualMatchVerified": true
+    }
+  },
+  {
+    "id": 48,
+    "ok": true,
+    "http": "200",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/%27The_Pawnshop%27.jpg/220px-%27The_Pawnshop%27.jpg",
+    "width": 500,
+    "height": 693,
+    "asset": "/art/chaplin-48.jpg",
+    "bytes": 96273,
+    "previousAttempt": {
+      "http": "429",
+      "reason": "curl exit 22: curl: (22) The requested URL returned error: 429 429",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/%27The_Pawnshop%27.jpg",
+      "derivedUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/%27The_Pawnshop%27.jpg"
+    },
+    "recovery": {
+      "verifiedAt": "2026-10-11",
+      "kind": "trade-advertisement",
+      "title": "The Pawnshop",
+      "filmYear": 1916,
+      "description": "The Pawnshop (1916): October 1916 Mutual trade advertisement from Moving Picture World. Wikimedia Commons.",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:'The_Pawnshop'.jpg",
+      "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/%27The_Pawnshop%27.jpg/500px-%27The_Pawnshop%27.jpg",
+      "matchEvidence": "Commons Summary explicitly says Advertisement in Moving Picture World for the American comedy film The Pawnshop (1916), Date October 1916, Author Mutual Studios.",
+      "licenseStatement": "Public domain in the United States (PD-US)",
+      "licenseEvidence": "Commons Licensing says US copyright expired, commonly due to publication before January 1, 1931; dated October 1916 with Mutual Studios authorship.",
+      "notes": "Genuine exact-film historical promotional artwork, but not a theatrical poster. Prefer this original ad over heavily restored 1920s Artvee sheet below.",
+      "visualMatchVerified": true
+    }
+  }
+]

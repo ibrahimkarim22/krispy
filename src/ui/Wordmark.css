@@ -1,0 +1,21 @@
+:root {
+  --brand-ink: #fff;
+  --brand-font-family: "Bowlby One", sans-serif;
+  --brand-i-scale: 1.3;
+}
+
+.wordmark {
+  display: inline-block;
+  color: var(--brand-ink);
+  font-family: var(--brand-font-family);
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+.wordmark-i {
+  display: inline-block;
+  /* Extend upward from Bowlby One's baseline without widening the letter. */
+  transform: scaleY(var(--brand-i-scale));
+  transform-origin: 50% calc(50% + 0.328125em);
+}

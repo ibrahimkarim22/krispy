@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1080" viewBox="0 0 720 1080">
+  <defs><linearGradient id="forest" x2="0" y2="1"><stop stop-color="#222d21"/><stop offset=".6" stop-color="#111b16"/><stop offset="1" stop-color="#070c09"/></linearGradient><radialGradient id="sun"><stop stop-color="#d5be83" stop-opacity=".5"/><stop offset="1" stop-color="#d5be83" stop-opacity="0"/></radialGradient></defs>
+  <rect width="720" height="1080" fill="url(#forest)"/><circle cx="437" cy="268" r="250" fill="url(#sun)"/>
+  <g fill="#090f0b"><path d="M70 0h24l23 781H43ZM567 0h36l44 810h-88Z"/><path d="m86 400-109-97 8-13 102 70 112-152 13 10-115 197Zm498-120L421 161l8-15 157 93L744 95l12 22-164 177Z"/></g>
+  <g fill="#526345" opacity=".7"><ellipse cx="210" cy="222" rx="63" ry="23" transform="rotate(-36 210 222)"/><ellipse cx="163" cy="284" rx="54" ry="20" transform="rotate(-40 163 284)"/><ellipse cx="459" cy="183" rx="53" ry="19" transform="rotate(33 459 183)"/><ellipse cx="657" cy="180" rx="64" ry="22" transform="rotate(-38 657 180)"/><ellipse cx="37" cy="287" rx="62" ry="22" transform="rotate(35 37 287)"/></g>
+  <path d="M0 766Q170 704 344 771T720 720V1080H0Z" fill="#0b120d"/>
+  <g stroke="#6a7859" stroke-width="2" opacity=".35"><path d="m190 816-9-89m9 89 34-91m-4 89 12-59m211 68 16-109m-16 109-28-84m224 67 10-94"/></g>
+</svg>

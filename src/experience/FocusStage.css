@@ -1,0 +1,627 @@
+.focus-stage {
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+  align-items: center;
+  gap: clamp(10px, 2.4vw, 32px);
+  overflow: hidden;
+}
+
+.focus-stage:not(.is-playing) {
+  container-type: size;
+  container-name: focus-preview;
+}
+
+.focus-stage .focus-image {
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  min-width: 0;
+  min-height: 0;
+  justify-self: end;
+}
+
+.focus-stage .focus-artwork {
+  height: 100%;
+  aspect-ratio: auto;
+}
+
+.focus-stage .focus-artwork img {
+  height: 100%;
+  object-fit: contain;
+}
+
+.focus-stage .focus-caption {
+  min-width: 0;
+  max-width: none;
+  display: flex;
+  flex-direction: column;
+  gap: clamp(12px, 3cqh, 22px);
+}
+
+.focus-stage h1 {
+  margin: 0;
+  font-size: clamp(32px, min(7.4cqw, 17cqh), 100px);
+  font-weight: 300;
+  line-height: 1.02;
+  letter-spacing: -0.04em;
+  overflow-wrap: anywhere;
+}
+
+.focus-stage .focus-metadata {
+  margin: 0;
+  font-size: 19px;
+  font-weight: 300;
+  line-height: 1.3;
+  color: var(--muted, #767076);
+}
+
+.focus-stage .focus-controls {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.focus-stage .focus-play {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 60px;
+  padding: 0 12px;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.focus-stage .focus-controls .glyph-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  min-height: 60px;
+  padding: 0;
+  flex: 0 0 60px;
+}
+
+.focus-stage .focus-controls svg {
+  width: 30px;
+  height: 30px;
+}
+
+.focus-stage-empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 18px;
+  color: var(--muted, #767076);
+  font-size: 22px;
+}
+
+.focus-stage-empty p {
+  margin: 0;
+}
+
+.focus-stage-empty button {
+  min-height: 52px;
+}
+
+.focus-stage.is-playing {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  position: relative;
+  height: auto;
+  min-height: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  gap: clamp(18px, 3vw, 32px);
+  overflow: visible;
+  color: #f5f3f6;
+  --ink: #f5f3f6;
+  --muted: #b9b4bf;
+}
+
+.focus-stage.is-theater {
+  color: #f3f1f7;
+  --ink: #f3f1f7;
+  --muted: #c4bfce;
+}
+
+.focus-stage .focus-player-surface {
+  width: 100%;
+  height: auto;
+  min-width: 0;
+  min-height: 0;
+  position: relative;
+  padding-top: 0;
+  box-sizing: border-box;
+}
+
+.focus-stage .focus-close {
+  position: absolute;
+  right: 14px;
+  top: 14px;
+  z-index: 190;
+  width: 48px;
+  height: 48px;
+  min-height: 48px;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ffffff26;
+  border-radius: 50%;
+  background: #151517b3;
+  color: #fff;
+  backdrop-filter: blur(16px);
+}
+
+.focus-stage .focus-close svg {
+  width: 22px;
+  height: 22px;
+}
+
+.focus-stage .focus-close:hover,
+.focus-stage.is-theater .focus-close:hover {
+  border-color: #ffffff40;
+  background: #29292cdd;
+  color: #fff;
+}
+
+.focus-stage.requires-unmodified-media .focus-player-surface {
+  padding-top: 60px;
+}
+
+.focus-stage.requires-unmodified-media .focus-close {
+  top: 0;
+  right: 0;
+  color: #fff;
+  background: #151517;
+  border-color: #ffffff30;
+}
+
+.focus-stage.requires-unmodified-media.is-theater .focus-close {
+  color: #fff;
+  background: #151517;
+}
+
+.focus-stage .stream-player {
+  position: relative;
+  isolation: isolate;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: visible;
+  gap: 0;
+}
+
+.focus-stage .player-stage {
+  flex: 0 0 auto;
+  height: auto;
+  min-height: 0;
+  max-height: min(52dvh, 600px);
+  aspect-ratio: 16 / 9;
+  background: #000;
+  overflow: visible;
+}
+
+.focus-stage .player-stage:has(iframe) {
+  min-height: 200px;
+}
+
+.focus-stage .player-stage:has(.player-message) {
+  min-height: 0;
+}
+
+.focus-stage .player-stage video,
+.focus-stage .player-stage iframe {
+  max-width: 100%;
+  max-height: 100%;
+  min-width: 0;
+  border: 0;
+}
+
+.focus-stage .player-status {
+  flex: 0 0 auto;
+  min-height: 28px;
+  padding: 4px 0 0;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.focus-stage .player-message {
+  flex: 0 0 auto;
+  max-width: 100%;
+  margin: 0;
+  padding: 4px 0;
+  font-size: 15px;
+  line-height: 1.3;
+}
+
+.focus-stage .stream-player:fullscreen {
+  position: fixed;
+  inset: 0;
+  height: var(--viewport-height, 100dvh);
+  max-height: var(--viewport-height, 100dvh);
+  z-index: 180;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  padding: 54px clamp(12px, 4vw, 48px) 12px;
+  background: #000;
+  color: #fff;
+  --ink: #fff;
+  --muted: #c9c9cf;
+  overflow: hidden;
+}
+
+.focus-stage .stream-player:fullscreen .player-stage {
+  height: auto;
+  flex: 1 1 0;
+  aspect-ratio: auto;
+  min-height: 0;
+  max-height: none;
+}
+
+.focus-stage .stream-player:fullscreen .player-stage:has(iframe) {
+  min-height: 200px;
+}
+
+.focus-stage.is-theater .focus-close {
+  background: #151517b3;
+  color: #f3f1f7;
+}
+
+.playback-details {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+@container focus-preview (max-width: 650px) {
+  .focus-stage h1 {
+    font-size: clamp(30px, min(8.5cqw, 17cqh), 38px);
+  }
+  .focus-stage .focus-caption {
+    gap: 10px;
+  }
+  .focus-stage .focus-metadata {
+    font-size: 16px;
+  }
+  .focus-stage .focus-controls {
+    gap: 4px;
+  }
+  .focus-stage .focus-play {
+    font-size: 18px;
+    min-height: 44px;
+    padding: 0 4px;
+    gap: 6px;
+  }
+  .focus-stage .focus-controls .glyph-button {
+    width: 44px;
+    height: 44px;
+    min-height: 44px;
+    flex-basis: 44px;
+  }
+  .focus-stage .focus-controls svg {
+    width: 26px;
+    height: 26px;
+  }
+}
+
+@container focus-preview (max-height: 300px) {
+  .focus-stage h1 {
+    font-size: clamp(28px, min(8.7cqw, 17cqh), 62px);
+  }
+  .focus-stage .focus-caption {
+    gap: 8px;
+  }
+  .focus-stage .focus-metadata {
+    font-size: 16px;
+  }
+  .focus-stage .focus-play {
+    font-size: 18px;
+    min-height: 44px;
+    padding: 0 4px;
+    gap: 6px;
+  }
+  .focus-stage .focus-controls {
+    gap: 4px;
+  }
+  .focus-stage .focus-controls .glyph-button {
+    width: 44px;
+    height: 44px;
+    min-height: 44px;
+    flex-basis: 44px;
+  }
+  .focus-stage .focus-controls svg {
+    width: 26px;
+    height: 26px;
+  }
+}
+
+@container focus-preview (max-height: 240px) {
+  .focus-stage h1 {
+    font-size: clamp(24px, min(8.7cqw, 15cqh), 40px);
+  }
+  .focus-stage .focus-caption {
+    gap: 6px;
+  }
+  .focus-stage .focus-metadata {
+    font-size: 14px;
+  }
+  .focus-stage .focus-play {
+    font-size: 16px;
+    min-height: 40px;
+    padding: 0 4px;
+  }
+  .focus-stage .focus-controls .glyph-button {
+    width: 36px;
+    height: 40px;
+    min-height: 40px;
+    flex-basis: 36px;
+  }
+  .focus-stage .focus-controls svg {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@container focus-preview (max-height: 180px) {
+  .focus-stage h1 {
+    font-size: clamp(18px, min(7cqw, 15cqh), 28px);
+  }
+  .focus-stage .focus-caption {
+    gap: 5px;
+  }
+  .focus-stage .focus-metadata {
+    font-size: 12px;
+  }
+  .focus-stage .focus-play {
+    font-size: 15px;
+    min-height: 36px;
+    padding: 0 4px;
+  }
+  .focus-stage .focus-controls .glyph-button {
+    width: 36px;
+    height: 36px;
+    min-height: 36px;
+    flex-basis: 36px;
+  }
+  .focus-stage .focus-controls svg {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+@container focus-preview (max-height: 120px) {
+  .focus-stage h1 {
+    font-size: clamp(14px, min(5.8cqw, 14cqh), 20px);
+  }
+  .focus-stage .focus-caption {
+    gap: 3px;
+  }
+  .focus-stage .focus-metadata {
+    font-size: 10px;
+  }
+  .focus-stage .focus-play {
+    font-size: 13px;
+    min-height: 30px;
+    padding: 0 3px;
+    gap: 4px;
+  }
+  .focus-stage .focus-controls .glyph-button {
+    width: 30px;
+    height: 30px;
+    min-height: 30px;
+    flex-basis: 30px;
+  }
+  .focus-stage .focus-controls svg {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+@media (max-width: 650px) {
+  .focus-stage:not(.is-playing) {
+    grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+  }
+  .focus-stage .player-status {
+    min-height: 24px;
+    padding: 2px 0 0;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .focus-stage .player-message {
+    font-size: 14px;
+  }
+}
+
+@media (max-height: 449px) {
+  .focus-stage .focus-player-surface {
+    padding-top: 0;
+  }
+  .focus-stage .focus-close {
+    width: 44px;
+    height: 44px;
+    min-height: 44px;
+    right: 10px;
+    top: 10px;
+  }
+  .focus-stage .focus-close svg {
+    width: 22px;
+    height: 22px;
+  }
+  .focus-stage .player-status {
+    min-height: 20px;
+    padding: 0;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .focus-stage .player-message {
+    font-size: 12px;
+    padding: 0;
+  }
+  .focus-stage .stream-player:fullscreen {
+    padding: 48px 12px 8px;
+  }
+}
+
+.focus-stage.is-wall:not(.is-playing) {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 0;
+  isolation: isolate;
+  color: #fff;
+  pointer-events: none;
+}
+
+.focus-stage.is-wall:not(.is-playing)::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: radial-gradient(
+    ellipse at left bottom,
+    #000b 0%,
+    #0007 36%,
+    transparent 78%
+  );
+  pointer-events: none;
+}
+
+.focus-stage.is-wall:not(.is-playing) .focus-caption {
+  width: min(680px, 100%);
+  padding: 4px 8px;
+  gap: 6px;
+  pointer-events: none;
+}
+
+.focus-stage.is-wall:not(.is-playing) h1 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  font-size: clamp(26px, min(5.5cqw, 24cqh), 44px);
+  font-weight: 400;
+  line-height: 1.04;
+  text-shadow: 0 2px 12px #000b;
+}
+
+.focus-stage.is-wall:not(.is-playing) .focus-metadata {
+  color: #ffffffe6;
+  font-size: 16px;
+  line-height: 1.3;
+  text-shadow: 0 1px 5px #000;
+}
+
+.focus-stage.is-wall:not(.is-playing) .focus-controls {
+  flex-wrap: nowrap;
+  gap: 8px;
+}
+
+.focus-stage.is-wall:not(.is-playing) .focus-controls button {
+  pointer-events: auto;
+}
+
+.focus-stage.is-wall:not(.is-playing) .focus-play {
+  min-height: 44px;
+  padding: 0 8px;
+  gap: 8px;
+  color: #fff;
+  font-size: 19px;
+  text-shadow: 0 1px 5px #000;
+}
+
+.focus-stage.is-wall:not(.is-playing) .focus-controls .glyph-button {
+  width: 44px;
+  height: 44px;
+  min-height: 44px;
+  flex-basis: 44px;
+  color: #fff;
+  filter: drop-shadow(0 1px 4px #000b);
+}
+
+.focus-stage.is-wall:not(.is-playing) .focus-controls svg {
+  width: 26px;
+  height: 26px;
+}
+
+.focus-stage.is-wall:not(.is-playing) button:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 1px;
+}
+
+.focus-stage.is-wall:not(.is-playing) .focus-controls button:hover {
+  background: #ffffff1a;
+  border-radius: 24px;
+}
+
+@container focus-preview (max-width: 650px) {
+  .focus-stage.is-wall:not(.is-playing) .focus-caption {
+    padding: 2px 4px;
+    gap: 4px;
+  }
+  .focus-stage.is-wall:not(.is-playing) h1 {
+    font-size: clamp(20px, min(7.5cqw, 21cqh), 26px);
+  }
+  .focus-stage.is-wall:not(.is-playing) .focus-metadata {
+    font-size: 13px;
+  }
+  .focus-stage.is-wall:not(.is-playing) .focus-play {
+    min-height: 40px;
+    font-size: 17px;
+  }
+  .focus-stage.is-wall:not(.is-playing) .focus-controls .glyph-button {
+    width: 40px;
+    height: 40px;
+    min-height: 40px;
+    flex-basis: 40px;
+  }
+  .focus-stage.is-wall:not(.is-playing) .focus-controls svg {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@container focus-preview (max-height: 100px) {
+  .focus-stage.is-wall:not(.is-playing) .focus-caption {
+    padding: 2px 4px;
+    gap: 2px;
+  }
+  .focus-stage.is-wall:not(.is-playing) h1 {
+    -webkit-line-clamp: 1;
+    font-size: clamp(18px, min(7cqw, 27cqh), 22px);
+  }
+  .focus-stage.is-wall:not(.is-playing) .focus-metadata {
+    font-size: 12px;
+  }
+  .focus-stage.is-wall:not(.is-playing) .focus-play {
+    min-height: 32px;
+    font-size: 15px;
+    padding: 0 4px;
+    gap: 6px;
+  }
+  .focus-stage.is-wall:not(.is-playing) .focus-controls {
+    gap: 6px;
+  }
+  .focus-stage.is-wall:not(.is-playing) .focus-controls .glyph-button {
+    width: 32px;
+    height: 32px;
+    min-height: 32px;
+    flex-basis: 32px;
+  }
+  .focus-stage.is-wall:not(.is-playing) .focus-controls svg {
+    width: 21px;
+    height: 21px;
+  }
+}
