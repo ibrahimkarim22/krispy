@@ -215,3 +215,129 @@ test("an account changed before submission cannot be deleted using an earlier co
   expect(deleteUser).not.toHaveBeenCalled();
   expect(store.getUser().uid).toBe(other.uid);
 });
+
+test("deletion prepares cloud favorites after reauthentication and finishes before removing browser data", async () => {
+  const auth = { currentUser: viewer };
+  const store = createFirebaseAccountStore({ auth });
+  const key = accountLibraryKey(`firebase:${viewer.uid}`);
+  localStorage.setItem(key, "saved-data");
+  const order = [];
+  let libraryAtFinish;
+  reauthenticateWithCredential.mockImplementationOnce(async () => { order.push("reauthenticate"); });
+  const guard = {
+    finish: jest.fn(() => {
+      order.push("finish");
+      libraryAtFinish = localStorage.getItem(key);
+    }),
+    rollback: jest.fn(),
+  };
+  const prepareFavoriteDeletion = jest.fn(async uid => {
+    expect(uid).toBe(viewer.uid);
+    order.push("prepare");
+    return guard;
+  });
+  deleteUser.mockImplementationOnce(async target => {
+    expect(target).toBe(viewer);
+    order.push("delete-user");
+    auth.currentUser = null;
+  });
+
+  expect(await store.deleteAccount({ ...deletionFields, prepareFavoriteDeletion })).toMatchObject({ ok: true });
+  expect(order).toEqual(["reauthenticate", "prepare", "delete-user", "finish"]);
+  expect(libraryAtFinish).toBe("saved-data");
+  expect(guard.rollback).not.toHaveBeenCalled();
+  expect(localStorage.getItem(key)).toBeNull();
+});
+
+test("failed password verification does not prepare cloud deletion", async () => {
+  const store = createFirebaseAccountStore({ auth: { currentUser: viewer } });
+  const prepareFavoriteDeletion = jest.fn();
+  reauthenticateWithCredential.mockRejectedValueOnce({ code: "auth/invalid-credential" });
+
+  expect(await store.deleteAccount({ ...deletionFields, prepareFavoriteDeletion })).toMatchObject({ ok: false });
+  expect(prepareFavoriteDeletion).not.toHaveBeenCalled();
+  expect(deleteUser).not.toHaveBeenCalled();
+});
+
+test("failed cloud favorites preparation preserves the account and browser library", async () => {
+  const store = createFirebaseAccountStore({ auth: { currentUser: viewer } });
+  const key = accountLibraryKey(`firebase:${viewer.uid}`);
+  localStorage.setItem(key, "saved-data");
+  const prepareFavoriteDeletion = jest.fn(async () => {
+    throw Object.assign(new Error("Raw SDK error"), { code: "permission-denied" });
+  });
+
+  const result = await store.deleteAccount({ ...deletionFields, prepareFavoriteDeletion });
+  expect(result).toMatchObject({ ok: false });
+  expect(result.message).toMatch(/cloud favorites.*connection.*sync/i);
+  expect(result.message).not.toContain("Raw SDK error");
+  expect(deleteUser).not.toHaveBeenCalled();
+  expect(store.getUser().uid).toBe(viewer.uid);
+  expect(localStorage.getItem(key)).toBe("saved-data");
+});
+
+test("favorites that are not ready for deletion return an actionable wait message", async () => {
+  const store = createFirebaseAccountStore({ auth: { currentUser: viewer } });
+  const prepareFavoriteDeletion = async () => {
+    throw Object.assign(new Error("Favorites are not ready"), { code: "favorites/not-ready" });
+  };
+
+  const result = await store.deleteAccount({ ...deletionFields, prepareFavoriteDeletion });
+  expect(result).toMatchObject({ ok: false, message: expect.stringMatching(/wait.*favorites.*syncing.*try deleting/i) });
+  expect(deleteUser).not.toHaveBeenCalled();
+  expect(store.getUser().uid).toBe(viewer.uid);
+});
+
+test.each([false, true])("failed Auth deletion rolls favorites back and keeps the Auth error even if rollback fails: %s", async rollbackFails => {
+  const store = createFirebaseAccountStore({ auth: { currentUser: viewer } });
+  const key = accountLibraryKey(`firebase:${viewer.uid}`);
+  localStorage.setItem(key, "saved-data");
+  const guard = {
+    finish: jest.fn(),
+    rollback: jest.fn(async () => {
+      if (rollbackFails) throw new Error("Recovery must not mask the Auth error");
+    }),
+  };
+  deleteUser.mockRejectedValueOnce({ code: "auth/network-request-failed" });
+
+  const result = await store.deleteAccount({ ...deletionFields, prepareFavoriteDeletion: async () => guard });
+  expect(result).toEqual({ ok: false, message: accountError({ code: "auth/network-request-failed" }) });
+  expect(guard.rollback).toHaveBeenCalledTimes(1);
+  expect(guard.finish).not.toHaveBeenCalled();
+  expect(localStorage.getItem(key)).toBe("saved-data");
+  expect(store.getUser().uid).toBe(viewer.uid);
+});
+
+test("an account switch during cloud cleanup rolls back the captured guard without deleting either account", async () => {
+  const auth = { currentUser: viewer };
+  const store = createFirebaseAccountStore({ auth });
+  const other = { uid: "other-uid", email: "other@example.com" };
+  const guard = { finish: jest.fn(), rollback: jest.fn(async () => {}) };
+  const prepareFavoriteDeletion = async () => {
+    auth.currentUser = other;
+    return guard;
+  };
+
+  expect(await store.deleteAccount({ ...deletionFields, prepareFavoriteDeletion })).toMatchObject({ ok: false, message: expect.stringMatching(/account changed/i) });
+  expect(guard.rollback).toHaveBeenCalledTimes(1);
+  expect(guard.finish).not.toHaveBeenCalled();
+  expect(deleteUser).not.toHaveBeenCalled();
+  expect(store.getUser().uid).toBe(other.uid);
+});
+
+test("a guard finish failure never rolls back an already deleted account", async () => {
+  const auth = { currentUser: viewer };
+  const store = createFirebaseAccountStore({ auth });
+  const key = accountLibraryKey(`firebase:${viewer.uid}`);
+  localStorage.setItem(key, "saved-data");
+  const guard = {
+    finish: jest.fn(() => { throw new Error("Finish failed"); }),
+    rollback: jest.fn(),
+  };
+  deleteUser.mockImplementationOnce(async () => { auth.currentUser = null; });
+
+  expect(await store.deleteAccount({ ...deletionFields, prepareFavoriteDeletion: async () => guard })).toMatchObject({ ok: true, warning: true });
+  expect(guard.rollback).not.toHaveBeenCalled();
+  expect(localStorage.getItem(key)).toBeNull();
+  expect(store.getUser()).toBeNull();
+});

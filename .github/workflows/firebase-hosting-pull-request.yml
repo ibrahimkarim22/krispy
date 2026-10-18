@@ -11,6 +11,10 @@ jobs:
       ${{ github.event.pull_request.head.repo.full_name == github.repository &&
           github.head_ref != 'redesign/krispy-ui' }}
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      checks: write
+      pull-requests: write
     steps:
       - uses: actions/checkout@v4
       - run: npm ci

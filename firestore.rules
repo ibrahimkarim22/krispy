@@ -1,0 +1,41 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /users/{userId}/library/favorites {
+      function isOwner() {
+        return request.auth != null && request.auth.uid == userId;
+      }
+
+      function validFavorites() {
+        return request.resource.data.keys().hasOnly(['saved', 'deleting', 'deletionId'])
+          && request.resource.data.keys().hasAll(['saved'])
+          && request.resource.data.saved is list
+          && request.resource.data.saved.size() <= 5000
+          && (!request.resource.data.keys().hasAny(['deleting'])
+            || request.resource.data.deleting is bool)
+          && (!request.resource.data.keys().hasAny(['deletionId'])
+            || (request.resource.data.deletionId is string
+              && request.resource.data.deletionId.size() == 32
+              && request.resource.data.deletionId.matches('^[a-f0-9]{32}$')))
+          && (request.resource.data.get('deleting', false) != true
+            || (request.resource.data.saved.size() == 0
+              && request.resource.data.keys().hasAll(['deletionId'])));
+      }
+
+      allow get: if isOwner();
+      allow create: if isOwner() && validFavorites();
+      // An empty deletion marker survives Auth deletion. Only rollback for the
+      // matching attempt may clear it; stale mutations remain blocked.
+      allow update: if isOwner() && validFavorites()
+        && (resource.data.get('deleting', false) != true
+          || (request.resource.data.get('deleting', true) == false
+            && request.resource.data.get('deletionId', '') == resource.data.deletionId));
+      allow delete: if false;
+    }
+
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

@@ -16,6 +16,7 @@ import {
   getVerticalWallNeighbor,
 } from "./posterWallModel";
 import Icon from "../ui/Icon";
+import LibrarySyncNotice from "../ui/LibrarySyncNotice";
 import { useStartupReady, useReplayIntro } from "../ui/StartupContext";
 import FocusStage from "./FocusStage";
 import ChannelRail from "./ChannelRail";
@@ -784,6 +785,7 @@ export default function Experience() {
           </div>
         )}
       </main>
+      <LibrarySyncNotice showStatus={mode === "library" && Boolean(user)} />
       {notice && (
         <p className={notice.ok ? "sr-only" : "account-notice account-notice--standalone"}
           role={notice.ok ? "status" : "alert"}>
@@ -802,6 +804,7 @@ export default function Experience() {
         </BrowsePanel>
       )}
       <AccountControls
+        prepareFavoriteDeletion={library.prepareFavoriteDeletion}
         hideLauncher
         modal={false}
         request={accountRequest}

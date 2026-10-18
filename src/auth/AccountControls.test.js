@@ -199,7 +199,7 @@ test("external signup and asynchronous logout dismiss the request and focus the 
   dialog = screen.getByRole("dialog", { name: "Account" });
   expect(within(dialog).getByText(EMAIL)).toBeInTheDocument();
   expect(within(dialog).getByText("Signed in")).toBeInTheDocument();
-  expect(within(dialog).getByText(/list.*stays in this browser/i)).toBeInTheDocument();
+  expect(within(dialog).getByText(/favorites.*sync across devices/i)).toBeInTheDocument();
   await click(within(dialog).getByRole("button", { name: "Log out" }));
   await waitFor(() => expect(screen.queryByRole("dialog")).toBeNull());
   expect(store.logOut).toHaveBeenCalledTimes(1);
@@ -491,7 +491,8 @@ test("Delete account opens an inline confirmation and Cancel returns focus witho
   expect(screen.getByRole("dialog", { name: "Delete account" })).toBe(dialog);
   expect(screen.getAllByRole("dialog")).toHaveLength(1);
   expect(within(dialog).getByText(/permanently deletes your account/i)).toBeInTheDocument();
-  expect(within(dialog).getByText(/saved titles and viewing history on this browser/i)).toBeInTheDocument();
+  expect(within(dialog).getByText(/cloud favorites/i)).toBeInTheDocument();
+  expect(within(dialog).getByText(/saved titles and viewing history.*this browser/i)).toBeInTheDocument();
   const password = within(dialog).getByLabelText("Password");
   expect(password).toHaveAttribute("type", "password");
   expect(password).toHaveAttribute("autocomplete", "current-password");
@@ -557,6 +558,23 @@ test("a wrong deletion password leaves the account intact and a retry can succee
   expect(screen.queryByRole("dialog")).toBeNull();
   expect(store.getUser()).toBeNull();
   await waitFor(() => expect(screen.getByRole("button", { name: "Log in" })).toHaveFocus());
+});
+
+test("confirmed deletion passes the library cleanup preparation to the account boundary", async () => {
+  const store = createStore(firebaseUser());
+  const prepareFavoriteDeletion = jest.fn();
+  renderControls(store, null, { prepareFavoriteDeletion });
+  const dialog = await openDeletion();
+  expect(prepareFavoriteDeletion).not.toHaveBeenCalled();
+  change(within(dialog).getByLabelText("Password"), PASSWORD);
+  await click(within(dialog).getByRole("button", { name: "Delete account" }));
+
+  expect(store.deleteAccount).toHaveBeenCalledWith({
+    password: PASSWORD,
+    expectedUserId: "firebase:test-viewer",
+    prepareFavoriteDeletion,
+  });
+  expect(screen.queryByRole("dialog")).toBeNull();
 });
 
 test("pending confirmed deletion disables close, Cancel, password and duplicate deletion", async () => {

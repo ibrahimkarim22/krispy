@@ -28,6 +28,7 @@ export default function AccountControls({
   returnFocusRef: externalFocusRef = null,
   onRequestClose,
   modal = true,
+  prepareFavoriteDeletion,
 }) {
   const { user, signUp, logIn, logOut, deleteAccount } = useAccount();
   const [mode, setMode] = useState(null);
@@ -263,7 +264,11 @@ export default function AccountControls({
     setPending(true);
     setFeedback(null);
     try {
-      const result = await deleteAccount({ password: fields.password, expectedUserId });
+      const result = await deleteAccount({
+        password: fields.password,
+        expectedUserId,
+        ...(prepareFavoriteDeletion ? { prepareFavoriteDeletion } : {}),
+      });
       if (result.ok) {
         setNotice(result);
         deletingRef.current = false;
@@ -394,7 +399,7 @@ export default function AccountControls({
               <div className="account-summary" aria-busy={pending}>
                 <p className="account-username">{user?.email || user?.username}</p>
                 <p className="account-detail">
-                  Your list belongs to this account and stays in this browser.
+                  Your favorites sync across devices when you sign in. Viewing progress and history stay in this browser.
                 </p>
                 {feedback && <p id="account-error" className="account-feedback" role="alert">{feedback.message}</p>}
                 <button
@@ -420,7 +425,7 @@ export default function AccountControls({
               <form className="account-deletion-form" onSubmit={confirmDeletion} noValidate
                 aria-busy={pending} aria-describedby="account-delete-detail">
                 <p className="account-detail" id="account-delete-detail">
-                  This permanently deletes your account. After deletion succeeds, your saved titles and viewing history on this browser will be cleared. This cannot be undone.
+                  This permanently deletes your account and cloud favorites. Saved titles and viewing history in this browser will also be cleared. This cannot be undone.
                 </p>
                 <fieldset disabled={pending}>
                   <div className="account-field">

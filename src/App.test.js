@@ -233,7 +233,7 @@ test("guest My list login unlocks only the account's saved titles and logout res
 
   expect(screen.getByRole("heading", { name: "My list" })).toBeVisible();
   expect(screen.queryAllByRole("button", { name: /^Select / })).toHaveLength(0);
-  expect(localStorage.getItem(accountKey)).toBe(saved);
+  expect(JSON.parse(localStorage.getItem(accountKey))).toMatchObject(JSON.parse(saved));
   expect(localStorage.getItem(GUEST_LIBRARY_KEY)).toBe(guest);
 });
 
@@ -303,8 +303,8 @@ test("observed Firebase account changes switch saved libraries without remountin
   act(() => seedFirebaseAccount(accountA));
   expect(screen.getByRole("button", { name: "Select Sintel" })).toBeInTheDocument();
   expect(screen.queryByRole("button", { name: "Select One A.M" })).not.toBeInTheDocument();
-  expect(localStorage.getItem(firstKey)).toBe(firstSaved);
-  expect(localStorage.getItem(secondKey)).toBe(secondSaved);
+  expect(JSON.parse(localStorage.getItem(firstKey))).toMatchObject(JSON.parse(firstSaved));
+  expect(JSON.parse(localStorage.getItem(secondKey))).toMatchObject(JSON.parse(secondSaved));
 });
 
 test("guest My list gate remains usable when logout interrupts a saved title's playback", async () => {

@@ -15,7 +15,7 @@ Krispy is a React app for watching classic films, Blender open movies, live tele
 - A featured Big Buck Bunny banner with a muted, 30-second video preview.
 - Expandable movie cards with muted previews from around the middle of each film.
 - Search, collection and genre filters, and title and year sorting.
-- My List for saving movies, TV channels, and Globe destinations.
+- My List for saving movies, TV channels, and Globe destinations, synced across devices for signed-in users.
 - Playback progress and recently viewed titles.
 - In-app playback with fullscreen controls and a channel switcher for TV.
 - Direct links to individual titles and separate URLs for Movies, TV, and Globe.
@@ -26,7 +26,7 @@ Krispy is a React app for watching classic films, Blender open movies, live tele
 
 Sign up and log in with an email address and password through Firebase Authentication. Account deletion is available from the account menu.
 
-Favorites, playback progress, and recently viewed titles are stored separately for each account in the browser you use. Browsing and watching are available without an account; saving favorites requires login.
+Favorites are saved in Cloud Firestore and sync across devices when you sign in to the same account. Playback progress and recently viewed titles stay in the browser you use, separately for each account. Browsing and watching are available without an account; saving favorites requires login.
 
 ## Run locally
 
@@ -39,7 +39,7 @@ npm start
 
 Open [localhost:3000](http://localhost:3000).
 
-Firebase client configuration and Twitch embed settings are documented in [.env.example](.env.example). To connect your own Firebase project, configure the client settings and enable Email/Password authentication.
+Firebase client configuration and Twitch embed settings are documented in [.env.example](.env.example). Custom Firebase projects use Email/Password authentication and Cloud Firestore with the included [security rules](firestore.rules).
 
 ## Development
 
@@ -75,7 +75,7 @@ npm run test:browser
 ## Built with
 
 - React 18, JavaScript, and CSS
-- Firebase Authentication
+- Firebase Authentication and Cloud Firestore
 - HTML5 video and HLS.js
 - Jest and React Testing Library
 - Playwright
